@@ -75,6 +75,17 @@ def record_type(rec):
     return doc or "UNKNOWN"
 
 
+def media_type_for_record(rec):
+    doc = record_type(rec)
+    if doc == ".PDF":
+        return "pdf"
+    if doc == ".IMG":
+        return "img"
+    if doc == ".VID":
+        return "vid"
+    return None
+
+
 def output_dir(cfg, media_type):
     folder = {"pdf": "pdf", "img": "img", "vid": "vid"}[media_type]
     path = cfg.downloads_dir / folder
@@ -179,9 +190,16 @@ def build_queue(index, media_types):
     queue = []
     missing_counts = {mt: 0 for mt in media_types}
     missing_items = []
+    skipped_other_counts = Counter()
 
     for asset, rec in sorted(index.get("records", {}).items()):
-        if "pdf" in media_types:
+        expected_type = media_type_for_record(rec)
+
+        if expected_type not in media_types:
+            skipped_other_counts[record_type(rec)] += 1
+            continue
+
+        if expected_type == "pdf":
             url = rec.get("url")
             if (
                 url
@@ -196,11 +214,11 @@ def build_queue(index, media_types):
                     "rec": rec,
                     "default_ext": ".pdf",
                 })
-            elif "pdf" in missing_counts:
+            else:
                 missing_counts["pdf"] += 1
                 missing_items.append({"media_type": "pdf", "asset": asset, "rec": rec, "record_type": record_type(rec)})
 
-        if "img" in media_types:
+        elif expected_type == "img":
             image = rec.get("image") or {}
             url = image.get("url")
             if url and url_extension(url, "").lower() in IMAGE_EXTENSIONS:
@@ -211,11 +229,11 @@ def build_queue(index, media_types):
                     "rec": rec,
                     "default_ext": ".png",
                 })
-            elif "img" in missing_counts:
+            else:
                 missing_counts["img"] += 1
                 missing_items.append({"media_type": "img", "asset": asset, "rec": rec, "record_type": record_type(rec)})
 
-        if "vid" in media_types:
+        elif expected_type == "vid":
             video = rec.get("video") or {}
             url = video.get("url")
             if url and urlsplit(url).path.lower().endswith(".mp4"):
@@ -226,11 +244,11 @@ def build_queue(index, media_types):
                     "rec": rec,
                     "default_ext": ".mp4",
                 })
-            elif "vid" in missing_counts:
+            else:
                 missing_counts["vid"] += 1
                 missing_items.append({"media_type": "vid", "asset": asset, "rec": rec, "record_type": record_type(rec)})
 
-    return queue, missing_counts, missing_items
+    return queue, missing_counts, missing_items, skipped_other_counts
 
 
 def mark_missing_harvested_urls(missing_items):
@@ -337,9 +355,18 @@ def media_plural(media_type):
 def print_nonqueued_breakdown(missing_items):
     by_type = Counter(item.get("record_type") or "UNKNOWN" for item in missing_items)
     total = len(missing_items)
-    print(f"Not queued for selected media type: {total}")
+    print(f"Selected records without harvested URL: {total}")
     for rec_type, count in sorted(by_type.items()):
-        print(f"  {rec_type} records not selected/without selected harvested URL: {count}")
+        print(f"  {rec_type} records missing harvested URL: {count}")
+
+
+def print_skipped_other_breakdown(skipped_other_counts):
+    total = sum(skipped_other_counts.values())
+    if not total:
+        return
+    print(f"Other media types not selected: {total}")
+    for rec_type, count in sorted(skipped_other_counts.items()):
+        print(f"  {rec_type}: {count}")
 
 
 def download_queue(cfg, index, queue):
@@ -476,7 +503,7 @@ def download_media_types(cfg, media_types):
         print("[!] No records in index.")
         return
 
-    queue, missing_counts, missing_items = build_queue(index, media_types)
+    queue, missing_counts, missing_items, skipped_other_counts = build_queue(index, media_types)
     type_counts = {mt: sum(1 for item in queue if item["media_type"] == mt) for mt in media_types}
 
     print("\n=== Download Preview ===")
@@ -485,6 +512,7 @@ def download_media_types(cfg, media_types):
     print(f"Images: {type_counts.get('img', 0)}")
     print(f"Videos: {type_counts.get('vid', 0)}")
     print_nonqueued_breakdown(missing_items)
+    print_skipped_other_breakdown(skipped_other_counts)
     for mt in media_types:
         print(f"{media_label(mt)} folder: {output_dir(cfg, mt)}")
 
@@ -505,7 +533,7 @@ def download_media_types(cfg, media_types):
     print("\n[✓] Download pass complete.")
     print(f"Downloaded:        {stats['downloaded']}")
     print(f"Skipped existing:  {stats['skipped_existing']}")
-    print(f"Not queued for selected media type: {sum(missing_counts.values())}")
+    print(f"Selected records without harvested URL: {sum(missing_counts.values())}")
     print(f"Rejected:          {stats['rejected']}")
     print(f"Failed:            {stats['failed']}")
 

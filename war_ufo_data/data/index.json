@@ -1,5 +1,5 @@
 {
-  "cleaned_for_github_at": "2026-05-09T00:50:01.096573+00:00",
+  "cleaned_for_github_at": "2026-05-09T02:31:24.018555+00:00",
   "notes": "Clean seed index: observed metadata and harvested URLs preserved; local download/test state reset.",
   "records": {
     "18_100754__GENERAL_1946-7_VOL_2": {
@@ -14,7 +14,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T20:59:26.530550+00:00",
       "image": {},
@@ -50,7 +50,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T20:59:26.530587+00:00",
       "image": {},
@@ -86,7 +86,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T20:59:26.530613+00:00",
       "image": {},
@@ -122,7 +122,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T20:59:56.030512+00:00",
       "image": {},
@@ -158,7 +158,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T20:59:56.030540+00:00",
       "image": {},
@@ -194,7 +194,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T20:59:56.030567+00:00",
       "image": {},
@@ -230,7 +230,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T20:59:56.030592+00:00",
       "image": {},
@@ -266,7 +266,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T20:59:56.030669+00:00",
       "image": {},
@@ -302,7 +302,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T20:59:56.030619+00:00",
       "image": {},
@@ -338,7 +338,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T20:59:56.030644+00:00",
       "image": {},
@@ -374,7 +374,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T20:59:56.030694+00:00",
       "image": {},
@@ -410,7 +410,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T20:59:56.030718+00:00",
       "image": {},
@@ -446,7 +446,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T20:52:44.910372+00:00",
       "image": {},
@@ -482,7 +482,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:00:03.746142+00:00",
       "image": {},
@@ -518,7 +518,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:00:03.746175+00:00",
       "image": {},
@@ -554,7 +554,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T20:52:06.491369+00:00",
       "image": {},
@@ -590,7 +590,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T20:59:18.619346+00:00",
       "image": {},
@@ -626,7 +626,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T20:59:18.619379+00:00",
       "image": {},
@@ -662,7 +662,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T20:59:18.619407+00:00",
       "image": {},
@@ -698,7 +698,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T20:59:18.619434+00:00",
       "image": {},
@@ -734,7 +734,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T20:59:18.619461+00:00",
       "image": {},
@@ -770,7 +770,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T20:59:18.619486+00:00",
       "image": {},
@@ -806,7 +806,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:00:03.746203+00:00",
       "image": {},
@@ -842,7 +842,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T20:59:18.619512+00:00",
       "image": {},
@@ -878,7 +878,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T20:59:18.619537+00:00",
       "image": {},
@@ -914,7 +914,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T20:59:18.619576+00:00",
       "image": {},
@@ -950,7 +950,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T20:52:12.077444+00:00",
       "image": {},
@@ -986,7 +986,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T20:59:26.530412+00:00",
       "image": {},
@@ -1022,7 +1022,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T20:59:26.530445+00:00",
       "image": {},
@@ -1058,7 +1058,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T20:59:26.530472+00:00",
       "image": {},
@@ -1094,7 +1094,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T20:59:26.530499+00:00",
       "image": {},
@@ -1130,7 +1130,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T20:59:26.530525+00:00",
       "image": {},
@@ -1166,7 +1166,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:00:03.746231+00:00",
       "image": {},
@@ -1210,7 +1210,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:00:03.746259+00:00",
       "image": {},
@@ -1246,7 +1246,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:00:03.746286+00:00",
       "image": {},
@@ -1290,7 +1290,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:00:03.746336+00:00",
       "image": {},
@@ -1326,7 +1326,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:00:03.746364+00:00",
       "image": {},
@@ -1370,7 +1370,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:00:03.746391+00:00",
       "image": {},
@@ -1406,7 +1406,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:00:33.557919+00:00",
       "image": {},
@@ -1442,7 +1442,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:00:33.557984+00:00",
       "image": {},
@@ -1486,7 +1486,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:00:33.558013+00:00",
       "image": {},
@@ -1522,7 +1522,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:00:33.558044+00:00",
       "image": {},
@@ -1558,7 +1558,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:00:33.558071+00:00",
       "image": {},
@@ -1594,7 +1594,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:00:33.558097+00:00",
       "image": {},
@@ -1630,7 +1630,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:00:33.558122+00:00",
       "image": {},
@@ -1674,7 +1674,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:01:02.866354+00:00",
       "image": {},
@@ -1718,7 +1718,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:01:02.866417+00:00",
       "image": {},
@@ -1762,7 +1762,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:01:02.866445+00:00",
       "image": {},
@@ -1806,7 +1806,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:01:02.866473+00:00",
       "image": {},
@@ -1842,7 +1842,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:01:02.866500+00:00",
       "image": {},
@@ -1878,7 +1878,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:01:02.866536+00:00",
       "image": {},
@@ -1914,7 +1914,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:01:02.866564+00:00",
       "image": {},
@@ -1950,7 +1950,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:01:02.866590+00:00",
       "image": {},
@@ -1986,7 +1986,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:01:02.866616+00:00",
       "image": {},
@@ -2022,7 +2022,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:01:02.866642+00:00",
       "image": {},
@@ -2058,7 +2058,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:01:32.661667+00:00",
       "image": {},
@@ -2094,7 +2094,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:01:32.661734+00:00",
       "image": {},
@@ -2130,7 +2130,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:01:32.661763+00:00",
       "image": {},
@@ -2166,7 +2166,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:01:32.661791+00:00",
       "image": {},
@@ -2202,7 +2202,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:01:32.661817+00:00",
       "image": {},
@@ -2238,7 +2238,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:01:32.661843+00:00",
       "image": {},
@@ -2274,7 +2274,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:01:32.661869+00:00",
       "image": {},
@@ -2310,7 +2310,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:01:32.661895+00:00",
       "image": {},
@@ -2346,7 +2346,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:01:32.661921+00:00",
       "image": {},
@@ -2382,7 +2382,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:01:32.661947+00:00",
       "image": {},
@@ -2418,7 +2418,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:02:01.860206+00:00",
       "image": {},
@@ -2454,7 +2454,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:02:01.860269+00:00",
       "image": {},
@@ -2490,7 +2490,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:02:01.860298+00:00",
       "image": {},
@@ -2526,7 +2526,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:02:01.860326+00:00",
       "image": {},
@@ -2562,7 +2562,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:02:01.860352+00:00",
       "image": {},
@@ -2598,7 +2598,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:02:01.860379+00:00",
       "image": {},
@@ -2634,7 +2634,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:02:01.860405+00:00",
       "image": {},
@@ -2670,7 +2670,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:02:01.860432+00:00",
       "image": {},
@@ -2706,7 +2706,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:02:01.860458+00:00",
       "image": {},
@@ -2765,7 +2765,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:02:01.860494+00:00",
       "image": {},
@@ -2801,7 +2801,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:02:31.210170+00:00",
       "image": {},
@@ -2860,7 +2860,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:02:31.210234+00:00",
       "image": {},
@@ -2891,7 +2891,21 @@
       ],
       "url": "https://media.defense.gov/2023/Mar/13/2003178168/-1/-1/1/DOD-STRATEGIC-MGMT-PLAN-2023.PDF",
       "url_source": "previous_candidate_url",
-      "video": {}
+      "video": {
+        "captured_at": "2026-05-09T02:26:42.127408+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111688775/DOD_111688775.mp4",
+        "url_source": "download_video_button_network_response"
+      }
     },
     "DOW-UAP-PR23,_UNRESOLVED_UAP_REPORT,_IRAQ,_DECEMBER_2022": {
       "agency": "DEPARTMENT OF WAR",
@@ -2905,7 +2919,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:02:31.210262+00:00",
       "image": {},
@@ -2964,7 +2978,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:02:31.210289+00:00",
       "image": {},
@@ -2995,7 +3009,21 @@
       ],
       "url": "https://media.defense.gov/2023/Mar/13/2003178168/-1/-1/1/DOD-STRATEGIC-MGMT-PLAN-2023.PDF",
       "url_source": "previous_candidate_url",
-      "video": {}
+      "video": {
+        "captured_at": "2026-05-09T02:26:47.222281+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111688816/DOD_111688816.mp4",
+        "url_source": "download_video_button_network_response"
+      }
     },
     "DOW-UAP-PR27,_UNRESOLVED_UAP_REPORT,_UNITED_ARAB_EMIRATES,_OCTOBER_2023": {
       "agency": "DEPARTMENT OF WAR",
@@ -3008,7 +3036,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:02:31.210316+00:00",
       "image": {},
@@ -3067,7 +3095,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:02:31.210342+00:00",
       "image": {},
@@ -3090,7 +3118,21 @@
       ],
       "url": "https://media.defense.gov/2023/Mar/13/2003178168/-1/-1/1/DOD-STRATEGIC-MGMT-PLAN-2023.PDF",
       "url_source": "previous_candidate_url",
-      "video": {}
+      "video": {
+        "captured_at": "2026-05-09T02:26:52.522162+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111688954/DOD_111688954.mp4",
+        "url_source": "download_video_button_network_response"
+      }
     },
     "DOW-UAP-PR29,_UNRESOLVED_UAP_REPORT,_UNITED_ARAB_EMIRATES,_JUNE_2024": {
       "agency": "DEPARTMENT OF WAR",
@@ -3104,7 +3146,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:02:31.210368+00:00",
       "image": {},
@@ -3155,7 +3197,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:02:31.210394+00:00",
       "image": {},
@@ -3186,7 +3228,21 @@
       ],
       "url": "https://media.defense.gov/2023/Mar/13/2003178168/-1/-1/1/DOD-STRATEGIC-MGMT-PLAN-2023.PDF",
       "url_source": "previous_candidate_url",
-      "video": {}
+      "video": {
+        "captured_at": "2026-05-09T02:26:58.108181+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111688970/DOD_111688970.mp4",
+        "url_source": "download_video_button_network_response"
+      }
     },
     "DOW-UAP-PR32,_UNRESOLVED_UAP_REPORT,_SYRIA,_OCTOBER_2024": {
       "agency": "DEPARTMENT OF WAR",
@@ -3200,7 +3256,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:02:31.210420+00:00",
       "image": {},
@@ -3231,7 +3287,21 @@
       ],
       "url": "https://media.defense.gov/2023/Mar/13/2003178168/-1/-1/1/DOD-STRATEGIC-MGMT-PLAN-2023.PDF",
       "url_source": "previous_candidate_url",
-      "video": {}
+      "video": {
+        "captured_at": "2026-05-09T02:27:02.853916+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111688997/DOD_111688997.mp4",
+        "url_source": "download_video_button_network_response"
+      }
     },
     "DOW-UAP-PR33,_UNRESOLVED_UAP_REPORT,_SYRIA,_OCTOBER_2024": {
       "agency": "DEPARTMENT OF WAR",
@@ -3245,7 +3315,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:02:31.210453+00:00",
       "image": {},
@@ -3276,7 +3346,21 @@
       ],
       "url": "https://media.defense.gov/2023/Mar/13/2003178168/-1/-1/1/DOD-STRATEGIC-MGMT-PLAN-2023.PDF",
       "url_source": "previous_candidate_url",
-      "video": {}
+      "video": {
+        "captured_at": "2026-05-09T02:27:07.950622+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689005/DOD_111689005.mp4",
+        "url_source": "download_video_button_network_response"
+      }
     },
     "DOW-UAP-PR34,_UNRESOLVED_UAP_REPORT,_GREECE,_OCTOBER_2023": {
       "agency": "DEPARTMENT OF WAR",
@@ -3289,7 +3373,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:03:00.789820+00:00",
       "image": {},
@@ -3320,7 +3404,21 @@
       ],
       "url": "https://media.defense.gov/2023/Mar/13/2003178168/-1/-1/1/DOD-STRATEGIC-MGMT-PLAN-2023.PDF",
       "url_source": "generated_from_asset_name",
-      "video": {}
+      "video": {
+        "captured_at": "2026-05-09T02:27:15.546616+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689011/DOD_111689011.mp4",
+        "url_source": "download_video_button_network_response"
+      }
     },
     "DOW-UAP-PR35,_UNRESOLVED_UAP_REPORT,_GREECE,_OCTOBER_2023": {
       "agency": "DEPARTMENT OF WAR",
@@ -3334,7 +3432,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:03:00.789886+00:00",
       "image": {},
@@ -3392,7 +3490,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:03:00.789914+00:00",
       "image": {},
@@ -3423,7 +3521,21 @@
       ],
       "url": "https://media.defense.gov/2023/Mar/13/2003178168/-1/-1/1/DOD-STRATEGIC-MGMT-PLAN-2023.PDF",
       "url_source": "generated_from_asset_name",
-      "video": {}
+      "video": {
+        "captured_at": "2026-05-09T02:27:20.426099+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689030/DOD_111689030.mp4",
+        "url_source": "download_video_button_network_response"
+      }
     },
     "DOW-UAP-PR37,_UNRESOLVED_UAP_REPORT,_MIDDLE_EAST,_2020": {
       "agency": "DEPARTMENT OF WAR",
@@ -3436,7 +3548,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:03:00.789942+00:00",
       "image": {},
@@ -3486,7 +3598,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:03:00.789969+00:00",
       "image": {},
@@ -3509,7 +3621,21 @@
       ],
       "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-pr38,_unresolved_uap_report,_middle_east,_2013.pdf",
       "url_source": "generated_from_asset_name",
-      "video": {}
+      "video": {
+        "captured_at": "2026-05-09T02:27:26.117925+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689051/DOD_111689051.mp4",
+        "url_source": "download_video_button_network_response"
+      }
     },
     "DOW-UAP-PR39,_UNRESOLVED_UAP_REPORT,_MIDDLE_EAST,_2020": {
       "agency": "DEPARTMENT OF WAR",
@@ -3522,7 +3648,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:03:00.789995+00:00",
       "image": {},
@@ -3545,7 +3671,21 @@
       ],
       "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-pr39,_unresolved_uap_report,_middle_east,_2020.pdf",
       "url_source": "generated_from_asset_name",
-      "video": {}
+      "video": {
+        "captured_at": "2026-05-09T02:27:31.996033+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689057/DOD_111689057.mp4",
+        "url_source": "download_video_button_network_response"
+      }
     },
     "DOW-UAP-PR40,_UNRESOLVED_UAP_REPORT,_MIDDLE_EAST,_2020": {
       "agency": "DEPARTMENT OF WAR",
@@ -3558,7 +3698,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:03:00.790022+00:00",
       "image": {},
@@ -3581,7 +3721,21 @@
       ],
       "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-pr40,_unresolved_uap_report,_middle_east,_2020.pdf",
       "url_source": "generated_from_asset_name",
-      "video": {}
+      "video": {
+        "captured_at": "2026-05-09T02:27:37.127099+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689082/DOD_111689082.mp4",
+        "url_source": "download_video_button_network_response"
+      }
     },
     "DOW-UAP-PR41,_UNRESOLVED_UAP_REPORT,_MIDDLE_EAST,_2020": {
       "agency": "DEPARTMENT OF WAR",
@@ -3594,7 +3748,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:03:00.790048+00:00",
       "image": {},
@@ -3644,7 +3798,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:03:00.790075+00:00",
       "image": {},
@@ -3694,7 +3848,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:03:00.790101+00:00",
       "image": {},
@@ -3744,7 +3898,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:03:30.073832+00:00",
       "image": {},
@@ -3794,7 +3948,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:03:30.073937+00:00",
       "image": {},
@@ -3844,7 +3998,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:03:30.073970+00:00",
       "image": {},
@@ -3867,7 +4021,21 @@
       ],
       "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-pr46,_unresolved_uap_report,_indopacom,_2024.pdf",
       "url_source": "generated_from_asset_name",
-      "video": {}
+      "video": {
+        "captured_at": "2026-05-09T02:27:46.818678+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689133/DOD_111689133.mp4",
+        "url_source": "download_video_button_network_response"
+      }
     },
     "DOW-UAP-PR47,_UNRESOLVED_UAP_REPORT,_INDOPACOM,_2023": {
       "agency": "DEPARTMENT OF WAR",
@@ -3880,7 +4048,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:03:30.074001+00:00",
       "image": {},
@@ -3903,7 +4071,21 @@
       ],
       "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-pr47,_unresolved_uap_report,_indopacom,_2023.pdf",
       "url_source": "generated_from_asset_name",
-      "video": {}
+      "video": {
+        "captured_at": "2026-05-09T02:27:52.070888+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689142/DOD_111689142.mp4",
+        "url_source": "download_video_button_network_response"
+      }
     },
     "DOW-UAP-PR48,_UNRESOLVED_UAP_REPORT,_INDOPACOM,_2024": {
       "agency": "DEPARTMENT OF WAR",
@@ -3916,7 +4098,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:03:30.074033+00:00",
       "image": {},
@@ -3939,7 +4121,21 @@
       ],
       "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-pr48,_unresolved_uap_report,_indopacom,_2024.pdf",
       "url_source": "generated_from_asset_name",
-      "video": {}
+      "video": {
+        "captured_at": "2026-05-09T02:27:57.135704+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689167/DOD_111689167.mp4",
+        "url_source": "download_video_button_network_response"
+      }
     },
     "DOW-UAP-PR49,_UNRESOLVED_UAP_REPORT,_DEPARTMENT_OF_THE_ARMY,_2026": {
       "agency": "DEPARTMENT OF WAR",
@@ -3952,7 +4148,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:03:30.074064+00:00",
       "image": {},
@@ -4002,7 +4198,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:03:30.074095+00:00",
       "image": {
@@ -4059,7 +4255,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:03:30.074124+00:00",
       "image": {
@@ -4108,7 +4304,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:03:30.074152+00:00",
       "image": {
@@ -4157,7 +4353,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:03:30.074180+00:00",
       "image": {
@@ -4206,7 +4402,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:03:59.637241+00:00",
       "image": {
@@ -4255,7 +4451,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:03:59.637311+00:00",
       "image": {
@@ -4304,7 +4500,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:03:59.637340+00:00",
       "image": {
@@ -4353,7 +4549,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:03:59.637369+00:00",
       "image": {
@@ -4403,7 +4599,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:03:59.637396+00:00",
       "image": {},
@@ -4439,7 +4635,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:03:59.637422+00:00",
       "image": {},
@@ -4475,7 +4671,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:03:59.637458+00:00",
       "image": {},
@@ -4511,7 +4707,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:03:59.637486+00:00",
       "image": {},
@@ -4547,7 +4743,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:03:59.637512+00:00",
       "image": {},
@@ -4583,7 +4779,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:03:59.637538+00:00",
       "image": {},
@@ -4619,7 +4815,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:04:28.925934+00:00",
       "image": {},
@@ -4655,7 +4851,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:04:28.926006+00:00",
       "image": {},
@@ -4691,7 +4887,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:04:28.926036+00:00",
       "image": {},
@@ -4727,7 +4923,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:04:28.926064+00:00",
       "image": {},
@@ -4763,7 +4959,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:04:28.926091+00:00",
       "image": {},
@@ -4799,7 +4995,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:04:28.926131+00:00",
       "image": {},
@@ -4835,7 +5031,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:04:28.926156+00:00",
       "image": {},
@@ -4871,7 +5067,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:04:28.926182+00:00",
       "image": {},
@@ -4907,7 +5103,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:04:28.926208+00:00",
       "image": {},
@@ -4943,7 +5139,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:04:28.926234+00:00",
       "image": {},
@@ -4979,7 +5175,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:04:58.373366+00:00",
       "image": {},
@@ -5015,7 +5211,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:04:58.373448+00:00",
       "image": {},
@@ -5051,7 +5247,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:04:58.373480+00:00",
       "image": {},
@@ -5087,7 +5283,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:04:58.373509+00:00",
       "image": {},
@@ -5123,7 +5319,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:04:58.373536+00:00",
       "image": {},
@@ -5159,7 +5355,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:04:58.373564+00:00",
       "image": {},
@@ -5195,7 +5391,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:04:58.373591+00:00",
       "image": {},
@@ -5231,7 +5427,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:04:58.373618+00:00",
       "image": {},
@@ -5267,7 +5463,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:05:58.014333+00:00",
       "image": {},
@@ -5303,7 +5499,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:05:58.014360+00:00",
       "image": {},
@@ -5339,7 +5535,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:05:58.014386+00:00",
       "image": {},
@@ -5375,7 +5571,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:05:58.014412+00:00",
       "image": {},
@@ -5411,7 +5607,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:04:58.373646+00:00",
       "image": {},
@@ -5447,7 +5643,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:04:58.373674+00:00",
       "image": {},
@@ -5483,7 +5679,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T20:59:26.530639+00:00",
       "image": {},
@@ -5519,7 +5715,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T20:59:56.030448+00:00",
       "image": {},
@@ -5542,7 +5738,21 @@
       ],
       "url": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-d3a,_gemini_7_audio_excerpt,_1965.pdf",
       "url_source": "previous_candidate_url",
-      "video": {}
+      "video": {
+        "captured_at": "2026-05-09T02:26:18.175099+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689232/DOD_111689232.mp4",
+        "url_source": "download_video_button_network_response"
+      }
     },
     "NASA-UAP-D4,_APOLLO_11_TECHNICAL_CREW_DEBRIEFING,_1969": {
       "agency": "NASA",
@@ -5556,7 +5766,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:05:28.554112+00:00",
       "image": {},
@@ -5592,7 +5802,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:05:28.554178+00:00",
       "image": {},
@@ -5628,7 +5838,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:05:28.554207+00:00",
       "image": {},
@@ -5664,7 +5874,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:05:28.554234+00:00",
       "image": {},
@@ -5699,7 +5909,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:05:28.554260+00:00",
       "image": {
@@ -5748,7 +5958,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:05:28.554286+00:00",
       "image": {
@@ -5797,7 +6007,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:05:28.554312+00:00",
       "image": {
@@ -5846,7 +6056,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:05:28.554338+00:00",
       "image": {
@@ -5895,7 +6105,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:05:28.554365+00:00",
       "image": {
@@ -5944,7 +6154,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:05:28.554390+00:00",
       "image": {
@@ -5994,7 +6204,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:05:58.014128+00:00",
       "image": {},
@@ -6030,7 +6240,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:05:58.014198+00:00",
       "image": {},
@@ -6066,7 +6276,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:05:58.014226+00:00",
       "image": {},
@@ -6102,7 +6312,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:05:58.014253+00:00",
       "image": {},
@@ -6138,7 +6348,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:05:58.014280+00:00",
       "image": {},
@@ -6174,7 +6384,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:05:58.014306+00:00",
       "image": {},
@@ -6210,7 +6420,7 @@
         "downloaded_at": null,
         "path": null,
         "sha256": null,
-        "status": null
+        "status": "missing"
       },
       "first_seen": "2026-05-08T21:06:26.509323+00:00",
       "image": {},
@@ -6235,5 +6445,5 @@
       "video": {}
     }
   },
-  "updated_at": "2026-05-09T00:50:01.096493+00:00"
+  "updated_at": "2026-05-09T02:37:13.748714+00:00"
 }
