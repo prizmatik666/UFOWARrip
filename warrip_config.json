@@ -1,0 +1,11 @@
+{
+  "start_url": "https://www.war.gov/UFO/",
+  "release": "release_1",
+  "output_dir": "war_ufo_data",
+  "headed": true,
+  "stable_wait_ms": 1200,
+  "max_pages": 30,
+  "download_delay_sec": 0.35,
+  "request_timeout_sec": 60,
+  "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+}
