@@ -14,6 +14,10 @@ war_ufo_data/downloads/
 debug/
 war_ufo_data/debug/
 
+war_ufo_data/data/reconciliation_report.json
+war_ufo_data/data/missing_records.txt
+war_ufo_data/data/observations.jsonl
+
 logs/
 *.log
 

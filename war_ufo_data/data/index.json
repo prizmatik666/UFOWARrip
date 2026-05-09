@@ -1,5 +1,5 @@
 {
-  "cleaned_for_github_at": "2026-05-09T02:31:24.018555+00:00",
+  "cleaned_for_github_at": "2026-05-09T10:22:57.106137+00:00",
   "notes": "Clean seed index: observed metadata and harvested URLs preserved; local download/test state reset.",
   "records": {
     "18_100754__GENERAL_1946-7_VOL_2": {
@@ -2741,12 +2741,13 @@
         "captured_at": "2026-05-08T23:30:12.307094+00:00",
         "content_type": "binary/octet-stream",
         "download": {
+          "attempted_url": null,
           "bytes": null,
           "downloaded": false,
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "status": 200,
         "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111688723/DOD_111688723.mp4",
@@ -2836,12 +2837,13 @@
         "captured_at": "2026-05-08T23:30:23.623067+00:00",
         "content_type": "binary/octet-stream",
         "download": {
+          "attempted_url": null,
           "bytes": null,
           "downloaded": false,
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "status": 200,
         "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111688762/DOD_111688762.mp4",
@@ -2895,12 +2897,13 @@
         "captured_at": "2026-05-09T02:26:42.127408+00:00",
         "content_type": "binary/octet-stream",
         "download": {
+          "attempted_url": null,
           "bytes": null,
           "downloaded": false,
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "status": 200,
         "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111688775/DOD_111688775.mp4",
@@ -2954,12 +2957,13 @@
         "captured_at": "2026-05-08T23:30:31.022783+00:00",
         "content_type": "binary/octet-stream",
         "download": {
+          "attempted_url": null,
           "bytes": null,
           "downloaded": false,
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "status": 200,
         "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111688809/DOD_111688809.mp4",
@@ -3013,12 +3017,13 @@
         "captured_at": "2026-05-09T02:26:47.222281+00:00",
         "content_type": "binary/octet-stream",
         "download": {
+          "attempted_url": null,
           "bytes": null,
           "downloaded": false,
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "status": 200,
         "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111688816/DOD_111688816.mp4",
@@ -3071,12 +3076,13 @@
         "captured_at": "2026-05-08T23:30:39.472879+00:00",
         "content_type": "binary/octet-stream",
         "download": {
+          "attempted_url": null,
           "bytes": null,
           "downloaded": false,
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "status": 200,
         "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111688825/DOD_111688825.mp4",
@@ -3122,12 +3128,13 @@
         "captured_at": "2026-05-09T02:26:52.522162+00:00",
         "content_type": "binary/octet-stream",
         "download": {
+          "attempted_url": null,
           "bytes": null,
           "downloaded": false,
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "status": 200,
         "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111688954/DOD_111688954.mp4",
@@ -3173,12 +3180,13 @@
         "captured_at": "2026-05-08T23:31:09.362675+00:00",
         "content_type": "binary/octet-stream",
         "download": {
+          "attempted_url": null,
           "bytes": null,
           "downloaded": false,
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "status": 200,
         "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111688964/DOD_111688964.mp4",
@@ -3232,12 +3240,13 @@
         "captured_at": "2026-05-09T02:26:58.108181+00:00",
         "content_type": "binary/octet-stream",
         "download": {
+          "attempted_url": null,
           "bytes": null,
           "downloaded": false,
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "status": 200,
         "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111688970/DOD_111688970.mp4",
@@ -3291,12 +3300,13 @@
         "captured_at": "2026-05-09T02:27:02.853916+00:00",
         "content_type": "binary/octet-stream",
         "download": {
+          "attempted_url": null,
           "bytes": null,
           "downloaded": false,
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "status": 200,
         "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111688997/DOD_111688997.mp4",
@@ -3350,12 +3360,13 @@
         "captured_at": "2026-05-09T02:27:07.950622+00:00",
         "content_type": "binary/octet-stream",
         "download": {
+          "attempted_url": null,
           "bytes": null,
           "downloaded": false,
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "status": 200,
         "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689005/DOD_111689005.mp4",
@@ -3408,12 +3419,13 @@
         "captured_at": "2026-05-09T02:27:15.546616+00:00",
         "content_type": "binary/octet-stream",
         "download": {
+          "attempted_url": null,
           "bytes": null,
           "downloaded": false,
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "status": 200,
         "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689011/DOD_111689011.mp4",
@@ -3467,12 +3479,13 @@
         "captured_at": "2026-05-08T23:31:35.370936+00:00",
         "content_type": "video/mp4",
         "download": {
+          "attempted_url": null,
           "bytes": null,
           "downloaded": false,
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "status": 200,
         "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689022/DOD_111689022-1920x1080-9000k.mp4",
@@ -3525,12 +3538,13 @@
         "captured_at": "2026-05-09T02:27:20.426099+00:00",
         "content_type": "binary/octet-stream",
         "download": {
+          "attempted_url": null,
           "bytes": null,
           "downloaded": false,
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "status": 200,
         "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689030/DOD_111689030.mp4",
@@ -3575,12 +3589,13 @@
         "captured_at": "2026-05-08T23:31:49.410052+00:00",
         "content_type": "binary/octet-stream",
         "download": {
+          "attempted_url": null,
           "bytes": null,
           "downloaded": false,
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "status": 200,
         "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689044/DOD_111689044.mp4",
@@ -3625,12 +3640,13 @@
         "captured_at": "2026-05-09T02:27:26.117925+00:00",
         "content_type": "binary/octet-stream",
         "download": {
+          "attempted_url": null,
           "bytes": null,
           "downloaded": false,
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "status": 200,
         "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689051/DOD_111689051.mp4",
@@ -3675,12 +3691,13 @@
         "captured_at": "2026-05-09T02:27:31.996033+00:00",
         "content_type": "binary/octet-stream",
         "download": {
+          "attempted_url": null,
           "bytes": null,
           "downloaded": false,
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "status": 200,
         "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689057/DOD_111689057.mp4",
@@ -3725,12 +3742,13 @@
         "captured_at": "2026-05-09T02:27:37.127099+00:00",
         "content_type": "binary/octet-stream",
         "download": {
+          "attempted_url": null,
           "bytes": null,
           "downloaded": false,
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "status": 200,
         "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689082/DOD_111689082.mp4",
@@ -3775,12 +3793,13 @@
         "captured_at": "2026-05-08T23:32:14.515227+00:00",
         "content_type": "binary/octet-stream",
         "download": {
+          "attempted_url": null,
           "bytes": null,
           "downloaded": false,
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "status": 200,
         "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689083/DOD_111689083.mp4",
@@ -3825,12 +3844,13 @@
         "captured_at": "2026-05-08T23:32:19.177175+00:00",
         "content_type": "binary/octet-stream",
         "download": {
+          "attempted_url": null,
           "bytes": null,
           "downloaded": false,
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "status": 200,
         "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689090/DOD_111689090.mp4",
@@ -3875,12 +3895,13 @@
         "captured_at": "2026-05-08T23:32:24.945540+00:00",
         "content_type": "binary/octet-stream",
         "download": {
+          "attempted_url": null,
           "bytes": null,
           "downloaded": false,
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "status": 200,
         "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689759/DOD_111689759.mp4",
@@ -3925,12 +3946,13 @@
         "captured_at": "2026-05-08T23:32:33.554250+00:00",
         "content_type": "binary/octet-stream",
         "download": {
+          "attempted_url": null,
           "bytes": null,
           "downloaded": false,
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "status": 200,
         "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689115/DOD_111689115.mp4",
@@ -3975,12 +3997,13 @@
         "captured_at": "2026-05-08T23:32:38.243018+00:00",
         "content_type": "binary/octet-stream",
         "download": {
+          "attempted_url": null,
           "bytes": null,
           "downloaded": false,
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "status": 200,
         "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689123/DOD_111689123.mp4",
@@ -4025,12 +4048,13 @@
         "captured_at": "2026-05-09T02:27:46.818678+00:00",
         "content_type": "binary/octet-stream",
         "download": {
+          "attempted_url": null,
           "bytes": null,
           "downloaded": false,
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "status": 200,
         "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689133/DOD_111689133.mp4",
@@ -4075,12 +4099,13 @@
         "captured_at": "2026-05-09T02:27:52.070888+00:00",
         "content_type": "binary/octet-stream",
         "download": {
+          "attempted_url": null,
           "bytes": null,
           "downloaded": false,
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "status": 200,
         "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689142/DOD_111689142.mp4",
@@ -4125,12 +4150,13 @@
         "captured_at": "2026-05-09T02:27:57.135704+00:00",
         "content_type": "binary/octet-stream",
         "download": {
+          "attempted_url": null,
           "bytes": null,
           "downloaded": false,
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "status": 200,
         "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689167/DOD_111689167.mp4",
@@ -4175,12 +4201,13 @@
         "captured_at": "2026-05-08T23:33:02.618371+00:00",
         "content_type": "binary/octet-stream",
         "download": {
+          "attempted_url": null,
           "bytes": null,
           "downloaded": false,
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "status": 200,
         "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689168/DOD_111689168.mp4",
@@ -4210,7 +4237,7 @@
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "url": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-a1.png",
         "url_source": "download_image_button_new_page"
@@ -4267,7 +4294,7 @@
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "url": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-a2.png",
         "url_source": "download_image_button_new_page"
@@ -4316,7 +4343,7 @@
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "url": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-a3.png",
         "url_source": "download_image_button_new_page"
@@ -4365,7 +4392,7 @@
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "url": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-a4.png",
         "url_source": "download_image_button_new_page"
@@ -4414,7 +4441,7 @@
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "url": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-a5.png",
         "url_source": "download_image_button_new_page"
@@ -4463,7 +4490,7 @@
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "url": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-a6.png",
         "url_source": "download_image_button_new_page"
@@ -4512,7 +4539,7 @@
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "url": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-a7.png",
         "url_source": "download_image_button_new_page"
@@ -4561,7 +4588,7 @@
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "url": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-a8.png",
         "url_source": "download_image_button_new_page"
@@ -5742,12 +5769,13 @@
         "captured_at": "2026-05-09T02:26:18.175099+00:00",
         "content_type": "binary/octet-stream",
         "download": {
+          "attempted_url": null,
           "bytes": null,
           "downloaded": false,
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "status": 200,
         "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689232/DOD_111689232.mp4",
@@ -5921,7 +5949,7 @@
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "url": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-vm1-apollo-12-1969.jpg",
         "url_source": "download_image_button_new_page"
@@ -5970,7 +5998,7 @@
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "url": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-vm2-apollo-12-1969.jpg",
         "url_source": "download_image_button_new_page"
@@ -6019,7 +6047,7 @@
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "url": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-vm3-apollo-12-1969.jpg",
         "url_source": "download_image_button_new_page"
@@ -6068,7 +6096,7 @@
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "url": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-vm4-apollo-12-1969.jpg",
         "url_source": "download_image_button_new_page"
@@ -6117,7 +6145,7 @@
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "url": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-vm5-apollo-12-1969.jpg",
         "url_source": "download_image_button_new_page"
@@ -6166,7 +6194,7 @@
           "downloaded_at": null,
           "path": null,
           "sha256": null,
-          "status": null
+          "status": "missing"
         },
         "url": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-vm6-apollo-17-1972.jpg",
         "url_source": "download_image_button_new_page"
@@ -6445,5 +6473,5 @@
       "video": {}
     }
   },
-  "updated_at": "2026-05-09T02:37:13.748714+00:00"
+  "updated_at": "2026-05-09T10:22:57.106137+00:00"
 }
