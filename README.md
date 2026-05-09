@@ -270,6 +270,56 @@ core/video_harvester.py   video URL harvester
 core/downloader.py        validated media downloader
 core/index_store.py       index load/save/export helpers
 ```
+## Side Tool
+  Some public posts rounded or reported the release as roughly 162 files, while
+  the live release page observed by UFOWARrip showed 161 rendered rows. The local
+  seed index contains 158 unique assets because the site includes duplicate
+  rendered rows for the same normalized asset/title/type entries: one duplicate
+  instance of DOW-UAP-D23 and two duplicate instances of DOW-UAP-D32. In other
+  words, UFOWARrip preserves the 158 unique downloadable assets rather than
+  counting duplicate rows as separate files.
+
+  ## Reconciliation / Audit Tool
+
+  UFOWARrip includes a standalone reconciliation tool:
+
+  ```bash
+  python3 reconcile_index.py
+
+  The tool audits the public release page against the local war_ufo_data/data/
+  index.json without modifying the main application workflow. It crawls the
+  rendered records, counts visible rows/cards, extracts each record title, media
+  type, and page number, then compares those rendered records against the local
+  index.
+
+  It writes:
+
+  war_ufo_data/data/reconciliation_report.json
+  war_ufo_data/data/missing_records.txt
+
+  The report includes:
+
+  - observed site count
+  - local index count
+  - PDF/image/video counts
+  - records present on the site but absent from the index
+  - records in the index but not found on the site
+  - duplicate normalized records
+
+  If live browser/network rendering is unavailable, but debug page snapshots exist
+  from a prior observation run, the audit can be run against those saved rendered
+  pages:
+
+  python3 reconcile_index.py --from-debug-html
+
+  That mode reads:
+
+  war_ufo_data/debug/html/page_*.html
+
+  This is useful for investigating count discrepancies without rebuilding the
+  index. For example, the release page may display duplicate visible rows that
+  normalize to the same asset title/type key, causing the rendered site count to
+  be higher than the unique local index count.
 
 ## Output Layout
 
