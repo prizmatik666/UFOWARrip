@@ -1,5 +1,8 @@
 # UFOWARrip
 
+* I will be waiting till they release a new chunk of files before choosing how to proceed with further updates*
+* depending on what they do, may implement ability to scan a range of pages, or start at a certain page, like epstein-ripper has*
+  
 UFOWARrip is a browser-observed download pipeline for the public `war.gov/UFO/` release page.
 
 Created by Prizmatik  
