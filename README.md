@@ -310,16 +310,6 @@ core/index_store.py       index load/save/export helpers
   - records in the index but not found on the site
   - duplicate normalized records
 
-  If live browser/network rendering is unavailable, but debug page snapshots exist
-  from a prior observation run, the audit can be run against those saved rendered
-  pages:
-
-  python3 reconcile_index.py --from-debug-html
-
-  That mode reads:
-
-  war_ufo_data/debug/html/page_*.html
-
   This is useful for investigating count discrepancies without rebuilding the
   index. For example, the release page may display duplicate visible rows that
   normalize to the same asset title/type key, causing the rendered site count to
