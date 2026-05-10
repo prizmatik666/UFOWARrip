@@ -264,6 +264,7 @@ Maximum number of release pages to scan/harvest. Default is `30`.
 ## Main Files
 
 ```text
+aaro_rip.py               aaro video harvester tool
 warrip.py                 menu launcher
 core/browser_session.py   persistent Chromium session
 core/observer.py          site/page observer
@@ -329,11 +330,13 @@ core/index_store.py       index load/save/export helpers
 ```text
 war_ufo_data/
   data/
+    aaro_index.json
     index.json
     urls.txt
     image_urls.txt
     video_urls.txt
   downloads/
+    aaro/
     release_1/
       pdf/
       img/
@@ -341,4 +344,130 @@ war_ufo_data/
   debug/
   logs/
 ```
+## AARO Official UAP Imagery Harvester (`aaro_rip.py`)
 
+UFOWARrip includes a dedicated AARO (All-domain Anomaly Resolution Office) harvesting utility for collecting officially released UAP/UFO imagery and videos directly from:
+
+https://www.aaro.mil/UAP-Cases/Official-UAP-Imagery/
+
+Unlike the main WAR pipeline, the AARO utility works by parsing the public AARO page itself and extracting embedded DVIDS/CloudFront MP4 sources and metadata.
+
+### Features
+
+- Parses official AARO UAP imagery entries
+- Downloads embedded MP4 video files
+- Automatically creates metadata sidecar `.txt` files
+- Maintains persistent `aaro_index.json`
+- Detects new entries without re-downloading existing media
+- Verifies downloaded MP4 integrity
+- Supports local saved HTML source parsing
+- Interactive menu-driven UI
+- Deduplicates responsive/mobile duplicate entries automatically
+
+### Output Structure
+
+war_ufo_data/
+└── data/
+    ├── aaro_index.json
+    └── downloads/
+        └── aaro/
+            ├── PR-018_*.mp4
+            ├── PR-018_*.txt
+            ├── PR-017_*.mp4
+            └── ...
+
+### Metadata Sidecar Files
+
+Each downloaded MP4 receives a matching `.txt` metadata file containing:
+
+- Title
+- Incident ID
+- Description
+- DVIDS source URL
+- Original MP4 URL
+- Local filename correlation
+- Source attribution
+
+This prevents collections from becoming unlabeled media dumps and preserves incident context.
+
+### Running
+
+Launch the interactive UI:
+
+python3 aaro_rip.py
+
+### Menu Options
+
+1) Scan AARO page / update index only
+2) Download missing AARO videos
+3) Force re-download all AARO videos
+4) Show local AARO status
+5) Verify downloaded MP4 files
+6) Use local saved HTML source
+0) Exit
+
+### Saved HTML Source Mode
+
+Option `6` allows parsing from a locally saved AARO HTML/source file.
+
+This is useful if:
+- AARO temporarily blocks automated requests
+- You want reproducible offline parsing
+- You want to archive historical page states
+
+The harvester can still extract and download MP4s from locally saved page source data.
+
+### Verification
+
+The verification mode checks:
+- file existence
+- MP4 `ftyp` atoms
+- optional `ffprobe` validation
+
+to help detect:
+- incomplete downloads
+- HTML/error-page saves
+- corrupted media
+
+### Notes
+
+- AARO currently ships the full dataset in the initial HTML response, meaning pagination is client-side only.
+- The harvester extracts media directly from embedded `<video>` sources already present in the page.
+- Download URLs currently resolve to official DVIDS/CloudFront infrastructure.
+- Some environments may require browser-like request headers to avoid HTTP 403 responses.
+
+### Requirements
+
+pip install requests beautifulsoup4
+
+Optional verification tooling:
+
+sudo apt install ffmpeg
+
+(for `ffprobe` integrity checks)
+
+### Incremental Index Updating
+
+Subsequent index scans automatically preserve existing entries and append newly discovered AARO incidents without re-indexing or re-downloading previously cataloged media.
+
+The harvester tracks entries using persistent identifiers and stored metadata inside:
+
+war_ufo_data/data/aaro_index.json
+
+This allows the utility to:
+
+- detect newly added AARO incidents
+- skip already downloaded MP4s
+- preserve existing SHA256 hashes and metadata
+- maintain first-seen / last-seen timestamps
+- resume across multiple sessions safely
+
+Running:
+
+python3 aaro_rip.py
+
+and selecting:
+
+1) Scan AARO page / update index only
+
+will refresh the local index and append any newly discovered AARO entries automatically.
