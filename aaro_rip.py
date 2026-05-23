@@ -6,13 +6,8 @@ Downloads embedded AARO/DVIDS MP4s from:
 https://www.aaro.mil/UAP-Cases/Official-UAP-Imagery/
 
 Saves:
-<<<<<<< HEAD
-  war_ufo_data/data/downloads/aaro/*.mp4
-  war_ufo_data/data/downloads/aaro/*.txt
-=======
   war_ufo_data/downloads/aaro/*.mp4
   war_ufo_data/downloads/aaro/*.txt
->>>>>>> 0604d09 (Release WarRip v3.2)
   war_ufo_data/data/aaro_index.json
 """
 
@@ -35,11 +30,7 @@ AARO_URL = "https://www.aaro.mil/UAP-Cases/Official-UAP-Imagery/"
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 DEFAULT_DATA_DIR = SCRIPT_DIR / "war_ufo_data" / "data"
-<<<<<<< HEAD
-DEFAULT_OUT_DIR = DEFAULT_DATA_DIR / "downloads" / "aaro"
-=======
 DEFAULT_OUT_DIR = SCRIPT_DIR / "war_ufo_data" / "downloads" / "aaro"
->>>>>>> 0604d09 (Release WarRip v3.2)
 DEFAULT_INDEX = DEFAULT_DATA_DIR / "aaro_index.json"
 
 HEADERS = {

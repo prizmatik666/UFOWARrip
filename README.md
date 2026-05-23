@@ -1,13 +1,7 @@
 # UFOWARrip
 
-<<<<<<< HEAD
-* I will be waiting till they release a new chunk of files before choosing how to proceed with further updates*
-* depending on what they do, may implement ability to scan a range of pages, or start at a certain page, like epstein-ripper has*
-  
-=======
 Current version: WarRip v3.2
 
->>>>>>> 0604d09 (Release WarRip v3.2)
 UFOWARrip is a browser-observed download pipeline for the public `war.gov/UFO/` release page.
 
 Created by Prizmatik  
@@ -353,59 +347,98 @@ core/downloader.py        validated media downloader
 core/index_store.py       index load/save/export helpers
 core/pagination.py        shared pagination continuation prompts
 ```
-## Side Tool
-  Some public posts rounded or reported the release as roughly 162 files, while
-  the live release page observed by UFOWARrip showed 161 rendered rows. The local
-  seed index contains 158 unique assets because the site includes duplicate
-  rendered rows for the same normalized asset/title/type entries: one duplicate
-  instance of DOW-UAP-D23 and two duplicate instances of DOW-UAP-D32. In other
-  words, UFOWARrip preserves the 158 unique downloadable assets rather than
-  counting duplicate rows as separate files.
+## Reconciliation / Audit Tool
 
-  ## Reconciliation / Audit Tool
+UFOWARrip includes a standalone reconciliation tool:
 
-  UFOWARrip includes a standalone reconciliation tool:
+```bash
+python3 reconcile_index.py
+```
 
-  ```bash
-  python3 reconcile_index.py
+The tool detects available `index_release_N.json` files and `aaro_index.json`, then asks which index to reconcile. For WAR releases, it uses the release number to form the matching live site URL, crawls the rendered records, and compares the site rows against the selected local index. For AARO, it parses the official AARO imagery page and compares those entries against `aaro_index.json`.
 
-  The tool audits the public release page against the local war_ufo_data/data/
-  index.json without modifying the main application workflow. It crawls the
-  rendered records, counts visible rows/cards, extracts each record title, media
-  type, and page number, then compares those rendered records against the local
-  index.
+You can also run it directly for a release:
 
-  It writes:
+```bash
+python3 reconcile_index.py --release 2
+```
 
-  war_ufo_data/data/reconciliation_report.json
-  war_ufo_data/data/missing_records.txt
+Or reconcile AARO directly:
 
-  The report includes:
+```bash
+python3 reconcile_index.py --aaro
+```
 
-  - observed site count
-  - local index count
-  - PDF/image/video counts
-  - records present on the site but absent from the index
-  - records in the index but not found on the site
-  - duplicate normalized records
+If AARO blocks live requests or you want a reproducible offline audit, use a saved page source:
 
-  This is useful for investigating count discrepancies without rebuilding the
-  index. For example, the release page may display duplicate visible rows that
-  normalize to the same asset title/type key, causing the rendered site count to
-  be higher than the unique local index count.
+```bash
+python3 reconcile_index.py --aaro --aaro-html saved_aaro_page.html
+```
+
+WAR release reconciliation writes per-release outputs:
+
+```text
+war_ufo_data/data/reconciliation_report_release_N.json
+war_ufo_data/data/missing_records_release_N.txt
+```
+
+AARO reconciliation writes:
+
+```text
+war_ufo_data/data/reconciliation_report_aaro.json
+war_ufo_data/data/missing_records_aaro.txt
+```
+
+The report includes observed site count, local index count, PDF/image/video/audio counts, records present on the site but absent from the index, records in the index but not found on the site, and duplicate normalized records.
+
+## AARO Official UAP Imagery Harvester (`aaro_rip.py`)
+
+UFOWARrip includes a dedicated AARO (All-domain Anomaly Resolution Office) harvesting utility for collecting officially released UAP/UFO imagery and videos directly from:
+
+https://www.aaro.mil/UAP-Cases/Official-UAP-Imagery/
+
+Unlike the main WAR pipeline, the AARO utility works by parsing the public AARO page itself and extracting embedded DVIDS/CloudFront MP4 sources and metadata.
+
+### AARO Output Structure
+
+```text
+war_ufo_data/
+  data/
+    aaro_index.json
+  downloads/
+    aaro/
+      PR-018_*.mp4
+      PR-018_*.txt
+      PR-017_*.mp4
+      ...
+```
+
+Each downloaded MP4 receives a matching `.txt` metadata sidecar with title, incident ID, description, DVIDS source URL, original MP4 URL, local filename correlation, and source attribution.
+
+Launch the interactive AARO UI with:
+
+```bash
+python3 aaro_rip.py
+```
+
+Menu options:
+
+```text
+1) Scan AARO page / update index only
+2) Download missing AARO videos
+3) Force re-download all AARO videos
+4) Show local AARO status
+5) Verify downloaded MP4 files
+6) Use local saved HTML source
+0) Exit
+```
 
 ## Output Layout
 
 ```text
 war_ufo_data/
   data/
-<<<<<<< HEAD
     aaro_index.json
-    index.json
-    urls.txt
-    image_urls.txt
-    video_urls.txt
-=======
     index_release_1.json
     index_release_2.json
     candidate_urls_release_1.txt
@@ -413,7 +446,6 @@ war_ufo_data/
     harvested_image_urls_release_1.txt
     harvested_video_urls_release_1.txt
     harvested_audio_urls_release_1.txt
->>>>>>> 0604d09 (Release WarRip v3.2)
   downloads/
     aaro/
     release_1/
@@ -429,133 +461,3 @@ war_ufo_data/
   debug/
   logs/
 ```
-<<<<<<< HEAD
-## AARO Official UAP Imagery Harvester (`aaro_rip.py`)
-
-UFOWARrip includes a dedicated AARO (All-domain Anomaly Resolution Office) harvesting utility for collecting officially released UAP/UFO imagery and videos directly from:
-
-https://www.aaro.mil/UAP-Cases/Official-UAP-Imagery/
-
-Unlike the main WAR pipeline, the AARO utility works by parsing the public AARO page itself and extracting embedded DVIDS/CloudFront MP4 sources and metadata.
-
-### Features
-
-- Parses official AARO UAP imagery entries
-- Downloads embedded MP4 video files
-- Automatically creates metadata sidecar `.txt` files
-- Maintains persistent `aaro_index.json`
-- Detects new entries without re-downloading existing media
-- Verifies downloaded MP4 integrity
-- Supports local saved HTML source parsing
-- Interactive menu-driven UI
-- Deduplicates responsive/mobile duplicate entries automatically
-
-### Output Structure
-
-war_ufo_data/
-└── data/
-    ├── aaro_index.json
-    └── downloads/
-        └── aaro/
-            ├── PR-018_*.mp4
-            ├── PR-018_*.txt
-            ├── PR-017_*.mp4
-            └── ...
-
-### Metadata Sidecar Files
-
-Each downloaded MP4 receives a matching `.txt` metadata file containing:
-
-- Title
-- Incident ID
-- Description
-- DVIDS source URL
-- Original MP4 URL
-- Local filename correlation
-- Source attribution
-
-This prevents collections from becoming unlabeled media dumps and preserves incident context.
-
-### Running
-
-Launch the interactive UI:
-
-python3 aaro_rip.py
-
-### Menu Options
-
-1) Scan AARO page / update index only
-2) Download missing AARO videos
-3) Force re-download all AARO videos
-4) Show local AARO status
-5) Verify downloaded MP4 files
-6) Use local saved HTML source
-0) Exit
-
-### Saved HTML Source Mode
-
-Option `6` allows parsing from a locally saved AARO HTML/source file.
-
-This is useful if:
-- AARO temporarily blocks automated requests
-- You want reproducible offline parsing
-- You want to archive historical page states
-
-The harvester can still extract and download MP4s from locally saved page source data.
-
-### Verification
-
-The verification mode checks:
-- file existence
-- MP4 `ftyp` atoms
-- optional `ffprobe` validation
-
-to help detect:
-- incomplete downloads
-- HTML/error-page saves
-- corrupted media
-
-### Notes
-
-- AARO currently ships the full dataset in the initial HTML response, meaning pagination is client-side only.
-- The harvester extracts media directly from embedded `<video>` sources already present in the page.
-- Download URLs currently resolve to official DVIDS/CloudFront infrastructure.
-- Some environments may require browser-like request headers to avoid HTTP 403 responses.
-
-### Requirements
-
-pip install requests beautifulsoup4
-
-Optional verification tooling:
-
-sudo apt install ffmpeg
-
-(for `ffprobe` integrity checks)
-
-### Incremental Index Updating
-
-Subsequent index scans automatically preserve existing entries and append newly discovered AARO incidents without re-indexing or re-downloading previously cataloged media.
-
-The harvester tracks entries using persistent identifiers and stored metadata inside:
-
-war_ufo_data/data/aaro_index.json
-
-This allows the utility to:
-
-- detect newly added AARO incidents
-- skip already downloaded MP4s
-- preserve existing SHA256 hashes and metadata
-- maintain first-seen / last-seen timestamps
-- resume across multiple sessions safely
-
-Running:
-
-python3 aaro_rip.py
-
-and selecting:
-
-1) Scan AARO page / update index only
-
-will refresh the local index and append any newly discovered AARO entries automatically.
-=======
->>>>>>> 0604d09 (Release WarRip v3.2)

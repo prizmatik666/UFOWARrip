@@ -64,3 +64,19 @@ Publish/data cleanup
 Validation
 - Python compile checks passed with:
   python3 -m py_compile warrip.py core/*.py
+
+Reconciliation upgrades
+- reconcile_index.py now detects index_release_N.json files and aaro_index.json.
+- Interactive reconciliation selection now includes release 1, release 2, and AARO when those indexes exist.
+- WAR release reconciliation writes release-specific reports:
+  reconciliation_report_release_N.json
+  missing_records_release_N.txt
+- AARO reconciliation can be run from the selector or directly with:
+  python3 reconcile_index.py --aaro
+- AARO saved-source reconciliation is supported with:
+  python3 reconcile_index.py --aaro --aaro-html saved_aaro_page.html
+- AARO reconciliation writes:
+  reconciliation_report_aaro.json
+  missing_records_aaro.txt
+- AARO index paths were normalized to:
+  war_ufo_data/downloads/aaro/
