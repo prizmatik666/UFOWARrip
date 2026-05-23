@@ -21,8 +21,9 @@ from core.harvester import (
     wait_for_modal,
     wait_for_records_ready,
 )
-from core.index_store import load_index, save_index
+from core.index_store import export_path, load_index, save_index
 from core.logger import log, now_iso
+from core.pagination import maybe_extend_scan_limit
 
 
 IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".gif", ".webp"}
@@ -37,7 +38,7 @@ def export_image_urls(cfg, index):
         if image_url and is_preferred_image_capture(image_url, image.get("content_type", "")):
             urls.append(image_url)
 
-    path = cfg.data_dir / "image_urls.txt"
+    path = export_path(cfg, "harvested_image_urls")
     path.write_text("\n".join(urls) + ("\n" if urls else ""), encoding="utf-8")
     print(f"[✓] Exported {len(urls)} image URLs to {path}")
 
@@ -371,13 +372,14 @@ def harvest_image_urls(cfg):
     skipped = 0
     failed = 0
     page_num = 1
+    scan_limit = cfg.max_pages
 
     with BrowserSession(cfg) as page:
         page.goto(cfg.start_url, wait_until="domcontentloaded", timeout=90000)
         page.wait_for_timeout(4000)
         wait_for_records_ready(page, cfg)
 
-        while page_num <= cfg.max_pages:
+        while page_num <= scan_limit:
             current = active_page_number(page) or page_num
             print(f"\n[WarRip] Image harvest page {current}...")
 
@@ -516,6 +518,11 @@ def harvest_image_urls(cfg):
                 f"skipped_non_image={skipped_non_image_page} "
                 f"harvested={captured_page} failed={failed_page}"
             )
+
+            next_page = page_num + 1
+            scan_limit, should_continue = maybe_extend_scan_limit(cfg, page, page_num, next_page, scan_limit)
+            if not should_continue:
+                break
 
             if not click_next_page(page, cfg):
                 print("[WarRip] No NEXT page. Image harvest complete.")

@@ -1,0 +1,66 @@
+UFOWARrip Upgrade Notes
+Date: 2026-05-23
+
+Release-aware workflow
+- Added release selection at program startup and from the main menu.
+- Release number input now controls both the site URL and local data paths.
+- Release 1 uses:
+  https://www.war.gov/UFO/?releaseDate=Release+01#records
+- Release 2 uses:
+  https://www.war.gov/UFO/?releaseDate=Release+02#records
+- Single-digit release numbers are zero-padded in the URL.
+- Main menu now shows the active release URL and active index file.
+
+Per-release indexes and exports
+- Replaced the single shared index.json workflow with per-release indexes:
+  war_ufo_data/data/index_release_1.json
+  war_ufo_data/data/index_release_2.json
+- Candidate observe URLs are now separated from harvested/final endpoint URLs.
+- Observe/build-index exports candidate URLs to:
+  candidate_urls_release_N.txt
+- Harvest/export modes write final harvested endpoint URLs to:
+  harvested_pdf_urls_release_N.txt
+  harvested_image_urls_release_N.txt
+  harvested_video_urls_release_N.txt
+  harvested_audio_urls_release_N.txt
+  harvested_all_urls_release_N.txt
+  harvested_all_urls_numbered_release_N.txt
+
+Audio support
+- Added a dedicated audio harvester for site rows labeled [.AUD].
+- [.AUD] records are preserved logically as audio in the index.
+- The final payload URL may still be an .mp4 file; this is accepted.
+- Audio downloads use MP4 validation but save under:
+  war_ufo_data/downloads/release_N/aud/
+
+Pagination behavior
+- Observe and all harvesters now warn when cfg.max_pages is reached but more pages are available.
+- The user is prompted:
+  Continue scanning? [Y/n]
+- Continuing extends only the current run's temporary scan limit and does not change settings.
+
+Download, verify, and dedupe behavior
+- Download preview now includes audio counts.
+- Downloader supports pdf, image, video, and audio media types.
+- Duplicate final endpoints are skipped at queue time and recorded as excluded duplicate endpoints.
+- Non-downloadable site/control rows are excluded from download queue behavior while remaining in the index for traceability.
+- Download exclusion reports are written per release:
+  download_exclusions_release_N.txt
+- Verifier now checks all media types using the same paths and validation rules as the downloader.
+- Verifier output now gives practical next-step guidance when files are missing or invalid.
+
+False site-control records
+- Release filter/control labels such as ALL_AGENCIES, ALL_TYPES, RELEASE_01, and RELEASE_02 were detected as non-downloadable UI controls, not files.
+- Existing records were marked as excluded rather than deleted.
+- Future observe runs now require real record-like rows with enough cells, preventing these controls from being indexed as fake PDF records.
+
+Publish/data cleanup
+- Reset download state in release indexes and AARO index before publishing.
+- Harvested endpoint URLs and observed metadata were preserved.
+- Local paths, hashes, byte counts, and downloaded=true flags were cleared.
+- warrip_config.json was reset to default release_1.
+- .gitignore was expanded to keep browser profiles, downloads, debug output, logs, reports, network events, and observation traces out of Git.
+
+Validation
+- Python compile checks passed with:
+  python3 -m py_compile warrip.py core/*.py

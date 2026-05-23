@@ -1,0 +1,3767 @@
+{
+  "download_state_reset_at": "2026-05-23T02:17:33.714913+00:00",
+  "records": {
+    "CIA-UAP-D001,_INTELLIGENCE_INFORMATION_REPORT,_USSR,_1973": {
+      "agency": "CENTRAL INTELLIGENCE AGENCY",
+      "asset_name": "CIA-UAP-D001,_INTELLIGENCE_INFORMATION_REPORT,_USSR,_1973",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_2/cia-uap-d001,_intelligence_information_report,_ussr,_1973.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:40:42.133707+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 1,
+          "status": "ok",
+          "ts": "2026-05-23T01:46:36.464449+00:00",
+          "url": "https://www.war.gov/medialink/ufo/052226/release_02/documents/CIA-UAP-D001_Intelligence_Information_Report_USSR_1973.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-05-23T01:46:36.464380+00:00",
+      "incident_date": "12/20/73",
+      "incident_location": "USSR",
+      "last_harvest_attempt_at": "2026-05-23T01:46:36.464380+00:00",
+      "last_seen": "2026-05-23T01:40:42.133719+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_2/cia-uap-d001,_intelligence_information_report,_ussr,_1973.pdf"
+      ],
+      "raw_cells": [
+        "CIA-UAP-D001, INTELLIGENCE INFORMATION REPORT, USSR, 1973",
+        "[CENTRAL INTELLIGENCE AGENCY]",
+        "[5/22/26 - RELEASE 02]",
+        "[12/20/73]",
+        "[USSR]",
+        "[.PDF]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        1
+      ],
+      "url": "https://www.war.gov/medialink/ufo/052226/release_02/documents/CIA-UAP-D001_Intelligence_Information_Report_USSR_1973.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "DOE-UAP-D001,_ENHANCED_PANTEX_IMAGERY": {
+      "agency": "DEPARTMENT OF ENERGY",
+      "asset_name": "DOE-UAP-D001,_ENHANCED_PANTEX_IMAGERY",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_2/doe-uap-d001,_enhanced_pantex_imagery.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:40:42.133809+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 1,
+          "status": "ok",
+          "ts": "2026-05-23T01:46:45.164391+00:00",
+          "url": "https://www.war.gov/medialink/ufo/052226/release_02/documents/DOE-UAP-D001_PANTEX_Image.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-05-23T01:46:45.164331+00:00",
+      "incident_date": "",
+      "incident_location": "N/A",
+      "last_harvest_attempt_at": "2026-05-23T01:46:45.164331+00:00",
+      "last_seen": "2026-05-23T01:40:42.133821+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_2/doe-uap-d001,_enhanced_pantex_imagery.pdf"
+      ],
+      "raw_cells": [
+        "DOE-UAP-D001, ENHANCED PANTEX IMAGERY",
+        "[DEPARTMENT OF ENERGY]",
+        "[5/22/26 - RELEASE 02]",
+        "[]",
+        "[N/A]",
+        "[.PDF]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        1
+      ],
+      "url": "https://www.war.gov/medialink/ufo/052226/release_02/documents/DOE-UAP-D001_PANTEX_Image.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "DOE-UAP-D002,_JAMES_TUCK_CORRESPONDENCE,_1970S": {
+      "agency": "DEPARTMENT OF ENERGY",
+      "asset_name": "DOE-UAP-D002,_JAMES_TUCK_CORRESPONDENCE,_1970S",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_2/doe-uap-d002,_james_tuck_correspondence,_1970s.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:40:42.133836+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 1,
+          "status": "ok",
+          "ts": "2026-05-23T01:46:48.879211+00:00",
+          "url": "https://www.war.gov/medialink/ufo/052226/release_02/documents/DOE-UAP-D002_JamesTuck_Correspondence.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-05-23T01:46:48.879130+00:00",
+      "incident_date": "1970S",
+      "incident_location": "N/A",
+      "last_harvest_attempt_at": "2026-05-23T01:46:48.879130+00:00",
+      "last_seen": "2026-05-23T01:40:42.133848+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_2/doe-uap-d002,_james_tuck_correspondence,_1970s.pdf"
+      ],
+      "raw_cells": [
+        "DOE-UAP-D002, JAMES TUCK CORRESPONDENCE, 1970S",
+        "[DEPARTMENT OF ENERGY]",
+        "[5/22/26 - RELEASE 02]",
+        "[1970S]",
+        "[N/A]",
+        "[.PDF]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        1
+      ],
+      "url": "https://www.war.gov/medialink/ufo/052226/release_02/documents/DOE-UAP-D002_JamesTuck_Correspondence.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "DOE-UAP-D003,_PAJARITO_ASTRONOMERS_INVITATION,_1986": {
+      "agency": "DEPARTMENT OF ENERGY",
+      "asset_name": "DOE-UAP-D003,_PAJARITO_ASTRONOMERS_INVITATION,_1986",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_2/doe-uap-d003,_pajarito_astronomers_invitation,_1986.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:40:42.133862+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 1,
+          "status": "ok",
+          "ts": "2026-05-23T01:46:52.589360+00:00",
+          "url": "https://www.war.gov/medialink/ufo/052226/release_02/documents/DOE-UAP-D003_Pajarito_Astronomers.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-05-23T01:46:52.589286+00:00",
+      "incident_date": "5/20/86",
+      "incident_location": "NEW MEXICO",
+      "last_harvest_attempt_at": "2026-05-23T01:46:52.589286+00:00",
+      "last_seen": "2026-05-23T01:40:42.133874+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_2/doe-uap-d003,_pajarito_astronomers_invitation,_1986.pdf"
+      ],
+      "raw_cells": [
+        "DOE-UAP-D003, PAJARITO ASTRONOMERS INVITATION, 1986",
+        "[DEPARTMENT OF ENERGY]",
+        "[5/22/26 - RELEASE 02]",
+        "[5/20/86]",
+        "[NEW MEXICO]",
+        "[.PDF]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        1
+      ],
+      "url": "https://www.war.gov/medialink/ufo/052226/release_02/documents/DOE-UAP-D003_Pajarito_Astronomers.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "DOW-UAP-D017,_UAP_REPORTED_AT_SANDIA_BASE,_1948-1950": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-D017,_UAP_REPORTED_AT_SANDIA_BASE,_1948-1950",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-d017,_uap_reported_at_sandia_base,_1948-1950.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:40:42.133678+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 1,
+          "status": "ok",
+          "ts": "2026-05-23T01:46:32.715959+00:00",
+          "url": "https://www.war.gov/medialink/ufo/052226/release_02/documents/DOW-UAP-D017_General_Correspondence_Of_Sandia.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-05-23T01:46:32.715878+00:00",
+      "incident_date": "1948-1950",
+      "incident_location": "NEW MEXICO",
+      "last_harvest_attempt_at": "2026-05-23T01:46:32.715878+00:00",
+      "last_seen": "2026-05-23T01:40:42.133691+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_2/dow-uap-d017,_uap_reported_at_sandia_base,_1948-1950.pdf"
+      ],
+      "raw_cells": [
+        "DOW-UAP-D017, UAP REPORTED AT SANDIA BASE, 1948-1950",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[1948-1950]",
+        "[NEW MEXICO]",
+        "[.PDF]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        1
+      ],
+      "url": "https://www.war.gov/medialink/ufo/052226/release_02/documents/DOW-UAP-D017_General_Correspondence_Of_Sandia.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "DOW-UAP-PR050,_\"4_UAP_FORMATION_IRAN_26_AUG_2022_OVER_WATER_[CALLSIGN]\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR050,_\"4_UAP_FORMATION_IRAN_26_AUG_2022_OVER_WATER_[CALLSIGN]\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:40:42.133575+00:00",
+      "incident_date": "2022",
+      "incident_location": "CENTCOM",
+      "last_seen": "2026-05-23T01:40:42.133616+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR050, \"4 UAP FORMATION IRAN 26 AUG 2022 OVER WATER [CALLSIGN]\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2022]",
+        "[CENTCOM]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        1
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr050,_\"4_uap_formation_iran_26_aug_2022_over_water_[callsign]\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:49:18.064710+00:00",
+        "content_type": "video/mp4",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719709/DOD_111719709-1920x1080-9000k.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "video/mp4",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:49:18.064742+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719709/DOD_111719709-1920x1080-9000k.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR051,_\"SYRIAN_UAP_INSTANT_ACCELERATION\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR051,_\"SYRIAN_UAP_INSTANT_ACCELERATION\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:40:42.133637+00:00",
+      "incident_date": "2021",
+      "incident_location": "CENTCOM",
+      "last_seen": "2026-05-23T01:40:42.133660+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR051, \"SYRIAN UAP INSTANT ACCELERATION\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2021]",
+        "[CENTCOM]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        1
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr051,_\"syrian_uap_instant_acceleration\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:49:21.952914+00:00",
+        "content_type": "video/mp4",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719715/DOD_111719715-1920x1080-9000k.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "video/mp4",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:49:21.952976+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719715/DOD_111719715-1920x1080-9000k.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR052,_\"UAP_USO_FORMATION_[CALLSIGN]_(MISSION)\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR052,_\"UAP_USO_FORMATION_[CALLSIGN]_(MISSION)\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:40:42.133888+00:00",
+      "incident_date": "",
+      "incident_location": "N/A",
+      "last_seen": "2026-05-23T01:40:42.133899+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR052, \"UAP USO FORMATION [CALLSIGN] (MISSION)\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[]",
+        "[N/A]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        1
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr052,_\"uap_uso_formation_[callsign]_(mission)\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:49:25.983867+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719718/DOD_111719718.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "binary/octet-stream",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:49:25.983913+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719718/DOD_111719718.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR053,_\"CIGAR_SHAPED_OR_FAST_SHERICAL_UAP_CLIP_15_OCT_22\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR053,_\"CIGAR_SHAPED_OR_FAST_SHERICAL_UAP_CLIP_15_OCT_22\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:41:11.286792+00:00",
+      "incident_date": "2022",
+      "incident_location": "CENTCOM",
+      "last_seen": "2026-05-23T01:41:11.286852+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR053, \"CIGAR SHAPED OR FAST SHERICAL UAP CLIP 15 OCT 22\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2022]",
+        "[CENTCOM]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        2
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr053,_\"cigar_shaped_or_fast_sherical_uap_clip_15_oct_22\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:49:33.517617+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719723/DOD_111719723.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "binary/octet-stream",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:49:33.517659+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719723/DOD_111719723.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR054,_\"SPHERICAL_UAP_ERRATIC_MOVEMENT_[CALLSIGN]_(MISSION)_2022\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR054,_\"SPHERICAL_UAP_ERRATIC_MOVEMENT_[CALLSIGN]_(MISSION)_2022\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:41:11.286872+00:00",
+      "incident_date": "2022",
+      "incident_location": "EUCOM",
+      "last_seen": "2026-05-23T01:41:11.286885+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR054, \"SPHERICAL UAP ERRATIC MOVEMENT [CALLSIGN] (MISSION) 2022\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2022]",
+        "[EUCOM]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        2
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr054,_\"spherical_uap_erratic_movement_[callsign]_(mission)_2022\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:49:37.924721+00:00",
+        "content_type": "video/mp4",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719726/DOD_111719726-1920x1080-9000k.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "video/mp4",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:49:37.924765+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719726/DOD_111719726-1920x1080-9000k.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR055,_\"SPHERICAL_UAP_OVER_AFG_IN_AND_OUT_OF_CLOUDS_23_NOV_2020\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR055,_\"SPHERICAL_UAP_OVER_AFG_IN_AND_OUT_OF_CLOUDS_23_NOV_2020\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:41:11.286901+00:00",
+      "incident_date": "2020",
+      "incident_location": "CENTCOM",
+      "last_seen": "2026-05-23T01:41:11.286913+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR055, \"SPHERICAL UAP OVER AFG IN AND OUT OF CLOUDS 23 NOV 2020\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2020]",
+        "[CENTCOM]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        2
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr055,_\"spherical_uap_over_afg_in_and_out_of_clouds_23_nov_2020\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:49:42.279605+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719732/DOD_111719732.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "binary/octet-stream",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:49:42.279635+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719732/DOD_111719732.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR056,_\"SPHERICAL_UAP_PULSING_OVER_WATER_[CALLSIGN]\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR056,_\"SPHERICAL_UAP_PULSING_OVER_WATER_[CALLSIGN]\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:41:11.286929+00:00",
+      "incident_date": "",
+      "incident_location": "N/A",
+      "last_seen": "2026-05-23T01:41:11.286941+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR056, \"SPHERICAL UAP PULSING OVER WATER [CALLSIGN]\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[]",
+        "[N/A]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        2
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr056,_\"spherical_uap_pulsing_over_water_[callsign]\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:49:46.785633+00:00",
+        "content_type": "video/mp4",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719741/DOD_111719741-1920x1080-9000k.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "video/mp4",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:49:46.785677+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719741/DOD_111719741-1920x1080-9000k.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR057A,_\"SPHERICAL_UAP_IN_CLOUDS\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR057A,_\"SPHERICAL_UAP_IN_CLOUDS\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:41:11.286956+00:00",
+      "incident_date": "2023",
+      "incident_location": "YELLOW SEA",
+      "last_seen": "2026-05-23T01:41:11.286968+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR057A, \"SPHERICAL UAP IN CLOUDS\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2023]",
+        "[YELLOW SEA]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        2
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr057a,_\"spherical_uap_in_clouds\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:49:51.248949+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719752/DOD_111719752.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "binary/octet-stream",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:49:51.249004+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719752/DOD_111719752.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR057B,_\"[PLATFORM]_OBSERVES_UAP_IN_EAST_CHINA_SEA_05_JAN_2023_INDOPACOM\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR057B,_\"[PLATFORM]_OBSERVES_UAP_IN_EAST_CHINA_SEA_05_JAN_2023_INDOPACOM\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": "skipped_duplicate_endpoint"
+      },
+      "download_excluded": true,
+      "download_exclusion_reason": "same final endpoint as DOW-UAP-PR057A,_\"SPHERICAL_UAP_IN_CLOUDS\"",
+      "download_exclusion_status": "skipped_duplicate_endpoint",
+      "download_exclusion_updated_at": "2026-05-23T01:55:34.418555+00:00",
+      "duplicate_of_asset": "DOW-UAP-PR057A,_\"SPHERICAL_UAP_IN_CLOUDS\"",
+      "duplicate_of_url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719752/DOD_111719752.mp4",
+      "first_seen": "2026-05-23T01:41:11.286982+00:00",
+      "incident_date": "2023",
+      "incident_location": "YELLOW SEA",
+      "last_seen": "2026-05-23T01:41:11.286994+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR057B, \"[PLATFORM] OBSERVES UAP IN EAST CHINA SEA 05 JAN 2023 INDOPACOM\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2023]",
+        "[YELLOW SEA]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        2
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr057b,_\"[platform]_observes_uap_in_east_china_sea_05_jan_2023_indopacom\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:49:55.412390+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719752/DOD_111719752.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "binary/octet-stream",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:49:55.412448+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719752/DOD_111719752.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR058,_\"[CALLSIGN]_(MISSION)_UAP\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR058,_\"[CALLSIGN]_(MISSION)_UAP\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:41:11.287008+00:00",
+      "incident_date": "",
+      "incident_location": "INDOPACOM",
+      "last_seen": "2026-05-23T01:41:11.287020+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR058, \"[CALLSIGN] (MISSION) UAP\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[]",
+        "[INDOPACOM]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        2
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr058,_\"[callsign]_(mission)_uap\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:49:59.630189+00:00",
+        "content_type": "video/mp4",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719800/DOD_111719800-1920x1080-9000k.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "video/mp4",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:49:59.630227+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719800/DOD_111719800-1920x1080-9000k.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR059,_\"NAG_UAP_1_JUN_20\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR059,_\"NAG_UAP_1_JUN_20\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:41:11.287035+00:00",
+      "incident_date": "2020",
+      "incident_location": "CENTCOM",
+      "last_seen": "2026-05-23T01:41:11.287046+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR059, \"NAG UAP 1 JUN 20\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2020]",
+        "[CENTCOM]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        2
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr059,_\"nag_uap_1_jun_20\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:50:03.643157+00:00",
+        "content_type": "video/mp4",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719809/DOD_111719809-1920x1080-9000k.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "video/mp4",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:50:03.643196+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719809/DOD_111719809-1920x1080-9000k.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR060,_\"SPHERICAL_UAP_[CALLSIGN]_2021/04/12_OBJ_2\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR060,_\"SPHERICAL_UAP_[CALLSIGN]_2021/04/12_OBJ_2\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:41:11.287061+00:00",
+      "incident_date": "2021",
+      "incident_location": "CENTCOM",
+      "last_seen": "2026-05-23T01:41:11.287073+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR060, \"SPHERICAL UAP [CALLSIGN] 2021/04/12 OBJ 2\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2021]",
+        "[CENTCOM]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        2
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr060,_\"spherical_uap_[callsign]_2021/04/12_obj_2\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:50:08.220153+00:00",
+        "content_type": "video/mp4",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719823/DOD_111719823-1920x1080-9000k.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "video/mp4",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:50:08.220190+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719823/DOD_111719823-1920x1080-9000k.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR061,_\"SPHERICAL_UAP_[CALLSIGN]_2021/04/12_VID_0\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR061,_\"SPHERICAL_UAP_[CALLSIGN]_2021/04/12_VID_0\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:41:11.287087+00:00",
+      "incident_date": "2021",
+      "incident_location": "CENTCOM",
+      "last_seen": "2026-05-23T01:41:11.287099+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR061, \"SPHERICAL UAP [CALLSIGN] 2021/04/12 VID 0\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2021]",
+        "[CENTCOM]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        2
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr061,_\"spherical_uap_[callsign]_2021/04/12_vid_0\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:50:12.580678+00:00",
+        "content_type": "video/mp4",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719828/DOD_111719828-1920x1080-9000k.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "video/mp4",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:50:12.580739+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719828/DOD_111719828-1920x1080-9000k.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR062,_\"SPHERICAL_UAP_[CALLSIGN]_2021/04/12_VID_1\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR062,_\"SPHERICAL_UAP_[CALLSIGN]_2021/04/12_VID_1\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:41:39.862529+00:00",
+      "incident_date": "2021",
+      "incident_location": "CENTCOM",
+      "last_seen": "2026-05-23T01:41:39.862572+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR062, \"SPHERICAL UAP [CALLSIGN] 2021/04/12 VID 1\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2021]",
+        "[CENTCOM]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        3
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr062,_\"spherical_uap_[callsign]_2021/04/12_vid_1\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:50:19.682481+00:00",
+        "content_type": "video/mp4",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719847/DOD_111719847-1920x1080-9000k.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "video/mp4",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:50:19.682531+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719847/DOD_111719847-1920x1080-9000k.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR063,_\"SPHERICAL_UAP_[CALLSIGN]_2021/04/12_VID_2\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR063,_\"SPHERICAL_UAP_[CALLSIGN]_2021/04/12_VID_2\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:41:39.862590+00:00",
+      "incident_date": "2021",
+      "incident_location": "CENTCOM",
+      "last_seen": "2026-05-23T01:41:39.862603+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR063, \"SPHERICAL UAP [CALLSIGN] 2021/04/12 VID 2\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2021]",
+        "[CENTCOM]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        3
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr063,_\"spherical_uap_[callsign]_2021/04/12_vid_2\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:50:23.479347+00:00",
+        "content_type": "video/mp4",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719850/DOD_111719850-1920x1080-9000k.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "video/mp4",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:50:23.479427+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719850/DOD_111719850-1920x1080-9000k.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR064,_\"AFSOC_KABUL_UAP_JUL_2017\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR064,_\"AFSOC_KABUL_UAP_JUL_2017\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:41:39.862622+00:00",
+      "incident_date": "",
+      "incident_location": "CENTCOM",
+      "last_seen": "2026-05-23T01:41:39.862634+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR064, \"AFSOC KABUL UAP JUL 2017\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[]",
+        "[CENTCOM]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        3
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr064,_\"afsoc_kabul_uap_jul_2017\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:50:27.500173+00:00",
+        "content_type": "video/mp4",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719852/DOD_111719852-1920x1080-9000k.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "video/mp4",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:50:27.500213+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719852/DOD_111719852-1920x1080-9000k.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR065,_\"USCG_C-144_TYNDALL_UAP_2_TIC_TAC_IR_HOT_24_APRIL_2024\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR065,_\"USCG_C-144_TYNDALL_UAP_2_TIC_TAC_IR_HOT_24_APRIL_2024\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:41:39.862649+00:00",
+      "incident_date": "2024",
+      "incident_location": "SOUTHEASTERN UNITED STATES",
+      "last_seen": "2026-05-23T01:41:39.862661+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR065, \"USCG C-144 TYNDALL UAP 2 TIC TAC IR HOT 24 APRIL 2024\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2024]",
+        "[SOUTHEASTERN UNITED STATES]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        3
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr065,_\"uscg_c-144_tyndall_uap_2_tic_tac_ir_hot_24_april_2024\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:50:31.753645+00:00",
+        "content_type": "video/mp4",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720692/DOD_111720692-1920x1080-9000k.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "video/mp4",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:50:31.753695+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720692/DOD_111720692-1920x1080-9000k.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR066,_\"USCG_C-144_TYNDALL_UAP_1_TIC_TAC_IR_HOT_24_APRIL_2024\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR066,_\"USCG_C-144_TYNDALL_UAP_1_TIC_TAC_IR_HOT_24_APRIL_2024\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:41:39.862675+00:00",
+      "incident_date": "2024",
+      "incident_location": "SOUTHEASTERN UNITED STATES",
+      "last_seen": "2026-05-23T01:41:39.862687+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR066, \"USCG C-144 TYNDALL UAP 1 TIC TAC IR HOT 24 APRIL 2024\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2024]",
+        "[SOUTHEASTERN UNITED STATES]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        3
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr066,_\"uscg_c-144_tyndall_uap_1_tic_tac_ir_hot_24_april_2024\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:50:36.047164+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720693/DOD_111720693.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "binary/octet-stream",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:50:36.047216+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720693/DOD_111720693.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR067,_\"MULTIPLE_SPHERICAL_UAP_USO_NEAR_SUB._[CALLSIGN]_2022/03/25_IN_AND_OUT_OF_WATER\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR067,_\"MULTIPLE_SPHERICAL_UAP_USO_NEAR_SUB._[CALLSIGN]_2022/03/25_IN_AND_OUT_OF_WATER\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:41:39.862702+00:00",
+      "incident_date": "",
+      "incident_location": "N/A",
+      "last_seen": "2026-05-23T01:41:39.862714+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR067, \"MULTIPLE SPHERICAL UAP USO NEAR SUB. [CALLSIGN] 2022/03/25 IN AND OUT OF WATER\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[]",
+        "[N/A]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        3
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr067,_\"multiple_spherical_uap_uso_near_sub._[callsign]_2022/03/25_in_and_out_of_water\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:50:39.988339+00:00",
+        "content_type": "video/mp4",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720696/DOD_111720696-1920x1080-9000k.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "video/mp4",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:50:39.988382+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720696/DOD_111720696-1920x1080-9000k.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR068,_\"IIR_1_666_S0151_23/VIDEO_FOOTAGE_OF_UNIDENTIFIED_AERIAL_PHENOMENON_(UAP)_CAPTURED_BY_FIFTH_GENERATION_AIRCRAFT_ON_20_JAN_23\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR068,_\"IIR_1_666_S0151_23/VIDEO_FOOTAGE_OF_UNIDENTIFIED_AERIAL_PHENOMENON_(UAP)_CAPTURED_BY_FIFTH_GENERATION_AIRCRAFT_ON_20_JAN_23\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:41:39.862729+00:00",
+      "incident_date": "2023",
+      "incident_location": "NORTHCOM",
+      "last_seen": "2026-05-23T01:41:39.862741+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR068, \"IIR 1 666 S0151 23/VIDEO FOOTAGE OF UNIDENTIFIED AERIAL PHENOMENON (UAP) CAPTURED BY FIFTH GENERATION AIRCRAFT ON 20 JAN 23\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2023]",
+        "[NORTHCOM]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        3
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr068,_\"iir_1_666_s0151_23/video_footage_of_unidentified_aerial_phenomenon_(uap)_captured_by_fifth_generation_aircraft_on_20_jan_23\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:50:44.102482+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720698/DOD_111720698.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "binary/octet-stream",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:50:44.102526+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720698/DOD_111720698.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR069,_\"F/A-18_FLIR_UAP\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR069,_\"F/A-18_FLIR_UAP\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:41:39.862756+00:00",
+      "incident_date": "",
+      "incident_location": "NORTHCOM",
+      "last_seen": "2026-05-23T01:41:39.862768+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR069, \"F/A-18 FLIR UAP\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[]",
+        "[NORTHCOM]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        3
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr069,_\"f/a-18_flir_uap\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:50:47.911303+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720700/DOD_111720700.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "binary/octet-stream",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:50:47.911379+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720700/DOD_111720700.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR070,_\"IIR_1_655_S0301_23/EGLIN_AFB_AIRCREW_OBSERVED_UNIDENTIFIED_AERIAL_PHENOMENA_(UAP)_ON_13_FEB_23\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR070,_\"IIR_1_655_S0301_23/EGLIN_AFB_AIRCREW_OBSERVED_UNIDENTIFIED_AERIAL_PHENOMENA_(UAP)_ON_13_FEB_23\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:41:39.862782+00:00",
+      "incident_date": "2023",
+      "incident_location": "SOUTHEASTERN UNITED STATES",
+      "last_seen": "2026-05-23T01:41:39.862794+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR070, \"IIR 1 655 S0301 23/EGLIN AFB AIRCREW OBSERVED UNIDENTIFIED AERIAL PHENOMENA (UAP) ON 13 FEB 23\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2023]",
+        "[SOUTHEASTERN UNITED STATES]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        3
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr070,_\"iir_1_655_s0301_23/eglin_afb_aircrew_observed_unidentified_aerial_phenomena_(uap)_on_13_feb_23\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:50:51.826996+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720720/DOD_111720720.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "binary/octet-stream",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:50:51.827041+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720720/DOD_111720720.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR071,_\"USAF_ANG_F-16C_(CALLSIGN_[CALLSIGN])_SHOOTS_DOWN_UAP_OVER_LAKE_HURON_WITH_[WEAPON_SYSTEM],_12_FEB_2023\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR071,_\"USAF_ANG_F-16C_(CALLSIGN_[CALLSIGN])_SHOOTS_DOWN_UAP_OVER_LAKE_HURON_WITH_[WEAPON_SYSTEM],_12_FEB_2023\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:41:39.862808+00:00",
+      "incident_date": "2023",
+      "incident_location": "NORTHCOM",
+      "last_seen": "2026-05-23T01:41:39.862820+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR071, \"USAF ANG F-16C (CALLSIGN [CALLSIGN]) SHOOTS DOWN UAP OVER LAKE HURON WITH [WEAPON SYSTEM], 12 FEB 2023\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2023]",
+        "[NORTHCOM]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        3
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr071,_\"usaf_ang_f-16c_(callsign_[callsign])_shoots_down_uap_over_lake_huron_with_[weapon_system],_12_feb_2023\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:50:56.274391+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720731/DOD_111720731.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "binary/octet-stream",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:50:56.274705+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720731/DOD_111720731.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR072,_\"ADMINISTRATIVE_REVISION:_IIR_1777_J0032_22_KAZAKHSTAN_-_UAP_IN_THE_VICINITY_OF_KARAGANDA_INTERNATIONAL_AIRPORT\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR072,_\"ADMINISTRATIVE_REVISION:_IIR_1777_J0032_22_KAZAKHSTAN_-_UAP_IN_THE_VICINITY_OF_KARAGANDA_INTERNATIONAL_AIRPORT\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:42:08.524715+00:00",
+      "incident_date": "2022",
+      "incident_location": "KAZAKHSTAN",
+      "last_seen": "2026-05-23T01:42:08.524754+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR072, \"ADMINISTRATIVE REVISION: IIR 1777 J0032 22 KAZAKHSTAN - UAP IN THE VICINITY OF KARAGANDA INTERNATIONAL AIRPORT\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2022]",
+        "[KAZAKHSTAN]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        4
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr072,_\"administrative_revision:_iir_1777_j0032_22_kazakhstan_-_uap_in_the_vicinity_of_karaganda_international_airport\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:51:03.994922+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720752/DOD_111720752.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "binary/octet-stream",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:51:03.994963+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720752/DOD_111720752.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR073,_IIR_1_655_S0053_23/SEVERAL_UNIDENTIFIED_AERIAL_PHENOMENON_ENCOUNTERED_IN_THE_VICINITY_OF_COLUMBUS_OH\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR073,_IIR_1_655_S0053_23/SEVERAL_UNIDENTIFIED_AERIAL_PHENOMENON_ENCOUNTERED_IN_THE_VICINITY_OF_COLUMBUS_OH\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:42:08.524773+00:00",
+      "incident_date": "2022",
+      "incident_location": "MIDWESTERN UNITED STATES",
+      "last_seen": "2026-05-23T01:42:08.524786+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR073, IIR 1 655 S0053 23/SEVERAL UNIDENTIFIED AERIAL PHENOMENON ENCOUNTERED IN THE VICINITY OF COLUMBUS OH\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2022]",
+        "[MIDWESTERN UNITED STATES]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        4
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr073,_iir_1_655_s0053_23/several_unidentified_aerial_phenomenon_encountered_in_the_vicinity_of_columbus_oh\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:51:08.482492+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720765/DOD_111720765.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "binary/octet-stream",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:51:08.482536+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720765/DOD_111720765.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR074,_\"[CALLSIGN]_(MISSION)HD_20220613\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR074,_\"[CALLSIGN]_(MISSION)HD_20220613\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:42:08.524802+00:00",
+      "incident_date": "2022",
+      "incident_location": "CENTCOM",
+      "last_seen": "2026-05-23T01:42:08.524814+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR074, \"[CALLSIGN] (MISSION)HD_20220613\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2022]",
+        "[CENTCOM]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        4
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr074,_\"[callsign]_(mission)hd_20220613\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:51:13.285548+00:00",
+        "content_type": "video/mp4",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720775/DOD_111720775-1920x1080-9000k.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "video/mp4",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:51:13.285613+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720775/DOD_111720775-1920x1080-9000k.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR075,_\"09JUN2021_[PLATFORM]_OBSERVED_UAP_IN_THE_ECS\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR075,_\"09JUN2021_[PLATFORM]_OBSERVED_UAP_IN_THE_ECS\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:42:08.524829+00:00",
+      "incident_date": "2021",
+      "incident_location": "EAST CHINA SEA",
+      "last_seen": "2026-05-23T01:42:08.524841+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR075, \"09JUN2021 [PLATFORM] OBSERVED UAP IN THE ECS\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2021]",
+        "[EAST CHINA SEA]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        4
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr075,_\"09jun2021_[platform]_observed_uap_in_the_ecs\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:51:17.914727+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720809/DOD_111720809.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "binary/octet-stream",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:51:17.914808+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720809/DOD_111720809.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR076,_\"03_JANUARY_2021_[CALLSIGN]_(MISSION)_OBSERVES_UAP\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR076,_\"03_JANUARY_2021_[CALLSIGN]_(MISSION)_OBSERVES_UAP\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:42:08.524887+00:00",
+      "incident_date": "2021",
+      "incident_location": "CENTCOM",
+      "last_seen": "2026-05-23T01:42:08.524901+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR076, \"03 JANUARY 2021 [CALLSIGN] (MISSION) OBSERVES UAP\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2021]",
+        "[CENTCOM]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        4
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr076,_\"03_january_2021_[callsign]_(mission)_observes_uap\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:51:22.301461+00:00",
+        "content_type": "video/mp4",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720857/DOD_111720857-1920x1080-9000k.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "video/mp4",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:51:22.301567+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720857/DOD_111720857-1920x1080-9000k.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR077,_\"2_NOVEMBER_2020_[CALLSIGN]_[CALLSIGN]_OBSERVES_AND_TRACKS_UAP_1_OF_2\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR077,_\"2_NOVEMBER_2020_[CALLSIGN]_[CALLSIGN]_OBSERVES_AND_TRACKS_UAP_1_OF_2\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:42:08.524917+00:00",
+      "incident_date": "2020",
+      "incident_location": "CENTCOM",
+      "last_seen": "2026-05-23T01:42:08.524929+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR077, \"2 NOVEMBER 2020 [CALLSIGN] [CALLSIGN] OBSERVES AND TRACKS UAP 1 OF 2\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2020]",
+        "[CENTCOM]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        4
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr077,_\"2_november_2020_[callsign]_[callsign]_observes_and_tracks_uap_1_of_2\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:51:26.934049+00:00",
+        "content_type": "video/mp4",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720884/DOD_111720884-1920x1080-9000k.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "video/mp4",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:51:26.934102+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720884/DOD_111720884-1920x1080-9000k.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR078,_\"2_NOVEMBER_2020_[CALLSIGN]_[CALLSIGN]_OBSERVES_AND_TRACKS_UAP_2_OF_2\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR078,_\"2_NOVEMBER_2020_[CALLSIGN]_[CALLSIGN]_OBSERVES_AND_TRACKS_UAP_2_OF_2\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:42:08.524943+00:00",
+      "incident_date": "2020",
+      "incident_location": "CENTCOM",
+      "last_seen": "2026-05-23T01:42:08.524956+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR078, \"2 NOVEMBER 2020 [CALLSIGN] [CALLSIGN] OBSERVES AND TRACKS UAP 2 OF 2\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2020]",
+        "[CENTCOM]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        4
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr078,_\"2_november_2020_[callsign]_[callsign]_observes_and_tracks_uap_2_of_2\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:51:31.184006+00:00",
+        "content_type": "video/mp4",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720890/DOD_111720890-1920x1080-9000k.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "video/mp4",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:51:31.184031+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720890/DOD_111720890-1920x1080-9000k.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR079,_\"29_OCTOBER_2020_[CALLSIGN]_(MISSION)_OBSERVES_3_FAST_MOVING_UAP'S\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR079,_\"29_OCTOBER_2020_[CALLSIGN]_(MISSION)_OBSERVES_3_FAST_MOVING_UAP'S\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:42:08.524971+00:00",
+      "incident_date": "2020",
+      "incident_location": "CENTCOM",
+      "last_seen": "2026-05-23T01:42:08.524983+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR079, \"29 OCTOBER 2020 [CALLSIGN] (MISSION) OBSERVES 3 FAST MOVING UAP'S\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2020]",
+        "[CENTCOM]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        4
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr079,_\"29_october_2020_[callsign]_(mission)_observes_3_fast_moving_uap's\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:51:35.482020+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720899/DOD_111720899.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "binary/octet-stream",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:51:35.482067+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720899/DOD_111720899.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR080,_\"20_OCTOBER_2020_[CALLSIGN]_[CALLSIGN]_OBSERVES_UAP\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR080,_\"20_OCTOBER_2020_[CALLSIGN]_[CALLSIGN]_OBSERVES_UAP\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:42:08.524998+00:00",
+      "incident_date": "2020",
+      "incident_location": "CENTCOM",
+      "last_seen": "2026-05-23T01:42:08.525009+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR080, \"20 OCTOBER 2020 [CALLSIGN] [CALLSIGN] OBSERVES UAP\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2020]",
+        "[CENTCOM]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        4
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr080,_\"20_october_2020_[callsign]_[callsign]_observes_uap\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:51:39.963454+00:00",
+        "content_type": "video/mp4",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720856/DOD_111720856-1920x1080-9000k.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "video/mp4",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:51:39.963505+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720856/DOD_111720856-1920x1080-9000k.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR081,_\"18_OCT_2020_[CALLSIGN]_OBSERVES_UAP\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR081,_\"18_OCT_2020_[CALLSIGN]_OBSERVES_UAP\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:42:08.525024+00:00",
+      "incident_date": "2020",
+      "incident_location": "AFRICOM",
+      "last_seen": "2026-05-23T01:42:08.525036+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR081, \"18 OCT 2020 [CALLSIGN] OBSERVES UAP\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2020]",
+        "[AFRICOM]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        4
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr081,_\"18_oct_2020_[callsign]_observes_uap\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:51:44.611807+00:00",
+        "content_type": "video/mp4",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720858/DOD_111720858-1920x1080-9000k.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "video/mp4",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:51:44.611879+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720858/DOD_111720858-1920x1080-9000k.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR082,_\"16_OCT_2020_[CALLSIGN]_VIEWS_UAP\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR082,_\"16_OCT_2020_[CALLSIGN]_VIEWS_UAP\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:42:37.192462+00:00",
+      "incident_date": "2020",
+      "incident_location": "AFRICOM",
+      "last_seen": "2026-05-23T01:42:37.192504+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR082, \"16 OCT 2020 [CALLSIGN] VIEWS UAP\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2020]",
+        "[AFRICOM]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        5
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr082,_\"16_oct_2020_[callsign]_views_uap\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:51:52.308496+00:00",
+        "content_type": "video/mp4",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720861/DOD_111720861-1920x1080-9000k.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "video/mp4",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:51:52.308546+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720861/DOD_111720861-1920x1080-9000k.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR083,_\"7_OCTOBER_2020_[CALLSIGN]_OBSERVES_UAP\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR083,_\"7_OCTOBER_2020_[CALLSIGN]_OBSERVES_UAP\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:42:37.192524+00:00",
+      "incident_date": "2020",
+      "incident_location": "CENTCOM",
+      "last_seen": "2026-05-23T01:42:37.192536+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR083, \"7 OCTOBER 2020 [CALLSIGN] OBSERVES UAP\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2020]",
+        "[CENTCOM]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        5
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr083,_\"7_october_2020_[callsign]_observes_uap\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:51:56.397682+00:00",
+        "content_type": "video/mp4",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720883/DOD_111720883-1920x1080-9000k.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "video/mp4",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:51:56.397735+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720883/DOD_111720883-1920x1080-9000k.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR084,_\"17_SEPT_2020_[CALLSIGN]_OBSERVES_UAP\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR084,_\"17_SEPT_2020_[CALLSIGN]_OBSERVES_UAP\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:42:37.192552+00:00",
+      "incident_date": "2020",
+      "incident_location": "CENTCOM",
+      "last_seen": "2026-05-23T01:42:37.192564+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR084, \"17 SEPT 2020 [CALLSIGN] OBSERVES UAP\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2020]",
+        "[CENTCOM]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        5
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr084,_\"17_sept_2020_[callsign]_observes_uap\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:52:01.675740+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720886/DOD_111720886.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "binary/octet-stream",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:52:01.675816+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720886/DOD_111720886.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR085,_\"16_SEPT_2020_[CALLSIGN]_[CALLSIGN]_OBSERVES_UAP\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR085,_\"16_SEPT_2020_[CALLSIGN]_[CALLSIGN]_OBSERVES_UAP\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:42:37.192583+00:00",
+      "incident_date": "2020",
+      "incident_location": "CENTCOM",
+      "last_seen": "2026-05-23T01:42:37.192596+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR085, \"16 SEPT 2020 [CALLSIGN] [CALLSIGN] OBSERVES UAP\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2020]",
+        "[CENTCOM]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        5
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr085,_\"16_sept_2020_[callsign]_[callsign]_observes_uap\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:52:06.389298+00:00",
+        "content_type": "video/mp4",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720822/DOD_111720822-1920x1080-9000k.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "video/mp4",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:52:06.389347+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720822/DOD_111720822-1920x1080-9000k.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR086,_\"UAP_FROM_DEC_2019_(EAST_COAST)\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR086,_\"UAP_FROM_DEC_2019_(EAST_COAST)\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:42:37.192611+00:00",
+      "incident_date": "2019",
+      "incident_location": "NORTHCOM",
+      "last_seen": "2026-05-23T01:42:37.192622+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR086, \"UAP FROM DEC 2019 (EAST COAST)\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2019]",
+        "[NORTHCOM]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        5
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr086,_\"uap_from_dec_2019_(east_coast)\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:52:11.274369+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720827/DOD_111720827.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "binary/octet-stream",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:52:11.274416+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720827/DOD_111720827.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR087,_\"05_SEPTEMBER_2020_[CALLSIGN]_UAP\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR087,_\"05_SEPTEMBER_2020_[CALLSIGN]_UAP\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:42:37.192637+00:00",
+      "incident_date": "2020",
+      "incident_location": "CENTCOM",
+      "last_seen": "2026-05-23T01:42:37.192649+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR087, \"05 SEPTEMBER 2020 [CALLSIGN] UAP\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2020]",
+        "[CENTCOM]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        5
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr087,_\"05_september_2020_[callsign]_uap\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:52:15.365237+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720830/DOD_111720830.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "binary/octet-stream",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:52:15.365277+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720830/DOD_111720830.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR088,_\"31_AUG_[CALLSIGN]_[CALLSIGN]_OBSERVES_UAP\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR088,_\"31_AUG_[CALLSIGN]_[CALLSIGN]_OBSERVES_UAP\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:42:37.192663+00:00",
+      "incident_date": "2020",
+      "incident_location": "CENTCOM",
+      "last_seen": "2026-05-23T01:42:37.192675+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR088, \"31 AUG [CALLSIGN] [CALLSIGN] OBSERVES UAP\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2020]",
+        "[CENTCOM]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        5
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr088,_\"31_aug_[callsign]_[callsign]_observes_uap\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:52:19.228692+00:00",
+        "content_type": "video/mp4",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720843/DOD_111720843-1920x1080-9000k.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "video/mp4",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:52:19.228765+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720843/DOD_111720843-1920x1080-9000k.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR089,_\"31_AUG_[CALLSIGN]_[CALLSIGN]_OBSERVES_UAP_PART2\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR089,_\"31_AUG_[CALLSIGN]_[CALLSIGN]_OBSERVES_UAP_PART2\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:42:37.192689+00:00",
+      "incident_date": "2020",
+      "incident_location": "CENTCOM",
+      "last_seen": "2026-05-23T01:42:37.192701+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR089, \"31 AUG [CALLSIGN] [CALLSIGN] OBSERVES UAP PART2\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2020]",
+        "[CENTCOM]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        5
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr089,_\"31_aug_[callsign]_[callsign]_observes_uap_part2\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:52:24.552714+00:00",
+        "content_type": "video/mp4",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719730/DOD_111719730-1920x1080-9000k.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "video/mp4",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:52:24.552761+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719730/DOD_111719730-1920x1080-9000k.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR090,_\"24_AUG_2020_[CALLSIGN]_(MISSION)_OBSERVES_UAP\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR090,_\"24_AUG_2020_[CALLSIGN]_(MISSION)_OBSERVES_UAP\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:42:37.192715+00:00",
+      "incident_date": "2020",
+      "incident_location": "CENTCOM",
+      "last_seen": "2026-05-23T01:42:37.192727+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR090, \"24 AUG 2020 [CALLSIGN] (MISSION) OBSERVES UAP\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2020]",
+        "[CENTCOM]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        5
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr090,_\"24_aug_2020_[callsign]_(mission)_observes_uap\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:52:29.362809+00:00",
+        "content_type": "video/mp4",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719746/DOD_111719746-1920x1080-9000k.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "video/mp4",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:52:29.362859+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719746/DOD_111719746-1920x1080-9000k.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR091,_\"21_AUG_[CALLSIGN]_OBSERVES_UAP_IN_PERSIAN_GULF\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR091,_\"21_AUG_[CALLSIGN]_OBSERVES_UAP_IN_PERSIAN_GULF\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:42:37.192741+00:00",
+      "incident_date": "2020",
+      "incident_location": "CENTCOM",
+      "last_seen": "2026-05-23T01:42:37.192753+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR091, \"21 AUG [CALLSIGN] OBSERVES UAP IN PERSIAN GULF\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2020]",
+        "[CENTCOM]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        5
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr091,_\"21_aug_[callsign]_observes_uap_in_persian_gulf\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:52:37.065629+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719739/DOD_111719739.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "binary/octet-stream",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:52:37.065650+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719739/DOD_111719739.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR092,_\"08_AUG_2020_[CALLSIGN]_[CALLSIGN]_UAP_OBSERVATION\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR092,_\"08_AUG_2020_[CALLSIGN]_[CALLSIGN]_UAP_OBSERVATION\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:43:06.025725+00:00",
+      "incident_date": "2020",
+      "incident_location": "CENTCOM",
+      "last_seen": "2026-05-23T01:43:06.025831+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR092, \"08 AUG 2020 [CALLSIGN] [CALLSIGN] UAP OBSERVATION\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2020]",
+        "[CENTCOM]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        6
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr092,_\"08_aug_2020_[callsign]_[callsign]_uap_observation\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:52:45.211986+00:00",
+        "content_type": "video/mp4",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719736/DOD_111719736-1920x1080-9000k.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "video/mp4",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:52:45.212022+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719736/DOD_111719736-1920x1080-9000k.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR093,_\"MAY_05_2020_GULF_OF_ARABIA_[CALLSIGN]_(PLATFORM)_DUAL_UAP\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR093,_\"MAY_05_2020_GULF_OF_ARABIA_[CALLSIGN]_(PLATFORM)_DUAL_UAP\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:43:06.025858+00:00",
+      "incident_date": "2020",
+      "incident_location": "CENTCOM",
+      "last_seen": "2026-05-23T01:43:06.025875+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR093, \"MAY 05 2020 GULF OF ARABIA [CALLSIGN] (PLATFORM) DUAL UAP\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2020]",
+        "[CENTCOM]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        6
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr093,_\"may_05_2020_gulf_of_arabia_[callsign]_(platform)_dual_uap\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:52:50.338716+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719795/DOD_111719795.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "binary/octet-stream",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:52:50.338757+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719795/DOD_111719795.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR094,_\"[CALLSIGN]_(MISSION)_-_HD_2020-02-13\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR094,_\"[CALLSIGN]_(MISSION)_-_HD_2020-02-13\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:43:06.025894+00:00",
+      "incident_date": "2020",
+      "incident_location": "CENTCOM",
+      "last_seen": "2026-05-23T01:43:06.025909+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR094, \"[CALLSIGN] (MISSION) - HD 2020-02-13\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2020]",
+        "[CENTCOM]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        6
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr094,_\"[callsign]_(mission)_-_hd_2020-02-13\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:52:54.333873+00:00",
+        "content_type": "video/mp4",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719799/DOD_111719799-1920x1080-9000k.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "video/mp4",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:52:54.333924+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719799/DOD_111719799-1920x1080-9000k.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR095,_\"MAY_05_2020_GULF_OF_ARABIA_[CALLSIGN]_(PLATFORM)_DUAL_UAP\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR095,_\"MAY_05_2020_GULF_OF_ARABIA_[CALLSIGN]_(PLATFORM)_DUAL_UAP\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:43:06.025927+00:00",
+      "incident_date": "2020",
+      "incident_location": "CENTCOM",
+      "last_seen": "2026-05-23T01:43:06.025941+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR095, \"MAY 05 2020 GULF OF ARABIA [CALLSIGN] (PLATFORM) DUAL UAP\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2020]",
+        "[CENTCOM]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        6
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr095,_\"may_05_2020_gulf_of_arabia_[callsign]_(platform)_dual_uap\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:52:59.183261+00:00",
+        "content_type": "video/mp4",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719804/DOD_111719804-1920x1080-9000k.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "video/mp4",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:52:59.183303+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719804/DOD_111719804-1920x1080-9000k.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR096,_\"HH11_03_JULY_2018_UAPS\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR096,_\"HH11_03_JULY_2018_UAPS\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:43:06.025958+00:00",
+      "incident_date": "2018",
+      "incident_location": "CENTCOM",
+      "last_seen": "2026-05-23T01:43:06.025970+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR096, \"HH11 03 JULY 2018 UAPS\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2018]",
+        "[CENTCOM]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        6
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr096,_\"hh11_03_july_2018_uaps\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:53:07.549266+00:00",
+        "content_type": "video/mp4",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719807/DOD_111719807-1920x1080-9000k.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "video/mp4",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:53:07.549314+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719807/DOD_111719807-1920x1080-9000k.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR097,_\"HI-RES:_[CALLSIGN]_OBSERVES_UAP_ON_25SEP19_AT_2135Z\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR097,_\"HI-RES:_[CALLSIGN]_OBSERVES_UAP_ON_25SEP19_AT_2135Z\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:43:06.025987+00:00",
+      "incident_date": "2019",
+      "incident_location": "CENTCOM",
+      "last_seen": "2026-05-23T01:43:06.026000+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR097, \"HI-RES: [CALLSIGN] OBSERVES UAP ON 25SEP19 AT 2135Z\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2019]",
+        "[CENTCOM]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        6
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr097,_\"hi-res:_[callsign]_observes_uap_on_25sep19_at_2135z\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:53:13.975188+00:00",
+        "content_type": "video/mp4",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719813/DOD_111719813-1920x1080-9000k.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "video/mp4",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:53:13.975245+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719813/DOD_111719813-1920x1080-9000k.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR098,_\"UFOS_IN_FORMATION_OVER_PERSIAN_GULF?\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR098,_\"UFOS_IN_FORMATION_OVER_PERSIAN_GULF?\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:43:06.026017+00:00",
+      "incident_date": "",
+      "incident_location": "CENTCOM",
+      "last_seen": "2026-05-23T01:43:06.026031+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR098, \"UFOS IN FORMATION OVER PERSIAN GULF?\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[]",
+        "[CENTCOM]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        6
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr098,_\"ufos_in_formation_over_persian_gulf?\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:53:18.533423+00:00",
+        "content_type": "video/mp4",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719833/DOD_111719833-1920x1080-9000k.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "video/mp4",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:53:18.533482+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719833/DOD_111719833-1920x1080-9000k.mp4"
+        }
+      ]
+    },
+    "DOW-UAP-PR099,_\"HI-RES:_[CALLSIGN]_OBSERVES_UAP_ON_25SEP19_AT_1715Z\"": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-PR099,_\"HI-RES:_[CALLSIGN]_OBSERVES_UAP_ON_25SEP19_AT_1715Z\"",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:43:06.026047+00:00",
+      "incident_date": "2023",
+      "incident_location": "CENTCOM",
+      "last_seen": "2026-05-23T01:43:06.026062+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "DOW-UAP-PR099, \"HI-RES: [CALLSIGN] OBSERVES UAP ON 25SEP19 AT 1715Z\"",
+        "[DEPARTMENT OF WAR]",
+        "[5/22/26 - RELEASE 02]",
+        "[2023]",
+        "[CENTCOM]",
+        "[.VID]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        6
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_2/dow-uap-pr099,_\"hi-res:_[callsign]_observes_uap_on_25sep19_at_1715z\".pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-05-23T01:53:23.054604+00:00",
+        "content_type": "video/mp4",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719835/DOD_111719835-1920x1080-9000k.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "video/mp4",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:53:23.054655+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719835/DOD_111719835-1920x1080-9000k.mp4"
+        }
+      ]
+    },
+    "NASA-UAP-D008,_APOLLO_12_MEDICAL_DEBRIEFING_-_TAPE_12,_1969": {
+      "agency": "NASA",
+      "asset_name": "NASA-UAP-D008,_APOLLO_12_MEDICAL_DEBRIEFING_-_TAPE_12,_1969",
+      "audio": {
+        "captured_at": "2026-05-23T01:54:24.642150+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "payload_media_type": "mp4",
+        "source_media_tag": ".AUD",
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111721693/DOD_111721693.mp4",
+        "url_source": "download_audio_button_network_response"
+      },
+      "audio_harvest_events": [
+        {
+          "content_type": "binary/octet-stream",
+          "http_status": 200,
+          "source": "download_audio_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:54:24.642203+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111721693/DOD_111721693.mp4"
+        }
+      ],
+      "confidence": "medium",
+      "document_type": ".AUD",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:40:42.133771+00:00",
+      "incident_date": "1969",
+      "incident_location": "TEXAS",
+      "last_seen": "2026-05-23T01:40:42.133783+00:00",
+      "media_type": "audio",
+      "raw_cells": [
+        "NASA-UAP-D008, APOLLO 12 MEDICAL DEBRIEFING - TAPE 12, 1969",
+        "[NASA]",
+        "[5/22/26 - RELEASE 02]",
+        "[1969]",
+        "[TEXAS]",
+        "[.AUD]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        1
+      ],
+      "source_media_tag": ".AUD",
+      "url": "https://www.war.gov/medialink/ufo/release_2/nasa-uap-d008,_apollo_12_medical_debriefing_-_tape_12,_1969.pdf",
+      "url_source": "generated_from_asset_name"
+    },
+    "NASA-UAP-D009,_APOLLO_17_AUDIO_EXCERPT,_DECEMBER_7,_1972": {
+      "agency": "NASA",
+      "asset_name": "NASA-UAP-D009,_APOLLO_17_AUDIO_EXCERPT,_DECEMBER_7,_1972",
+      "audio": {
+        "captured_at": "2026-05-23T01:54:46.888670+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "payload_media_type": "mp4",
+        "source_media_tag": ".AUD",
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111721698/DOD_111721698.mp4",
+        "url_source": "download_audio_button_network_response"
+      },
+      "audio_harvest_events": [
+        {
+          "content_type": "binary/octet-stream",
+          "http_status": 200,
+          "source": "download_audio_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:54:46.888726+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111721698/DOD_111721698.mp4"
+        }
+      ],
+      "confidence": "medium",
+      "document_type": ".AUD",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:43:06.026077+00:00",
+      "incident_date": "12/7/72",
+      "incident_location": "CISLUNAR SPACE",
+      "last_seen": "2026-05-23T01:43:06.026091+00:00",
+      "media_type": "audio",
+      "raw_cells": [
+        "NASA-UAP-D009, APOLLO 17 AUDIO EXCERPT, DECEMBER 7, 1972",
+        "[NASA]",
+        "[5/22/26 - RELEASE 02]",
+        "[12/7/72]",
+        "[CISLUNAR SPACE]",
+        "[.AUD]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        6
+      ],
+      "source_media_tag": ".AUD",
+      "url": "https://www.war.gov/medialink/ufo/release_2/nasa-uap-d009,_apollo_17_audio_excerpt,_december_7,_1972.pdf",
+      "url_source": "generated_from_asset_name"
+    },
+    "NASA-UAP-D010,_MERCURY_ATLAS_9_AUDIO_EXCERPT,_MAY_15,_1963": {
+      "agency": "NASA",
+      "asset_name": "NASA-UAP-D010,_MERCURY_ATLAS_9_AUDIO_EXCERPT,_MAY_15,_1963",
+      "audio": {
+        "captured_at": "2026-05-23T01:54:50.557769+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "payload_media_type": "mp4",
+        "source_media_tag": ".AUD",
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111721711/DOD_111721711.mp4",
+        "url_source": "download_audio_button_network_response"
+      },
+      "audio_harvest_events": [
+        {
+          "content_type": "binary/octet-stream",
+          "http_status": 200,
+          "source": "download_audio_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:54:50.557831+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111721711/DOD_111721711.mp4"
+        }
+      ],
+      "confidence": "medium",
+      "document_type": ".AUD",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:43:06.026109+00:00",
+      "incident_date": "5/15/63",
+      "incident_location": "LOW EARTH ORBIT",
+      "last_seen": "2026-05-23T01:43:06.026123+00:00",
+      "media_type": "audio",
+      "raw_cells": [
+        "NASA-UAP-D010, MERCURY ATLAS 9 AUDIO EXCERPT, MAY 15, 1963",
+        "[NASA]",
+        "[5/22/26 - RELEASE 02]",
+        "[5/15/63]",
+        "[LOW EARTH ORBIT]",
+        "[.AUD]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        6
+      ],
+      "source_media_tag": ".AUD",
+      "url": "https://www.war.gov/medialink/ufo/release_2/nasa-uap-d010,_mercury_atlas_9_audio_excerpt,_may_15,_1963.pdf",
+      "url_source": "generated_from_asset_name"
+    },
+    "NASA-UAP-D011,_MERCURY_ATLAS_9_AUDIO_EXCERPT,_MAY_15,_1963": {
+      "agency": "NASA",
+      "asset_name": "NASA-UAP-D011,_MERCURY_ATLAS_9_AUDIO_EXCERPT,_MAY_15,_1963",
+      "audio": {
+        "captured_at": "2026-05-23T01:54:57.806720+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "payload_media_type": "mp4",
+        "source_media_tag": ".AUD",
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111721737/DOD_111721737.mp4",
+        "url_source": "download_audio_button_network_response"
+      },
+      "audio_harvest_events": [
+        {
+          "content_type": "binary/octet-stream",
+          "http_status": 200,
+          "source": "download_audio_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:54:57.806766+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111721737/DOD_111721737.mp4"
+        }
+      ],
+      "confidence": "medium",
+      "document_type": ".AUD",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:43:34.408543+00:00",
+      "incident_date": "5/15/63",
+      "incident_location": "LOW EARTH ORBIT",
+      "last_seen": "2026-05-23T01:43:34.408587+00:00",
+      "media_type": "audio",
+      "raw_cells": [
+        "NASA-UAP-D011, MERCURY ATLAS 9 AUDIO EXCERPT, MAY 15, 1963",
+        "[NASA]",
+        "[5/22/26 - RELEASE 02]",
+        "[5/15/63]",
+        "[LOW EARTH ORBIT]",
+        "[.AUD]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        7
+      ],
+      "source_media_tag": ".AUD",
+      "url": "https://www.war.gov/medialink/ufo/release_2/nasa-uap-d011,_mercury_atlas_9_audio_excerpt,_may_15,_1963.pdf",
+      "url_source": "generated_from_asset_name"
+    },
+    "NASA-UAP-D012,_MERCURY_ATLAS_8_AUDIO_EXCERPT,_OCTOBER_3,_1962": {
+      "agency": "NASA",
+      "asset_name": "NASA-UAP-D012,_MERCURY_ATLAS_8_AUDIO_EXCERPT,_OCTOBER_3,_1962",
+      "audio": {
+        "captured_at": "2026-05-23T01:55:01.406541+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "payload_media_type": "mp4",
+        "source_media_tag": ".AUD",
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111721747/DOD_111721747.mp4",
+        "url_source": "download_audio_button_network_response"
+      },
+      "audio_harvest_events": [
+        {
+          "content_type": "binary/octet-stream",
+          "http_status": 200,
+          "source": "download_audio_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:55:01.406600+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111721747/DOD_111721747.mp4"
+        }
+      ],
+      "confidence": "medium",
+      "document_type": ".AUD",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:43:34.408605+00:00",
+      "incident_date": "10/3/62",
+      "incident_location": "LOW EARTH ORBIT",
+      "last_seen": "2026-05-23T01:43:34.408618+00:00",
+      "media_type": "audio",
+      "raw_cells": [
+        "NASA-UAP-D012, MERCURY ATLAS 8 AUDIO EXCERPT, OCTOBER 3, 1962",
+        "[NASA]",
+        "[5/22/26 - RELEASE 02]",
+        "[10/3/62]",
+        "[LOW EARTH ORBIT]",
+        "[.AUD]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        7
+      ],
+      "source_media_tag": ".AUD",
+      "url": "https://www.war.gov/medialink/ufo/release_2/nasa-uap-d012,_mercury_atlas_8_audio_excerpt,_october_3,_1962.pdf",
+      "url_source": "generated_from_asset_name"
+    },
+    "NASA-UAP-D013,_MERCURY_ATLAS_7,_MAY_24,_1962": {
+      "agency": "NASA",
+      "asset_name": "NASA-UAP-D013,_MERCURY_ATLAS_7,_MAY_24,_1962",
+      "audio": {
+        "captured_at": "2026-05-23T01:55:05.316142+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "payload_media_type": "mp4",
+        "source_media_tag": ".AUD",
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111721758/DOD_111721758.mp4",
+        "url_source": "download_audio_button_network_response"
+      },
+      "audio_harvest_events": [
+        {
+          "content_type": "binary/octet-stream",
+          "http_status": 200,
+          "source": "download_audio_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:55:05.316193+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111721758/DOD_111721758.mp4"
+        }
+      ],
+      "confidence": "medium",
+      "document_type": ".AUD",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:43:34.408634+00:00",
+      "incident_date": "5/24/62",
+      "incident_location": "LOW EARTH ORBIT",
+      "last_seen": "2026-05-23T01:43:34.408646+00:00",
+      "media_type": "audio",
+      "raw_cells": [
+        "NASA-UAP-D013, MERCURY ATLAS 7, MAY 24, 1962",
+        "[NASA]",
+        "[5/22/26 - RELEASE 02]",
+        "[5/24/62]",
+        "[LOW EARTH ORBIT]",
+        "[.AUD]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        7
+      ],
+      "source_media_tag": ".AUD",
+      "url": "https://www.war.gov/medialink/ufo/release_2/nasa-uap-d013,_mercury_atlas_7,_may_24,_1962.pdf",
+      "url_source": "generated_from_asset_name"
+    },
+    "NASA-UAP-D014,_MERCURY-REDSTONE_4,_JULY_21,_1961": {
+      "agency": "NASA",
+      "asset_name": "NASA-UAP-D014,_MERCURY-REDSTONE_4,_JULY_21,_1961",
+      "audio": {
+        "captured_at": "2026-05-23T01:55:09.012320+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "payload_media_type": "mp4",
+        "source_media_tag": ".AUD",
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111721755/DOD_111721755.mp4",
+        "url_source": "download_audio_button_network_response"
+      },
+      "audio_harvest_events": [
+        {
+          "content_type": "binary/octet-stream",
+          "http_status": 200,
+          "source": "download_audio_button_network_response",
+          "status": "ok",
+          "ts": "2026-05-23T01:55:09.012375+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111721755/DOD_111721755.mp4"
+        }
+      ],
+      "confidence": "medium",
+      "document_type": ".AUD",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:43:34.408661+00:00",
+      "incident_date": "7/21/61",
+      "incident_location": "NORTH ATLANTIC OCEAN",
+      "last_seen": "2026-05-23T01:43:34.408673+00:00",
+      "media_type": "audio",
+      "raw_cells": [
+        "NASA-UAP-D014, MERCURY-REDSTONE 4, JULY 21, 1961",
+        "[NASA]",
+        "[5/22/26 - RELEASE 02]",
+        "[7/21/61]",
+        "[NORTH ATLANTIC OCEAN]",
+        "[.AUD]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        7
+      ],
+      "source_media_tag": ".AUD",
+      "url": "https://www.war.gov/medialink/ufo/release_2/nasa-uap-d014,_mercury-redstone_4,_july_21,_1961.pdf",
+      "url_source": "generated_from_asset_name"
+    },
+    "ODNI-UAP-D001,_USPER_NARRATIVE,_SENIOR_USIC_OFFICIAL": {
+      "agency": "OFFICE OF THE DIRECTOR OF NATIONAL INTELLIGENCE",
+      "asset_name": "ODNI-UAP-D001,_USPER_NARRATIVE,_SENIOR_USIC_OFFICIAL",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_2/odni-uap-d001,_usper_narrative,_senior_usic_official.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-05-23T01:40:42.133744+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 1,
+          "status": "ok",
+          "ts": "2026-05-23T01:46:40.669974+00:00",
+          "url": "https://www.war.gov/medialink/ufo/052226/release_02/documents/ODNI-UAP-D001_USPER_Narrative_Senior_USIC.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-05-23T01:46:40.669891+00:00",
+      "incident_date": "2025",
+      "incident_location": "WESTERN UNITED STATES",
+      "last_harvest_attempt_at": "2026-05-23T01:46:40.669891+00:00",
+      "last_seen": "2026-05-23T01:40:42.133756+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_2/odni-uap-d001,_usper_narrative,_senior_usic_official.pdf"
+      ],
+      "raw_cells": [
+        "ODNI-UAP-D001, USPER NARRATIVE, SENIOR USIC OFFICIAL",
+        "[OFFICE OF THE DIRECTOR OF NATIONAL INTELLIGENCE]",
+        "[5/22/26 - RELEASE 02]",
+        "[2025]",
+        "[WESTERN UNITED STATES]",
+        "[.PDF]"
+      ],
+      "release": "release_2",
+      "release_date": "5/22/26 - RELEASE 02",
+      "seen_on_pages": [
+        1
+      ],
+      "url": "https://www.war.gov/medialink/ufo/052226/release_02/documents/ODNI-UAP-D001_USPER_Narrative_Senior_USIC.pdf",
+      "url_source": "clicked_download_button"
+    }
+  },
+  "updated_at": "2026-05-23T02:12:38.855654+00:00"
+}

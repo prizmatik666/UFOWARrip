@@ -3,13 +3,21 @@
 # https://github.com/prizmatik666/UFOWARrip
 
 import json
-from pathlib import Path
 from core.logger import now_iso
+
+
+def release_name(cfg):
+    return getattr(cfg, "release", "release_1")
 
 
 def index_path(cfg):
     cfg.ensure_dirs()
-    return cfg.data_dir / "index.json"
+    return cfg.data_dir / f"index_{release_name(cfg)}.json"
+
+
+def export_path(cfg, base):
+    cfg.ensure_dirs()
+    return cfg.data_dir / f"{base}_{release_name(cfg)}.txt"
 
 
 def load_index(cfg):
@@ -47,15 +55,15 @@ def merge_record(index, record):
     }
 
 
-def export_urls(cfg, index):
+def export_candidate_urls(cfg, index):
     urls = [
         rec["url"]
         for rec in sorted(index.get("records", {}).values(), key=lambda r: r.get("asset_name", ""))
         if rec.get("url")
     ]
-    path = cfg.data_dir / "urls.txt"
+    path = export_path(cfg, "candidate_urls")
     path.write_text("\n".join(urls) + ("\n" if urls else ""), encoding="utf-8")
-    print(f"[✓] Exported {len(urls)} URLs to {path}")
+    print(f"[✓] Exported {len(urls)} candidate URLs to {path}")
 
 
 def harvested_url_entries(index, media_types):
@@ -63,7 +71,7 @@ def harvested_url_entries(index, media_types):
     seen = set()
 
     def add_entry(media_type, asset, url):
-        key = (media_type, url)
+        key = url
         if key in seen:
             return
         seen.add(key)
@@ -92,6 +100,11 @@ def harvested_url_entries(index, media_types):
             if url:
                 add_entry("vid", asset, url)
 
+        if "aud" in media_types:
+            url = (rec.get("audio") or {}).get("url")
+            if url:
+                add_entry("aud", asset, url)
+
     return entries
 
 
@@ -100,13 +113,15 @@ def export_harvested_urls(cfg, index, media_types, numbered=False):
     urls = [entry["url"] for entry in entries]
 
     if media_types == ["pdf"]:
-        base = "urls"
+        base = "harvested_pdf_urls"
     elif media_types == ["img"]:
-        base = "image_urls"
+        base = "harvested_image_urls"
     elif media_types == ["vid"]:
-        base = "video_urls"
+        base = "harvested_video_urls"
+    elif media_types == ["aud"]:
+        base = "harvested_audio_urls"
     else:
-        base = "all_urls"
+        base = "harvested_all_urls"
 
     if numbered:
         base = f"{base}_numbered"
@@ -114,17 +129,21 @@ def export_harvested_urls(cfg, index, media_types, numbered=False):
     else:
         lines = urls
 
-    path = cfg.data_dir / f"{base}.txt"
+    path = export_path(cfg, base)
     path.write_text("\n".join(lines) + ("\n" if lines else ""), encoding="utf-8")
 
     counts = {
         "pdf": sum(1 for entry in entries if entry["type"] == "pdf"),
         "img": sum(1 for entry in entries if entry["type"] == "img"),
         "vid": sum(1 for entry in entries if entry["type"] == "vid"),
+        "aud": sum(1 for entry in entries if entry["type"] == "aud"),
     }
 
     print(f"[✓] Exported {len(entries)} URLs to {path}")
-    print(f"    PDFs: {counts['pdf']} | Images: {counts['img']} | Videos: {counts['vid']}")
+    print(
+        f"    PDFs: {counts['pdf']} | Images: {counts['img']} | "
+        f"Videos: {counts['vid']} | Audio: {counts['aud']}"
+    )
 
 
 def summarize_index(cfg):

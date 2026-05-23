@@ -10,6 +10,7 @@ browser_profile/
 
 downloads/
 war_ufo_data/downloads/
+war_ufo_data/data/downloads/
 
 debug/
 war_ufo_data/debug/
@@ -20,8 +21,11 @@ war_ufo_data/data/observations.jsonl
 
 logs/
 *.log
+war_ufo_data/reports/
 
 *.har
+war_ufo_data/data/network_events_*.jsonl
+war_ufo_data/data/observations_*.jsonl
 
 playwright-report/
 test-results/

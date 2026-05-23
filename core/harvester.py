@@ -7,8 +7,9 @@ import re
 from urllib.parse import unquote, urlsplit
 
 from core.browser_session import BrowserSession
-from core.index_store import load_index, save_index, export_urls
+from core.index_store import export_harvested_urls, load_index, save_index
 from core.logger import log, now_iso
+from core.pagination import maybe_extend_scan_limit
 
 
 def clean_text(s):
@@ -166,12 +167,12 @@ def repair_invalid_harvest_urls(index):
 
 def append_observation(cfg, data):
     cfg.ensure_dirs()
-    path = cfg.data_dir / "observations.jsonl"
+    path = cfg.data_dir / f"observations_{getattr(cfg, 'release', 'release_1')}.jsonl"
     path.open("a", encoding="utf-8").write(json.dumps(data, sort_keys=True) + "\n")
 
 
 def save_debug(cfg, page, asset, label):
-    safe = safe_name(asset)
+    safe = f"{getattr(cfg, 'release', 'release_1')}_{safe_name(asset)}"
     cfg.ensure_dirs()
 
     try:
@@ -911,7 +912,7 @@ def harvest_pdf_urls(cfg):
     repaired = repair_invalid_harvest_urls(index)
     if repaired:
         save_index(cfg, index)
-        export_urls(cfg, index)
+        export_harvested_urls(cfg, index, ["pdf"])
         print(f"[WarRip] Marked {repaired} invalid harvested URLs retryable.")
 
     print("[WarRip] Page-local PDF URL harvester starting...")
@@ -921,13 +922,14 @@ def harvest_pdf_urls(cfg):
     failed = 0
     skipped = 0
     page_num = 1
+    scan_limit = cfg.max_pages
 
     with BrowserSession(cfg) as page:
         page.goto(cfg.start_url, wait_until="domcontentloaded", timeout=90000)
         page.wait_for_timeout(4000)
         wait_for_records_ready(page, cfg)
 
-        while page_num <= cfg.max_pages:
+        while page_num <= scan_limit:
             current = active_page_number(page) or page_num
             print(f"\n[WarRip] Harvesting visible page {current}...")
 
@@ -1052,7 +1054,7 @@ def harvest_pdf_urls(cfg):
                         pass
 
                 save_index(cfg, index)
-                export_urls(cfg, index)
+                export_harvested_urls(cfg, index, ["pdf"])
 
             print(
                 f"[WarRip] Page {current} PDF summary: "
@@ -1060,6 +1062,11 @@ def harvest_pdf_urls(cfg):
                 f"skipped_non_pdf={skipped_non_pdf_page} "
                 f"harvested={harvested_page} failed={failed_page}"
             )
+
+            next_page = page_num + 1
+            scan_limit, should_continue = maybe_extend_scan_limit(cfg, page, page_num, next_page, scan_limit)
+            if not should_continue:
+                break
 
             if not click_next_page(page, cfg):
                 print("[WarRip] No NEXT page. Harvest complete.")

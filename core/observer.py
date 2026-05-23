@@ -6,13 +6,18 @@ import json
 import time
 from core.browser_session import BrowserSession
 from core.extractor import extract_visible_records, active_page_number
-from core.index_store import load_index, save_index, merge_record, export_urls
+from core.index_store import load_index, save_index, merge_record, export_candidate_urls
 from core.logger import log, now_iso
+from core.pagination import maybe_extend_scan_limit
+
+
+def release_name(cfg):
+    return getattr(cfg, "release", "release_1")
 
 
 def save_debug_snapshot(cfg, page, label):
     cfg.ensure_dirs()
-    safe = label.replace(" ", "_")
+    safe = f"{release_name(cfg)}_{label.replace(' ', '_')}"
     page.screenshot(path=str(cfg.debug_dir / "screenshots" / f"{safe}.png"), full_page=True)
     (cfg.debug_dir / "html" / f"{safe}.html").write_text(page.content(), encoding="utf-8", errors="replace")
     text = page.evaluate("() => document.body ? document.body.innerText : ''")
@@ -21,7 +26,7 @@ def save_debug_snapshot(cfg, page, label):
 
 def append_network_event(cfg, data):
     cfg.ensure_dirs()
-    path = cfg.data_dir / "network_events.jsonl"
+    path = cfg.data_dir / f"network_events_{release_name(cfg)}.jsonl"
     path.open("a", encoding="utf-8").write(json.dumps(data, sort_keys=True) + "\n")
 
 
@@ -110,8 +115,9 @@ def observe_site(cfg):
 
         page_num = active_page_number(page) or 1
         previous_assets = set()
+        scan_limit = cfg.max_pages
 
-        while page_num <= cfg.max_pages:
+        while page_num <= scan_limit:
             print(f"[WarRip] Observing page {page_num}...")
 
             wait_for_table_stable(cfg, page)
@@ -128,13 +134,17 @@ def observe_site(cfg):
                 merge_record(index, rec)
 
             save_index(cfg, index)
-            export_urls(cfg, index)
+            export_candidate_urls(cfg, index)
 
             print(f"[+] Page {page_num}: {len(records)} records | total: {len(index.get('records', {}))}")
             log(cfg, f"page={page_num} records={len(records)}")
 
             previous_assets = current_assets
             next_page = page_num + 1
+
+            scan_limit, should_continue = maybe_extend_scan_limit(cfg, page, page_num, next_page, scan_limit)
+            if not should_continue:
+                break
 
             if not click_page_number(page, next_page):
                 print("[WarRip] No next numeric page button. Observation complete.")

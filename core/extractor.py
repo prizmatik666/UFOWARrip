@@ -94,6 +94,9 @@ def extract_visible_records(page, cfg, page_num: int):
             continue
         seen.add(asset)
 
+        if len(cells) < 6:
+            continue
+
         agency = cells[1].strip("[]") if len(cells) > 1 else ""
         release_date = cells[2].strip("[]") if len(cells) > 2 else ""
         incident_date = cells[3].strip("[]") if len(cells) > 3 else ""

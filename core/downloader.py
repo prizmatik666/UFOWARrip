@@ -20,9 +20,11 @@ MIN_BYTES = {
     "pdf": 8192,
     "img": 1024,
     "vid": 100 * 1024,
+    "aud": 100 * 1024,
 }
 
 IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".gif", ".webp"}
+NON_DOWNLOADABLE_ASSETS = {"ALL_AGENCIES", "ALL_TYPES", "RELEASE_01", "RELEASE_02"}
 
 
 def sha256_file(path):
@@ -59,6 +61,8 @@ def state_for(rec, media_type):
         return rec.setdefault("image", {}).setdefault("download", {})
     if media_type == "vid":
         return rec.setdefault("video", {}).setdefault("download", {})
+    if media_type == "aud":
+        return rec.setdefault("audio", {}).setdefault("download", {})
     raise ValueError(f"unknown media type: {media_type}")
 
 
@@ -83,11 +87,47 @@ def media_type_for_record(rec):
         return "img"
     if doc == ".VID":
         return "vid"
+    if doc == ".AUD":
+        return "aud"
     return None
 
 
+def is_non_downloadable_record(asset, rec):
+    if rec.get("download_excluded"):
+        return True
+
+    raw_cells = rec.get("raw_cells") or []
+    if asset in NON_DOWNLOADABLE_ASSETS and len(raw_cells) <= 1:
+        return True
+
+    return False
+
+
+def mark_excluded(rec, status, reason, canonical_asset=None, canonical_url=None):
+    rec["download_excluded"] = True
+    rec["download_exclusion_status"] = status
+    rec["download_exclusion_reason"] = reason
+    rec["download_exclusion_updated_at"] = now_iso()
+
+    if canonical_asset:
+        rec["duplicate_of_asset"] = canonical_asset
+    if canonical_url:
+        rec["duplicate_of_url"] = canonical_url
+
+    st = state_for(rec, media_type_for_record(rec) or "pdf")
+    st.update({
+        "downloaded": False,
+        "status": status,
+        "attempted_url": canonical_url,
+        "error": reason,
+        "failed_at": None,
+        "bytes": None,
+        "sha256": None,
+    })
+
+
 def output_dir(cfg, media_type):
-    folder = {"pdf": "pdf", "img": "img", "vid": "vid"}[media_type]
+    folder = {"pdf": "pdf", "img": "img", "vid": "vid", "aud": "aud"}[media_type]
     path = cfg.downloads_dir / folder
     path.mkdir(parents=True, exist_ok=True)
     return path
@@ -136,6 +176,8 @@ def validate_bytes(media_type, data):
     if media_type == "img":
         return validate_image(data)
     if media_type == "vid":
+        return validate_video(data)
+    if media_type == "aud":
         return validate_video(data)
     return False, f"unknown_media_type_{media_type}"
 
@@ -191,9 +233,36 @@ def build_queue(index, media_types):
     missing_counts = {mt: 0 for mt in media_types}
     missing_items = []
     skipped_other_counts = Counter()
+    excluded_items = []
+    duplicate_items = []
+    queued_by_url = {}
+
+    def add_queue_item(item):
+        key = item["url"]
+        if key in queued_by_url:
+            first = queued_by_url[key]
+            duplicate = {**item, "duplicate_of": first["asset"]}
+            duplicate_items.append(duplicate)
+            mark_excluded(
+                item["rec"],
+                "skipped_duplicate_endpoint",
+                f"same final endpoint as {first['asset']}",
+                canonical_asset=first["asset"],
+                canonical_url=key,
+            )
+            return
+
+        queued_by_url[key] = item
+        queue.append(item)
 
     for asset, rec in sorted(index.get("records", {}).items()):
         expected_type = media_type_for_record(rec)
+
+        if expected_type in media_types and is_non_downloadable_record(asset, rec):
+            reason = rec.get("download_exclusion_reason") or "site filter/control row, not a downloadable record"
+            mark_excluded(rec, "skipped_non_downloadable_record", reason)
+            excluded_items.append({"media_type": expected_type, "asset": asset, "rec": rec, "record_type": record_type(rec)})
+            continue
 
         if expected_type not in media_types:
             skipped_other_counts[record_type(rec)] += 1
@@ -207,7 +276,7 @@ def build_queue(index, media_types):
                 and rec.get("confidence") == "high"
                 and urlsplit(url).path.lower().endswith(".pdf")
             ):
-                queue.append({
+                add_queue_item({
                     "media_type": "pdf",
                     "asset": asset,
                     "url": url,
@@ -222,7 +291,7 @@ def build_queue(index, media_types):
             image = rec.get("image") or {}
             url = image.get("url")
             if url and url_extension(url, "").lower() in IMAGE_EXTENSIONS:
-                queue.append({
+                add_queue_item({
                     "media_type": "img",
                     "asset": asset,
                     "url": url,
@@ -237,7 +306,7 @@ def build_queue(index, media_types):
             video = rec.get("video") or {}
             url = video.get("url")
             if url and urlsplit(url).path.lower().endswith(".mp4"):
-                queue.append({
+                add_queue_item({
                     "media_type": "vid",
                     "asset": asset,
                     "url": url,
@@ -248,7 +317,22 @@ def build_queue(index, media_types):
                 missing_counts["vid"] += 1
                 missing_items.append({"media_type": "vid", "asset": asset, "rec": rec, "record_type": record_type(rec)})
 
-    return queue, missing_counts, missing_items, skipped_other_counts
+        elif expected_type == "aud":
+            audio = rec.get("audio") or {}
+            url = audio.get("url")
+            if url and urlsplit(url).path.lower().endswith(".mp4"):
+                add_queue_item({
+                    "media_type": "aud",
+                    "asset": asset,
+                    "url": url,
+                    "rec": rec,
+                    "default_ext": ".mp4",
+                })
+            else:
+                missing_counts["aud"] += 1
+                missing_items.append({"media_type": "aud", "asset": asset, "rec": rec, "record_type": record_type(rec)})
+
+    return queue, missing_counts, missing_items, skipped_other_counts, excluded_items, duplicate_items
 
 
 def mark_missing_harvested_urls(missing_items):
@@ -345,11 +429,11 @@ def browser_status_needs_reset(status):
 
 
 def media_label(media_type):
-    return {"pdf": "PDF", "img": "image", "vid": "video"}[media_type]
+    return {"pdf": "PDF", "img": "image", "vid": "video", "aud": "audio"}[media_type]
 
 
 def media_plural(media_type):
-    return {"pdf": "PDFs", "img": "images", "vid": "videos"}[media_type]
+    return {"pdf": "PDFs", "img": "images", "vid": "videos", "aud": "audio files"}[media_type]
 
 
 def print_nonqueued_breakdown(missing_items):
@@ -367,6 +451,39 @@ def print_skipped_other_breakdown(skipped_other_counts):
     print(f"Other media types not selected: {total}")
     for rec_type, count in sorted(skipped_other_counts.items()):
         print(f"  {rec_type}: {count}")
+
+
+def write_download_exclusion_report(cfg, excluded_items, duplicate_items):
+    cfg.ensure_dirs()
+    path = cfg.data_dir / f"download_exclusions_{cfg.release}.txt"
+    lines = [
+        f"WarRip download exclusion report for {cfg.release}",
+        f"Generated: {now_iso()}",
+        "",
+        "These records remain in the index for source-site fidelity, but are not queued as downloads.",
+        "",
+        f"Non-downloadable site/control rows: {len(excluded_items)}",
+    ]
+
+    for item in excluded_items:
+        rec = item["rec"]
+        lines.append(
+            f"- {item['asset']} [{item.get('record_type')}] "
+            f"{rec.get('download_exclusion_status')}: {rec.get('download_exclusion_reason')}"
+        )
+
+    lines.extend(["", f"Duplicate final endpoints: {len(duplicate_items)}"])
+
+    for item in duplicate_items:
+        rec = item["rec"]
+        lines.append(
+            f"- {item['asset']} [{item.get('record_type')}] duplicates {item.get('duplicate_of')} -> {item.get('url')}"
+        )
+        if rec.get("download_exclusion_reason"):
+            lines.append(f"  reason: {rec.get('download_exclusion_reason')}")
+
+    path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    return path
 
 
 def download_queue(cfg, index, queue):
@@ -479,7 +596,8 @@ def choose_download_types():
     print("[1] PDFs")
     print("[2] Images")
     print("[3] Videos")
-    print("[4] All")
+    print("[4] Audio")
+    print("[5] All")
     print("[0] Back")
 
     choice = input("\nChoose: ").strip()
@@ -491,7 +609,9 @@ def choose_download_types():
     if choice == "3":
         return ["vid"]
     if choice == "4":
-        return ["pdf", "img", "vid"]
+        return ["aud"]
+    if choice == "5":
+        return ["pdf", "img", "vid", "aud"]
     return []
 
 
@@ -503,15 +623,20 @@ def download_media_types(cfg, media_types):
         print("[!] No records in index.")
         return
 
-    queue, missing_counts, missing_items, skipped_other_counts = build_queue(index, media_types)
+    queue, missing_counts, missing_items, skipped_other_counts, excluded_items, duplicate_items = build_queue(index, media_types)
     type_counts = {mt: sum(1 for item in queue if item["media_type"] == mt) for mt in media_types}
+    report_path = write_download_exclusion_report(cfg, excluded_items, duplicate_items)
 
     print("\n=== Download Preview ===")
     print(f"Records queued: {len(queue)}")
     print(f"PDFs:   {type_counts.get('pdf', 0)}")
     print(f"Images: {type_counts.get('img', 0)}")
     print(f"Videos: {type_counts.get('vid', 0)}")
+    print(f"Audio:  {type_counts.get('aud', 0)}")
     print_nonqueued_breakdown(missing_items)
+    if duplicate_items:
+        print(f"Duplicate final endpoints skipped: {len(duplicate_items)}")
+        print(f"Duplicate report: {report_path}")
     print_skipped_other_breakdown(skipped_other_counts)
     for mt in media_types:
         print(f"{media_label(mt)} folder: {output_dir(cfg, mt)}")

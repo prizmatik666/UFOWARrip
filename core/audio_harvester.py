@@ -2,7 +2,6 @@
 # Created by Prizmatik
 # https://github.com/prizmatik666/UFOWARrip
 
-import json
 from urllib.parse import urlsplit
 
 from core.browser_session import BrowserSession
@@ -16,6 +15,7 @@ from core.harvester import (
     find_matching_record,
     norm,
     normalize_asset_from_row,
+    parsed_row_type,
     save_debug,
     scroll_to_records_table,
     wait_for_modal,
@@ -24,85 +24,59 @@ from core.harvester import (
 from core.index_store import export_path, load_index, save_index
 from core.logger import log, now_iso
 from core.pagination import maybe_extend_scan_limit
+from core.video_harvester import is_hls_video_url, is_preferred_video_capture, scrape_related_media
 
 
-def export_video_urls(cfg, index):
+def export_audio_urls(cfg, index):
     urls = []
 
     for rec in sorted(index.get("records", {}).values(), key=lambda r: r.get("asset_name", "")):
-        video = rec.get("video") or {}
-        video_url = video.get("url")
-        if video_url and is_preferred_video_capture(video_url, video.get("content_type", "")):
-            urls.append(video_url)
+        audio = rec.get("audio") or {}
+        audio_url = audio.get("url")
+        if audio_url and is_preferred_audio_capture(audio_url, audio.get("content_type", "")):
+            urls.append(audio_url)
 
-    path = export_path(cfg, "harvested_video_urls")
+    path = export_path(cfg, "harvested_audio_urls")
     path.write_text("\n".join(urls) + ("\n" if urls else ""), encoding="utf-8")
-    print(f"[✓] Exported {len(urls)} video URLs to {path}")
+    print(f"[✓] Exported {len(urls)} audio URLs to {path}")
 
 
-def parsed_row_type(row):
-    cells = row.get("cells") or []
-
-    for cell in reversed(cells):
-        value = (cell or "").strip().upper()
-        if value.startswith("[.") and value.endswith("]"):
-            return value.strip("[]")
-        if value.startswith(".") and len(value) <= 8:
-            return value
-
-    return ""
-
-
-def is_video_row(row):
+def is_audio_row(row):
     text = (row.get("text") or " ".join(row.get("cells") or "") or "").upper()
     row_type = parsed_row_type(row)
 
-    return "[.VID]" in text or ".VID" in text or row_type == ".VID"
+    return "[.AUD]" in text or ".AUD" in text or row_type == ".AUD"
 
 
-def is_preferred_video_capture(url, content_type=""):
-    low_url = (url or "").lower()
-    path = urlsplit(url or "").path.lower()
-
-    if low_url.startswith("blob:"):
-        return False
-
-    if path.endswith(".mp4"):
-        return True
-
-    return False
+def is_preferred_audio_capture(url, content_type=""):
+    return is_preferred_video_capture(url, content_type)
 
 
-def is_hls_video_url(url):
-    low_url = (url or "").lower()
-    return ".m3u8" in low_url or ".ts" in low_url or ".mp2t" in low_url
-
-
-def repair_nonpreferred_video_urls(index):
+def repair_nonpreferred_audio_urls(index):
     repaired = 0
 
     for rec in index.get("records", {}).values():
-        video = rec.get("video") or {}
-        url = video.get("url") or ""
+        audio = rec.get("audio") or {}
+        url = audio.get("url") or ""
 
-        if not url or is_preferred_video_capture(url, video.get("content_type", "")):
+        if not url or is_preferred_audio_capture(url, audio.get("content_type", "")):
             continue
 
         if is_hls_video_url(url):
-            video["hls_url"] = url
+            audio["hls_url"] = url
 
-        video.pop("url", None)
-        video["status"] = "retryable_nonpreferred_video_url"
-        video["retryable"] = True
-        video["error"] = f"nonpreferred video URL captured: {url}"
-        video["last_checked_at"] = now_iso()
-        rec["video"] = video
+        audio.pop("url", None)
+        audio["status"] = "retryable_nonpreferred_audio_url"
+        audio["retryable"] = True
+        audio["error"] = f"nonpreferred audio URL captured: {url}"
+        audio["last_checked_at"] = now_iso()
+        rec["audio"] = audio
 
-        events = rec.setdefault("video_harvest_events", [])
+        events = rec.setdefault("audio_harvest_events", [])
         events.append({
             "ts": now_iso(),
             "status": "failed",
-            "error": "nonpreferred video URL captured",
+            "error": "nonpreferred audio URL captured",
             "url": url,
         })
         del events[:-25]
@@ -111,7 +85,7 @@ def repair_nonpreferred_video_urls(index):
     return repaired
 
 
-def wait_for_video_download_button_ready(page, cfg):
+def wait_for_audio_download_button_ready(page, cfg):
     for _ in range(24):
         ready = page.evaluate(
             """
@@ -140,7 +114,16 @@ def wait_for_video_download_button_ready(page, cfg):
                   const aria = (el.getAttribute('aria-label') || '').toLowerCase();
 
                   if (
-                    (text.includes('download video') || aria.includes('download video')) &&
+                    (
+                      text.includes('download audio') ||
+                      aria.includes('download audio') ||
+                      text.includes('download video') ||
+                      aria.includes('download video') ||
+                      text === 'download' ||
+                      aria === 'download'
+                    ) &&
+                    !text.includes('image') &&
+                    !aria.includes('image') &&
                     !el.disabled &&
                     el.getAttribute('aria-disabled') !== 'true'
                   ) {
@@ -162,7 +145,7 @@ def wait_for_video_download_button_ready(page, cfg):
     return False
 
 
-def click_download_video_button(page):
+def click_download_audio_button(page):
     return page.evaluate(
         """
         () => {
@@ -190,7 +173,16 @@ def click_download_video_button(page):
               const aria = (el.getAttribute('aria-label') || '').toLowerCase();
 
               if (
-                (text.includes('download video') || aria.includes('download video')) &&
+                (
+                  text.includes('download audio') ||
+                  aria.includes('download audio') ||
+                  text.includes('download video') ||
+                  aria.includes('download video') ||
+                  text === 'download' ||
+                  aria === 'download'
+                ) &&
+                !text.includes('image') &&
+                !aria.includes('image') &&
                 !el.disabled &&
                 el.getAttribute('aria-disabled') !== 'true'
               ) {
@@ -207,7 +199,7 @@ def click_download_video_button(page):
     )
 
 
-def get_video_modal_info(page):
+def get_audio_modal_info(page):
     return page.evaluate(
         """
         () => {
@@ -238,20 +230,23 @@ def get_video_modal_info(page):
               href: el.href || el.getAttribute('href') || ''
             }));
 
-          const hasVideoPlayer = !!modal.querySelector('video#record-video-player, video');
+          const hasDownloadAudio = buttons.some(b => {
+            const blob = `${b.text} ${b.aria}`.toLowerCase();
+            return blob.includes('download audio');
+          });
           const hasDownloadVideo = buttons.some(b => {
             const blob = `${b.text} ${b.aria}`.toLowerCase();
             return blob.includes('download video');
           });
-          const categoryBroll = /category\\s*[:\\n ]+b-roll/i.test(text) || lower.includes('b-roll');
-          const hasLength = /length\\s*[:\\n ]+/i.test(text) || lower.includes('length');
+          const hasMediaPlayer = !!modal.querySelector('video, audio');
+          const categoryAudio = lower.includes('audio') || lower.includes('[.aud]') || lower.includes('.aud');
 
           return {
-            is_video: hasVideoPlayer || hasDownloadVideo || categoryBroll || (hasLength && lower.includes('download video')),
-            has_video_player: hasVideoPlayer,
+            is_audio: hasDownloadAudio || hasDownloadVideo || hasMediaPlayer || categoryAudio,
+            has_media_player: hasMediaPlayer,
+            has_download_audio: hasDownloadAudio,
             has_download_video: hasDownloadVideo,
-            category_broll: categoryBroll,
-            has_length: hasLength,
+            category_audio: categoryAudio,
             text: text.slice(0, 2000),
             buttons
           };
@@ -260,72 +255,32 @@ def get_video_modal_info(page):
     )
 
 
-def scrape_related_media(page):
-    return page.evaluate(
-        """
-        () => {
-          const containers = [
-            ...document.querySelectorAll('div.record-related-media[data-record-related-media]'),
-            ...document.querySelectorAll('[data-record-related-media]'),
-            ...document.querySelectorAll('.record-related-media')
-          ];
-
-          const seen = new Set();
-          const out = [];
-
-          for (const container of containers) {
-            for (const a of container.querySelectorAll('a[href]')) {
-              const href = a.href || a.getAttribute('href') || '';
-              if (!href || seen.has(href)) continue;
-              seen.add(href);
-
-              const path = new URL(href, document.location.href).pathname.toLowerCase();
-              let type = 'unknown';
-              if (path.endsWith('.pdf')) type = 'pdf';
-              else if (path.endsWith('.mp4') || path.endsWith('.mov') || path.endsWith('.webm')) type = 'video';
-              else if (path.endsWith('.png') || path.endsWith('.jpg') || path.endsWith('.jpeg') || path.endsWith('.webp')) type = 'image';
-
-              out.push({
-                label: (a.innerText || a.textContent || '').trim(),
-                url: href,
-                type,
-                source: 'modal_related_media'
-              });
-            }
-          }
-
-          return out;
-        }
-        """
-    )
-
-
-def capture_video_url(page, cfg):
-    if not wait_for_video_download_button_ready(page, cfg):
-        return None, "download_video_button_not_ready", None, ""
+def capture_audio_url(page, cfg):
+    if not wait_for_audio_download_button_ready(page, cfg):
+        return None, "download_audio_button_not_ready", None, ""
 
     def response_predicate(res):
         try:
-            return is_preferred_video_capture(res.url, res.headers.get("content-type", ""))
+            return is_preferred_audio_capture(res.url, res.headers.get("content-type", ""))
         except Exception:
             return False
 
     def request_predicate(req):
         try:
-            return is_preferred_video_capture(req.url)
+            return is_preferred_audio_capture(req.url)
         except Exception:
             return False
 
     try:
         with page.expect_response(response_predicate, timeout=15000) as res_info:
-            clicked = click_download_video_button(page)
+            clicked = click_download_audio_button(page)
             if not clicked:
-                return None, "download_video_button_not_found", None, ""
+                return None, "download_audio_button_not_found", None, ""
 
         response = res_info.value
         return (
             response.url,
-            "download_video_button_network_response",
+            "download_audio_button_network_response",
             response.status,
             response.headers.get("content-type", ""),
         )
@@ -334,36 +289,39 @@ def capture_video_url(page, cfg):
 
     try:
         with page.expect_request(request_predicate, timeout=15000) as req_info:
-            clicked = click_download_video_button(page)
+            clicked = click_download_audio_button(page)
             if not clicked:
-                return None, "download_video_button_not_found", None, ""
+                return None, "download_audio_button_not_found", None, ""
 
         request = req_info.value
-        return request.url, "download_video_button_network_request", None, ""
+        return request.url, "download_audio_button_network_request", None, ""
     except Exception:
         pass
 
-    return None, "video_url_not_captured", None, ""
+    return None, "audio_url_not_captured", None, ""
 
 
-def save_video_success(rec, video_url, source, status, content_type, related_media):
-    rec["media_type"] = "video"
-    rec["video"] = {
-        "url": video_url,
+def save_audio_success(rec, audio_url, source, status, content_type, related_media):
+    rec["media_type"] = "audio"
+    rec["source_media_tag"] = ".AUD"
+    rec["audio"] = {
+        "url": audio_url,
         "url_source": source,
         "status": status,
         "content_type": content_type,
         "captured_at": now_iso(),
+        "source_media_tag": ".AUD",
+        "payload_media_type": "mp4" if urlsplit(audio_url or "").path.lower().endswith(".mp4") else "unknown",
     }
 
     if related_media:
         rec["related_media"] = related_media
 
-    events = rec.setdefault("video_harvest_events", [])
+    events = rec.setdefault("audio_harvest_events", [])
     events.append({
         "ts": now_iso(),
         "status": "ok",
-        "url": video_url,
+        "url": audio_url,
         "source": source,
         "http_status": status,
         "content_type": content_type,
@@ -371,19 +329,21 @@ def save_video_success(rec, video_url, source, status, content_type, related_med
     del events[:-25]
 
 
-def save_video_failure(rec, error, related_media=None):
-    video = rec.setdefault("video", {})
-    video.update({
+def save_audio_failure(rec, error, related_media=None):
+    audio = rec.setdefault("audio", {})
+    audio.update({
         "status": "failed",
         "error": str(error),
         "failed_at": now_iso(),
         "retryable": True,
+        "source_media_tag": ".AUD",
     })
+    rec["source_media_tag"] = ".AUD"
 
     if related_media:
         rec["related_media"] = related_media
 
-    events = rec.setdefault("video_harvest_events", [])
+    events = rec.setdefault("audio_harvest_events", [])
     events.append({
         "ts": now_iso(),
         "status": "failed",
@@ -392,7 +352,7 @@ def save_video_failure(rec, error, related_media=None):
     del events[:-25]
 
 
-def harvest_video_urls(cfg):
+def harvest_audio_urls(cfg):
     cfg.ensure_dirs()
     index = load_index(cfg)
     records = index.get("records", {})
@@ -401,14 +361,14 @@ def harvest_video_urls(cfg):
         print("[!] No records in index. Run observe first.")
         return
 
-    repaired = repair_nonpreferred_video_urls(index)
+    repaired = repair_nonpreferred_audio_urls(index)
     if repaired:
         save_index(cfg, index)
-        export_video_urls(cfg, index)
-        print(f"[WarRip] Marked {repaired} non-MP4 video captures retryable.")
+        export_audio_urls(cfg, index)
+        print(f"[WarRip] Marked {repaired} non-MP4 audio captures retryable.")
 
-    print("[WarRip] Page-local video URL harvester starting...")
-    print("[WarRip] Video rows → modal → Download Video → captured MP4 network URL.")
+    print("[WarRip] Page-local audio URL harvester starting...")
+    print("[WarRip] Audio rows [.AUD] -> modal -> Download -> captured MP4 media URL.")
 
     captured = 0
     skipped = 0
@@ -423,25 +383,26 @@ def harvest_video_urls(cfg):
 
         while page_num <= scan_limit:
             current = active_page_number(page) or page_num
-            print(f"\n[WarRip] Video harvest page {current}...")
+            print(f"\n[WarRip] Audio harvest page {current}...")
 
             scroll_to_records_table(page, cfg)
             rows = extract_visible_table_rows(page)
 
             if not rows:
-                save_debug(cfg, page, f"video_page_{current}", "no_visible_rows")
+                save_debug(cfg, page, f"audio_page_{current}", "no_visible_rows")
                 print("[!] No visible rows found. Stopping.")
                 break
 
-            video_rows = [row for row in rows if is_video_row(row)]
-            skipped_non_video_page = len(rows) - len(video_rows)
+            audio_rows = [row for row in rows if is_audio_row(row)]
+            skipped_non_audio_page = len(rows) - len(audio_rows)
             captured_page = 0
 
             print(
                 f"[WarRip] Visible rows: {len(rows)} | "
-                f"video rows: {len(video_rows)} | "
-                f"skipped non-video: {skipped_non_video_page}"
+                f"audio rows: {len(audio_rows)} | "
+                f"skipped non-audio: {skipped_non_audio_page}"
             )
+
             page_rows = list(rows)
 
             for local_i, row in enumerate(page_rows, start=1):
@@ -449,7 +410,7 @@ def harvest_video_urls(cfg):
                 if not asset:
                     continue
 
-                if not is_video_row(row):
+                if not is_audio_row(row):
                     skipped += 1
                     continue
 
@@ -458,11 +419,12 @@ def harvest_video_urls(cfg):
                     print(f"[{local_i}/{len(page_rows)}] no matching index record: {asset}")
                     continue
 
-                video = rec.get("video") or {}
-                existing_video_url = video.get("url")
-                if existing_video_url and is_preferred_video_capture(existing_video_url, video.get("content_type", "")):
+                rec["source_media_tag"] = ".AUD"
+                audio = rec.get("audio") or {}
+                existing_audio_url = audio.get("url")
+                if existing_audio_url and is_preferred_audio_capture(existing_audio_url, audio.get("content_type", "")):
                     skipped += 1
-                    print(f"[{local_i}/{len(page_rows)}] already has video URL: {asset}")
+                    print(f"[{local_i}/{len(page_rows)}] already has audio URL: {asset}")
                     continue
 
                 try:
@@ -478,30 +440,30 @@ def harvest_video_urls(cfg):
                     if not fresh_match:
                         raise RuntimeError("fresh row match disappeared before click")
 
-                    print(f"[{local_i}/{len(page_rows)}] inspect video: {asset}")
+                    print(f"[{local_i}/{len(page_rows)}] inspect audio: {asset}")
                     click_info = click_row_by_index(page, fresh_match)
                     append_observation(cfg, {
                         "ts": now_iso(),
                         "asset": asset,
-                        "kind": "video_click_record",
+                        "kind": "audio_click_record",
                         "page": current,
                         "click_info": click_info,
                     })
 
                     if not click_info.get("clicked"):
-                        save_debug(cfg, page, asset, "video_row_not_clicked")
+                        save_debug(cfg, page, asset, "audio_row_not_clicked")
                         raise RuntimeError(f"row not clicked: {click_info}")
 
                     if not wait_for_modal(page, cfg):
-                        save_debug(cfg, page, asset, "video_modal_not_found")
+                        save_debug(cfg, page, asset, "audio_modal_not_found")
                         raise RuntimeError("modal did not appear")
 
-                    modal_info = get_video_modal_info(page)
+                    modal_info = get_audio_modal_info(page)
                     related_media = scrape_related_media(page)
                     append_observation(cfg, {
                         "ts": now_iso(),
                         "asset": asset,
-                        "kind": "video_modal_inspect",
+                        "kind": "audio_modal_inspect",
                         "page": current,
                         "modal_info": modal_info,
                         "related_media": related_media,
@@ -510,43 +472,47 @@ def harvest_video_urls(cfg):
                     if related_media:
                         rec["related_media"] = related_media
 
-                    if not modal_info.get("is_video"):
+                    if not modal_info.get("is_audio"):
                         skipped += 1
-                        print(f"    [-] not video")
+                        print("    [-] not audio")
                         close_modal(page, cfg)
                         scroll_to_records_table(page, cfg)
                         save_index(cfg, index)
-                        export_video_urls(cfg, index)
+                        export_audio_urls(cfg, index)
                         continue
 
-                    video_url, source, status, content_type = capture_video_url(page, cfg)
+                    audio_url, source, status, content_type = capture_audio_url(page, cfg)
                     append_observation(cfg, {
                         "ts": now_iso(),
                         "asset": asset,
-                        "kind": "video_download_capture",
+                        "kind": "audio_download_capture",
                         "page": current,
-                        "video_url": video_url,
+                        "audio_url": audio_url,
                         "source": source,
                         "status": status,
                         "content_type": content_type,
                     })
 
-                    if not video_url:
-                        save_debug(cfg, page, asset, "video_url_not_captured")
-                        raise RuntimeError(f"video URL not captured: {source}")
+                    if not audio_url:
+                        save_debug(cfg, page, asset, "audio_url_not_captured")
+                        raise RuntimeError(f"audio URL not captured: {source}")
 
-                    save_video_success(rec, video_url, source, status, content_type, related_media)
+                    if not is_preferred_audio_capture(audio_url, content_type):
+                        save_debug(cfg, page, asset, "audio_url_nonpreferred")
+                        raise RuntimeError(f"nonpreferred audio URL captured: {audio_url}")
+
+                    save_audio_success(rec, audio_url, source, status, content_type, related_media)
                     captured += 1
                     captured_page += 1
-                    print(f"    [✓] {source}: {video_url}")
+                    print(f"    [✓] {source}: {audio_url}")
 
                     close_modal(page, cfg)
                     scroll_to_records_table(page, cfg)
 
                 except Exception as e:
-                    save_video_failure(rec, e)
+                    save_audio_failure(rec, e)
                     failed += 1
-                    log(cfg, f"video harvest failed {asset}: {e}")
+                    log(cfg, f"audio harvest failed {asset}: {e}")
                     print(f"    [!] failed: {e}")
 
                     try:
@@ -556,12 +522,12 @@ def harvest_video_urls(cfg):
                         pass
 
                 save_index(cfg, index)
-                export_video_urls(cfg, index)
+                export_audio_urls(cfg, index)
 
             print(
-                f"[WarRip] Page {current} video summary: "
-                f"visible={len(rows)} video={len(video_rows)} "
-                f"skipped_non_video={skipped_non_video_page} harvested={captured_page}"
+                f"[WarRip] Page {current} audio summary: "
+                f"visible={len(rows)} audio={len(audio_rows)} "
+                f"skipped_non_audio={skipped_non_audio_page} harvested={captured_page}"
             )
 
             next_page = page_num + 1
@@ -570,12 +536,12 @@ def harvest_video_urls(cfg):
                 break
 
             if not click_next_page(page, cfg):
-                print("[WarRip] No NEXT page. Video harvest complete.")
+                print("[WarRip] No NEXT page. Audio harvest complete.")
                 break
 
             page_num += 1
 
-    print("\n[✓] Video URL harvest complete.")
+    print("\n[✓] Audio URL harvest complete.")
     print(f"Captured: {captured}")
     print(f"Skipped:  {skipped}")
     print(f"Failed:   {failed}")

@@ -1,6 +1,7 @@
 {
-  "start_url": "https://www.war.gov/UFO/",
+  "start_url": "https://www.war.gov/UFO/?releaseDate=Release+01#records",
   "release": "release_1",
+  "release_number": 1,
   "output_dir": "war_ufo_data",
   "headed": true,
   "stable_wait_ms": 1200,
