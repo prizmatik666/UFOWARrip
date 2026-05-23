@@ -1,5 +1,8 @@
 # UFOWARrip
 
+<img width="1200" height="600" alt="output" src="https://github.com/user-attachments/assets/a4657d0f-7406-4bad-a4c6-efb1cca8e29a" />
+
+
 Current version: WarRip v3.2
 
 UFOWARrip is a browser-observed download pipeline for the public `war.gov/UFO/` release page.
