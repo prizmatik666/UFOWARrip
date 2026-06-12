@@ -31,3 +31,10 @@ playwright-report/
 test-results/
 
 node_modules/
+
+war_ufo_data/data/
+  candidate_urls_release_*.txt
+war_ufo_data/data/
+  harvested_*_urls*.txt
+war_ufo_data/data/
+  harvested_all_urls_numbered_release_*.txt
