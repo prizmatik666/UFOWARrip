@@ -12,6 +12,7 @@ from urllib.parse import unquote, urlsplit
 import requests
 
 from core.browser_session import BrowserSession
+from core.release_page import goto_release_page
 from core.index_store import load_index, save_index
 from core.logger import log, now_iso
 
@@ -510,11 +511,26 @@ def download_queue(cfg, index, queue):
             close_browser_session()
             browser_session = BrowserSession(cfg)
             browser_page = browser_session.__enter__()
-            browser_page.goto(cfg.start_url, wait_until="domcontentloaded", timeout=90000)
-            browser_page.wait_for_timeout(2000)
+            goto_release_page(browser_page, cfg, wait_ms=2000)
         return browser_page
 
+    def browser_preflight_needed():
+        for item in queue:
+            if not is_war_gov_url(item["url"]):
+                continue
+
+            out = output_path(cfg, item)
+            ok, _ = existing_valid(item["media_type"], out)
+            if not ok:
+                return True
+
+        return False
+
     try:
+        if browser_preflight_needed():
+            get_browser_page()
+            print()
+
         for i, item in enumerate(queue, start=1):
             out = output_path(cfg, item)
             ok, reason = existing_valid(item["media_type"], out)

@@ -15,12 +15,29 @@ from core.downloader import download_media_types, download_missing
 from core.verifier import verify_downloads
 from core.index_store import export_harvested_urls, index_path, load_index, summarize_index
 
+APP_NAME = "WarRip v3.3"
 
-APP_NAME = "WarRip v3.2"
+
+def print_banner():
+    print(r"""
+ _   _ _____ ___    __        ___    ____  
+| | | |  ___/ _ \   \ \      / / \  |  _ \ 
+| | | | |_ | | | |   \ \ /\ / / _ \ | |_) |
+| |_| |  _|| |_| |    \ V  V / ___ \|  _ < 
+ \___/|_|   \___/      \_/\_/_/   \_\_| \_\
+""")
+
+
+def harvest_all_urls(cfg):
+    harvest_pdf_urls(cfg)
+    harvest_image_urls(cfg)
+    harvest_video_urls(cfg)
+    harvest_audio_urls(cfg)
 
 
 def menu():
     cfg = Config.load()
+    print_banner()
     select_release(cfg)
 
     while True:
@@ -32,13 +49,14 @@ def menu():
         print("[3] Harvest image download URLs")
         print("[4] Harvest video download URLs")
         print("[5] Harvest audio download URLs")
-        print("[6] Download harvested media")
-        print("[7] Observe + PDF harvest + download PDFs")
-        print("[8] Verify downloads")
-        print("[9] Export URL list")
-        print("[10] Show summary")
-        print("[11] Settings")
-        print("[12] Change release")
+        print("[6] Harvest all download URLs")
+        print("[7] Download harvested media")
+        print("[8] Observe + PDF harvest + download PDFs")
+        print("[9] Verify downloads")
+        print("[10] Export URL list")
+        print("[11] Show summary")
+        print("[12] Settings")
+        print("[13] Change release")
         print("[0] Exit")
 
         choice = input("\nChoose: ").strip()
@@ -55,20 +73,22 @@ def menu():
             elif choice == "5":
                 harvest_audio_urls(cfg)
             elif choice == "6":
-                download_missing(cfg)
+                harvest_all_urls(cfg)
             elif choice == "7":
+                download_missing(cfg)
+            elif choice == "8":
                 observe_site(cfg)
                 harvest_pdf_urls(cfg)
                 download_media_types(cfg, ["pdf"])
-            elif choice == "8":
-                verify_downloads(cfg)
             elif choice == "9":
-                export_url_menu(cfg)
+                verify_downloads(cfg)
             elif choice == "10":
-                summarize_index(cfg)
+                export_url_menu(cfg)
             elif choice == "11":
-                settings(cfg)
+                summarize_index(cfg)
             elif choice == "12":
+                settings(cfg)
+            elif choice == "13":
                 select_release(cfg)
             elif choice == "0":
                 print("Later, space cowboy.")
@@ -203,4 +223,7 @@ def export_url_menu(cfg):
 
 
 if __name__ == "__main__":
-    menu()
+    try:
+        menu()
+    except KeyboardInterrupt:
+        print("\n[WarRip] Exiting.")

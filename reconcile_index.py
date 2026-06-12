@@ -13,6 +13,7 @@ from pathlib import Path
 
 from core.browser_session import BrowserSession
 from core.config import Config
+from core.release_page import goto_release_page, validate_release_scope
 
 
 REPORT_NAME = "reconciliation_report.json"
@@ -255,9 +256,10 @@ def crawl_live_site(cfg):
 
     with BrowserSession(cfg) as page:
         print("[reconcile] Opening live site...")
-        page.goto(cfg.start_url, wait_until="domcontentloaded", timeout=90000)
+        goto_release_page(page, cfg)
         wait_for_rows(page, cfg)
         scroll_to_records(page, cfg)
+        validate_release_scope(page, cfg)
 
         site_count_label = extract_site_count_label(page)
         page_number = active_page_number(page) or 1

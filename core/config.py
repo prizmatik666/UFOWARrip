@@ -9,7 +9,8 @@ import re
 
 
 CONFIG_PATH = Path("warrip_config.json")
-RELEASE_URL_TEMPLATE = "https://www.war.gov/UFO/?releaseDate=Release+{release_num:02d}#records"
+BASE_UFO_URL = "https://www.war.gov/UFO/"
+RELEASE_URL_TEMPLATE = "https://www.war.gov/UFO/release/{release_num:02d}/?releaseDate=Release+{release_num:02d}&release={release_num:02d}"
 
 
 def release_label(release_number: int) -> str:
@@ -27,7 +28,7 @@ def release_url(release_number: int) -> str:
 
 @dataclass
 class Config:
-    start_url: str = "https://www.war.gov/UFO/?releaseDate=Release+01#records"
+    start_url: str = "https://www.war.gov/UFO/release/01/?releaseDate=Release+01&release=01"
     release: str = "release_1"
     release_number: int = 1
     output_dir: str = "war_ufo_data"

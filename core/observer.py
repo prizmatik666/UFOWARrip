@@ -9,6 +9,7 @@ from core.extractor import extract_visible_records, active_page_number
 from core.index_store import load_index, save_index, merge_record, export_candidate_urls
 from core.logger import log, now_iso
 from core.pagination import maybe_extend_scan_limit
+from core.release_page import goto_release_page, validate_release_scope
 
 
 def release_name(cfg):
@@ -109,9 +110,7 @@ def observe_site(cfg):
     with BrowserSession(cfg) as page:
         install_network_observer(cfg, page)
 
-        print("[WarRip] Opening site...")
-        page.goto(cfg.start_url, wait_until="domcontentloaded", timeout=90000)
-        page.wait_for_timeout(4000)
+        goto_release_page(page, cfg)
 
         page_num = active_page_number(page) or 1
         previous_assets = set()
@@ -125,6 +124,7 @@ def observe_site(cfg):
 
             records = extract_visible_records(page, cfg, page_num)
             current_assets = {r["asset_name"] for r in records}
+            validate_release_scope(page, cfg, require_rows=bool(records))
 
             if page_num > 1 and current_assets and current_assets == previous_assets:
                 print("[!] Page did not change records. Stopping loop guard.")

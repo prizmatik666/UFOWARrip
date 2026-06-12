@@ -24,6 +24,7 @@ from core.harvester import (
 from core.index_store import export_path, load_index, save_index
 from core.logger import log, now_iso
 from core.pagination import maybe_extend_scan_limit
+from core.release_page import goto_release_page, validate_release_scope
 
 
 IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".gif", ".webp"}
@@ -375,8 +376,7 @@ def harvest_image_urls(cfg):
     scan_limit = cfg.max_pages
 
     with BrowserSession(cfg) as page:
-        page.goto(cfg.start_url, wait_until="domcontentloaded", timeout=90000)
-        page.wait_for_timeout(4000)
+        goto_release_page(page, cfg)
         wait_for_records_ready(page, cfg)
 
         while page_num <= scan_limit:
@@ -385,6 +385,7 @@ def harvest_image_urls(cfg):
 
             scroll_to_records_table(page, cfg)
             rows = extract_visible_table_rows(page)
+            validate_release_scope(page, cfg, require_rows=bool(rows))
 
             if not rows:
                 save_debug(cfg, page, f"image_page_{current}", "no_visible_rows")

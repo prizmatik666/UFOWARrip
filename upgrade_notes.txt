@@ -1,15 +1,32 @@
 UFOWARrip Upgrade Notes
 Date: 2026-05-23
 
+Current version
+- WarRip v3.3 updates release navigation for the current WAR.GOV tab behavior and adds Release 3 seed index/download coverage.
+
 Release-aware workflow
 - Added release selection at program startup and from the main menu.
 - Release number input now controls both the site URL and local data paths.
 - Release 1 uses:
-  https://www.war.gov/UFO/?releaseDate=Release+01#records
+  https://www.war.gov/UFO/release/01/?releaseDate=Release+01&release=01
 - Release 2 uses:
-  https://www.war.gov/UFO/?releaseDate=Release+02#records
+  https://www.war.gov/UFO/release/02/?releaseDate=Release+02&release=02
 - Single-digit release numbers are zero-padded in the URL.
 - Main menu now shows the active release URL and active index file.
+
+Release tab scoping
+- WAR.GOV can load a release URL while leaving the All tab active, which exposes combined records from multiple releases.
+- Browser workflows now open the base UFO page, open the selected release URL, then explicitly click the matching release tab:
+  release_1 -> data-release="01"
+  release_2 -> data-release="02"
+  release_3 -> data-release="03"
+- Observe, harvest, download browser fallback, and reconciliation fail loudly if the active tab does not match the selected release.
+- Release validation now checks the active release tab and visible record/link release tags instead of scanning the whole DOM, so navigation tabs and featured content do not falsely disqualify the page.
+
+Harvest workflow
+- Added menu mode [6] Harvest all download URLs.
+- The all-harvest mode runs PDF, image, video, and audio URL harvesters in sequence for the selected release.
+- Download harvested media moved to mode [7], and later menu items were renumbered.
 
 Per-release indexes and exports
 - Replaced the single shared index.json workflow with per-release indexes:
@@ -46,6 +63,7 @@ Download, verify, and dedupe behavior
 - Non-downloadable site/control rows are excluded from download queue behavior while remaining in the index for traceability.
 - Download exclusion reports are written per release:
   download_exclusions_release_N.txt
+- Browser-backed downloads now run release page setup and scope validation before printing the first per-item download progress line.
 - Verifier now checks all media types using the same paths and validation rules as the downloader.
 - Verifier output now gives practical next-step guidance when files are missing or invalid.
 

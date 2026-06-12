@@ -3,7 +3,8 @@
 <img width="1200" height="600" alt="output" src="https://github.com/user-attachments/assets/a4657d0f-7406-4bad-a4c6-efb1cca8e29a" />
 
 
-Current version: WarRip v3.2
+=======
+Current version: WarRip v3.3
 
 UFOWARrip is a browser-observed download pipeline for the public `war.gov/UFO/` release page.
 
@@ -29,23 +30,26 @@ This repository includes clean per-release indexes under:
 ```text
 war_ufo_data/data/index_release_1.json
 war_ufo_data/data/index_release_2.json
+war_ufo_data/data/index_release_3.json
 war_ufo_data/data/aaro_index.json
 ```
 
 That means new users can download harvested media right away without running the site observation or URL harvesting steps first.
 
-The included War Department indexes cover Release 1 and Release 2. The included AARO index covers the AARO official UAP imagery/incidents dataset handled by the companion AARO script.
+The included War Department indexes cover Release 1, Release 2, and Release 3. The included AARO index covers the AARO official UAP imagery/incidents dataset handled by the companion AARO script.
 
 The included indexes contain observed record metadata and harvested URLs, but they have fresh download state. Local paths, hashes, failed attempts, and machine-specific download records were reset before publishing.
 
 At startup, UFOWARrip asks which release number to work on. The release number controls both the browser URL and the local index file. For example:
 
 ```text
-1 -> https://www.war.gov/UFO/?releaseDate=Release+01#records
-2 -> https://www.war.gov/UFO/?releaseDate=Release+02#records
+1 -> https://www.war.gov/UFO/release/01/?releaseDate=Release+01&release=01
+2 -> https://www.war.gov/UFO/release/02/?releaseDate=Release+02&release=02
 ```
 
 Single-digit release numbers are zero-padded in the site URL.
+
+WAR.GOV can initially keep the `All` release tab active even when a release URL is loaded. UFOWARrip explicitly clicks the selected release tab in the browser and verifies the active tab before observing, harvesting, reconciling, or using browser-backed downloads.
 
 ## Requirements
 
@@ -88,10 +92,10 @@ The compile step is optional, but useful before long browser runs because it cat
 
 ## Recommended Workflow
 
-Because fresh Release 1, Release 2, and AARO indexes are included, most users can skip observe/build-index and URL harvesting. For War Department releases, choose the release number at startup, then go straight to:
+Because fresh Release 1, Release 2, Release 3, and AARO indexes are included, most users can skip observe/build-index and URL harvesting. For War Department releases, choose the release number at startup, then go straight to:
 
 ```text
-[6] Download harvested media
+[7] Download harvested media
 ```
 
 Then choose:
@@ -112,7 +116,8 @@ If you want to refresh or rebuild data from the live site:
 [3] Harvest image download URLs
 [4] Harvest video download URLs
 [5] Harvest audio download URLs
-[6] Download harvested media
+[6] Harvest all download URLs
+[7] Download harvested media
 ```
 
 Mode `[1]` is not required every run. Use it when the selected release index is missing, stale, damaged, or the release page has changed.
@@ -128,7 +133,7 @@ Opens the release page and records visible page/card metadata into the index.
 The URL is derived from the selected release number. For release `2`, mode `[1]` opens:
 
 ```text
-https://www.war.gov/UFO/?releaseDate=Release+02#records
+https://www.war.gov/UFO/release/02/?releaseDate=Release+02&release=02
 ```
 
 Observed records are saved to the matching per-release index, such as:
@@ -162,7 +167,13 @@ Processes only records visibly marked `[.VID]`. It clicks Download Video and cap
 Processes records visibly marked `[.AUD]`. The site labels these as audio records, but the final media endpoint may still be an `.mp4` file. UFOWARrip preserves the source `.AUD` label in the index and stores accepted downloads under the audio folder.
 
 ```text
-[6] Download harvested media
+[6] Harvest all download URLs
+```
+
+Runs the PDF, image, video, and audio harvesters in sequence for the selected release.
+
+```text
+[7] Download harvested media
 ```
 
 Downloads selected media types from harvested URLs only. It does not use guessed/generated candidate URLs by default.
@@ -185,19 +196,19 @@ The downloader validates files before accepting them:
 Existing valid files are not overwritten.
 
 ```text
-[7] Observe + PDF harvest + download PDFs
+[8] Observe + PDF harvest + download PDFs
 ```
 
 Runs a combined PDF-focused workflow.
 
 ```text
-[8] Verify downloads
+[9] Verify downloads
 ```
 
 Checks downloaded files for all media types and updates download metadata. If files are missing or invalid, the verifier prints practical next steps for rerunning the download pass.
 
 ```text
-[9] Export URL list
+[10] Export URL list
 ```
 
 Exports final harvested endpoint URLs. These are not observe-time guesses. You can choose:
@@ -238,19 +249,19 @@ harvested_all_urls_release_N.txt
 ```
 
 ```text
-[10] Show summary
+[11] Show summary
 ```
 
 Prints a quick index/download summary.
 
 ```text
-[11] Settings
+[12] Settings
 ```
 
 Opens the settings submenu.
 
 ```text
-[12] Change release
+[13] Change release
 ```
 
 Switches the active release number, browser URL, index file, exports, and download folder.
@@ -267,7 +278,7 @@ The release number to work on. Default:
 1
 ```
 
-This controls the site URL. For example, release `1` maps to `Release+01`, and release `2` maps to `Release+02`.
+This controls the site URL. For example, release `1` maps to `/UFO/release/01/?releaseDate=Release+01&release=01`, and release `2` maps to `/UFO/release/02/?releaseDate=Release+02&release=02`.
 
 ```text
 Release/subfolder
@@ -329,6 +340,7 @@ Continuing extends only the current run's temporary scan limit. It does not chan
 
 - The harvesters are intentionally separate for PDFs, images, videos, and audio-labeled records because each media type behaves differently on the site.
 - Direct Python requests to war.gov can return `403`; browser context matters.
+- Release membership is controlled by the active WAR.GOV release tab, not by scanning all navigation text on the page.
 - The downloader rejects tiny or fake files. This prevents saving old 536-byte error bodies as successful PDFs.
 - Video player `blob:` URLs are not real downloadable source URLs. UFOWARrip captures direct `.mp4` network URLs instead.
 - `.AUD` records may also resolve to `.mp4` endpoints. They remain classified as audio in the index for fidelity to the source site label.
@@ -349,6 +361,7 @@ core/audio_harvester.py   audio-labeled URL harvester
 core/downloader.py        validated media downloader
 core/index_store.py       index load/save/export helpers
 core/pagination.py        shared pagination continuation prompts
+core/release_page.py      release URL navigation and active-tab validation
 ```
 ## Reconciliation / Audit Tool
 
@@ -444,6 +457,7 @@ war_ufo_data/
     aaro_index.json
     index_release_1.json
     index_release_2.json
+    index_release_3.json
     candidate_urls_release_1.txt
     harvested_pdf_urls_release_1.txt
     harvested_image_urls_release_1.txt
@@ -457,6 +471,11 @@ war_ufo_data/
       vid/
       aud/
     release_2/
+      pdf/
+      img/
+      vid/
+      aud/
+    release_3/
       pdf/
       img/
       vid/

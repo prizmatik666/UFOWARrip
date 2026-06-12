@@ -1,0 +1,4188 @@
+{
+  "records": {
+    "CIA-UAP-002,_SCIENTIFIC_ADVISORY_PANEL_ON_UNIDENTIFIED_FLYING_OBJECTS,_REPORT,_1952-1953": {
+      "agency": "CIA",
+      "asset_name": "CIA-UAP-002,_SCIENTIFIC_ADVISORY_PANEL_ON_UNIDENTIFIED_FLYING_OBJECTS,_REPORT,_1952-1953",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/cia-uap-002,_scientific_advisory_panel_on_unidentified_flying_objects,_report,_1952-1953.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:29:33.267022+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 1,
+          "status": "ok",
+          "ts": "2026-06-12T14:32:56.630113+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-002_Scientific-Advisory-Panel-on-Unidentified-Flying-Objects_Report_1952-1953.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:32:56.630062+00:00",
+      "incident_date": "1952-1953",
+      "incident_location": "N/A",
+      "last_harvest_attempt_at": "2026-06-12T14:32:56.630062+00:00",
+      "last_seen": "2026-06-12T14:29:33.267035+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/cia-uap-002,_scientific_advisory_panel_on_unidentified_flying_objects,_report,_1952-1953.pdf"
+      ],
+      "raw_cells": [
+        "CIA-UAP-002, SCIENTIFIC ADVISORY PANEL ON UNIDENTIFIED FLYING OBJECTS, REPORT, 1952-1953",
+        "[CIA]",
+        "[6/12/26 - RELEASE 03]",
+        "[1952-1953]",
+        "[N/A]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        1
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-002_Scientific-Advisory-Panel-on-Unidentified-Flying-Objects_Report_1952-1953.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "CIA-UAP-003,_THE_CENTRAL_INTELLIGENCE_AGENCY_AND_OVERHEAD_RECONNAISSANCE;_THE_U-2_AND_OXCART_PROGRAMS,_1954-1974": {
+      "agency": "CIA",
+      "asset_name": "CIA-UAP-003,_THE_CENTRAL_INTELLIGENCE_AGENCY_AND_OVERHEAD_RECONNAISSANCE;_THE_U-2_AND_OXCART_PROGRAMS,_1954-1974",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/cia-uap-003,_the_central_intelligence_agency_and_overhead_reconnaissance;_the_u-2_and_oxcart_programs,_1954-1974.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:29:33.267050+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 1,
+          "status": "ok",
+          "ts": "2026-06-12T14:33:00.833953+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-003-THE_CENTRAL_INTELLIGENCE_AGENCY_AND_OVERHEAD_RECONNAISSANCE-THE_U-2_AND_OXCART_PROGRAMS_1954-1974.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:33:00.833889+00:00",
+      "incident_date": "1954-1974",
+      "incident_location": "N/A",
+      "last_harvest_attempt_at": "2026-06-12T14:33:00.833889+00:00",
+      "last_seen": "2026-06-12T14:29:33.267063+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/cia-uap-003,_the_central_intelligence_agency_and_overhead_reconnaissance;_the_u-2_and_oxcart_programs,_1954-1974.pdf"
+      ],
+      "raw_cells": [
+        "CIA-UAP-003, THE CENTRAL INTELLIGENCE AGENCY AND OVERHEAD RECONNAISSANCE; THE U-2 AND OXCART PROGRAMS, 1954-1974",
+        "[CIA]",
+        "[6/12/26 - RELEASE 03]",
+        "[1954-1974]",
+        "[N/A]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        1
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-003-THE_CENTRAL_INTELLIGENCE_AGENCY_AND_OVERHEAD_RECONNAISSANCE-THE_U-2_AND_OXCART_PROGRAMS_1954-1974.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "CIA-UAP-004,_CASE_17708_(CLOSED)_AND_DR._LEON_DAVIDSON": {
+      "agency": "CIA",
+      "asset_name": "CIA-UAP-004,_CASE_17708_(CLOSED)_AND_DR._LEON_DAVIDSON",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/cia-uap-004,_case_17708_(closed)_and_dr._leon_davidson.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:30:02.431845+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 2,
+          "status": "ok",
+          "ts": "2026-06-12T14:33:07.993445+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-004-CASE_17708_CLOSED_AND_DR_LEON_DAVIDSON.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:33:07.993380+00:00",
+      "incident_date": "1958",
+      "incident_location": "N/A",
+      "last_harvest_attempt_at": "2026-06-12T14:33:07.993380+00:00",
+      "last_seen": "2026-06-12T14:30:02.431891+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/cia-uap-004,_case_17708_(closed)_and_dr._leon_davidson.pdf"
+      ],
+      "raw_cells": [
+        "CIA-UAP-004, CASE 17708 (CLOSED) AND DR. LEON DAVIDSON",
+        "[CIA]",
+        "[6/12/26 - RELEASE 03]",
+        "[1958]",
+        "[N/A]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        2
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-004-CASE_17708_CLOSED_AND_DR_LEON_DAVIDSON.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "CIA-UAP-005,_GERMAN_SCIENTIST'S_ARTICLE_ON_'FLYING_DISCS'": {
+      "agency": "CIA",
+      "asset_name": "CIA-UAP-005,_GERMAN_SCIENTIST'S_ARTICLE_ON_'FLYING_DISCS'",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/cia-uap-005,_german_scientist's_article_on_'flying_discs'.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:30:02.431911+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 2,
+          "status": "ok",
+          "ts": "2026-06-12T14:33:12.126214+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-005-GERMAN_SCIENTISTS_%20ARTICLE_ON_FLYING_DISCS.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:33:12.126154+00:00",
+      "incident_date": "1950",
+      "incident_location": "N/A",
+      "last_harvest_attempt_at": "2026-06-12T14:33:12.126154+00:00",
+      "last_seen": "2026-06-12T14:30:02.431924+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/cia-uap-005,_german_scientist's_article_on_'flying_discs'.pdf"
+      ],
+      "raw_cells": [
+        "CIA-UAP-005, GERMAN SCIENTIST'S ARTICLE ON 'FLYING DISCS'",
+        "[CIA]",
+        "[6/12/26 - RELEASE 03]",
+        "[1950]",
+        "[N/A]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        2
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-005-GERMAN_SCIENTISTS_%20ARTICLE_ON_FLYING_DISCS.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "CIA-UAP-006,_SIGHTING_OF_UNCONVENTIONAL_AIRCRAFT": {
+      "agency": "CIA",
+      "asset_name": "CIA-UAP-006,_SIGHTING_OF_UNCONVENTIONAL_AIRCRAFT",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/cia-uap-006,_sighting_of_unconventional_aircraft.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:30:02.431939+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 2,
+          "status": "ok",
+          "ts": "2026-06-12T14:33:15.949820+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-006_Sighting_of_Unconventional_Aircraft.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:33:15.949745+00:00",
+      "incident_date": "NOVEMBER, 1955",
+      "incident_location": "BAKU, AZERBAIJAN",
+      "last_harvest_attempt_at": "2026-06-12T14:33:15.949745+00:00",
+      "last_seen": "2026-06-12T14:30:02.431951+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/cia-uap-006,_sighting_of_unconventional_aircraft.pdf"
+      ],
+      "raw_cells": [
+        "CIA-UAP-006, SIGHTING OF UNCONVENTIONAL AIRCRAFT",
+        "[CIA]",
+        "[6/12/26 - RELEASE 03]",
+        "[NOVEMBER, 1955]",
+        "[BAKU, AZERBAIJAN]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        2
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-006_Sighting_of_Unconventional_Aircraft.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "CIA-UAP-007,_CURRENT_STATUS_OF_UNIDENTIFIED_FLYING_OBJECTS_(UFO)_PROJECT.": {
+      "agency": "CIA",
+      "asset_name": "CIA-UAP-007,_CURRENT_STATUS_OF_UNIDENTIFIED_FLYING_OBJECTS_(UFO)_PROJECT.",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/cia-uap-007,_current_status_of_unidentified_flying_objects_(ufo)_project..pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:30:02.431967+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 2,
+          "status": "ok",
+          "ts": "2026-06-12T14:33:19.920400+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-007_Current_Status_of_Unidentified_Flying_Objects_UFO_Project.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:33:19.920343+00:00",
+      "incident_date": "DECEMBER, 1953",
+      "incident_location": "N/A",
+      "last_harvest_attempt_at": "2026-06-12T14:33:19.920343+00:00",
+      "last_seen": "2026-06-12T14:30:02.431979+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/cia-uap-007,_current_status_of_unidentified_flying_objects_(ufo)_project..pdf"
+      ],
+      "raw_cells": [
+        "CIA-UAP-007, CURRENT STATUS OF UNIDENTIFIED FLYING OBJECTS (UFO) PROJECT.",
+        "[CIA]",
+        "[6/12/26 - RELEASE 03]",
+        "[DECEMBER, 1953]",
+        "[N/A]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        2
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-007_Current_Status_of_Unidentified_Flying_Objects_UFO_Project.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "CIA-UAP-008,_SPECULATIVE_PAPER_BY_N_KARDASHEV_AND_A_SAKHAROV_ON_CHARGED_MASS_IN_SPACE_AT_CONFERENCE_ON_ORIGINS_OF_LIFE,_ARMENIA,_6-8_SEPTEMBER_1971/LOW_SCIENTIFIC_LEVEL_OF_OTHER_SOVIET_PAPERS": {
+      "agency": "CIA",
+      "asset_name": "CIA-UAP-008,_SPECULATIVE_PAPER_BY_N_KARDASHEV_AND_A_SAKHAROV_ON_CHARGED_MASS_IN_SPACE_AT_CONFERENCE_ON_ORIGINS_OF_LIFE,_ARMENIA,_6-8_SEPTEMBER_1971/LOW_SCIENTIFIC_LEVEL_OF_OTHER_SOVIET_PAPERS",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/cia-uap-008,_speculative_paper_by_n_kardashev_and_a_sakharov_on_charged_mass_in_space_at_conference_on_origins_of_life,_armenia,_6-8_september_1971/low_scientific_level_of_other_soviet_papers.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:30:02.431994+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 2,
+          "status": "ok",
+          "ts": "2026-06-12T14:33:24.129884+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-008_SPECULATIVE_PAPER_BY_N_KARDASHEV_AND_A_SAKHAROV.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:33:24.129813+00:00",
+      "incident_date": "1972",
+      "incident_location": "N/A",
+      "last_harvest_attempt_at": "2026-06-12T14:33:24.129813+00:00",
+      "last_seen": "2026-06-12T14:30:02.432006+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/cia-uap-008,_speculative_paper_by_n_kardashev_and_a_sakharov_on_charged_mass_in_space_at_conference_on_origins_of_life,_armenia,_6-8_september_1971/low_scientific_level_of_other_soviet_papers.pdf"
+      ],
+      "raw_cells": [
+        "CIA-UAP-008, SPECULATIVE PAPER BY N KARDASHEV AND A SAKHAROV ON CHARGED MASS IN SPACE AT CONFERENCE ON ORIGINS OF LIFE, ARMENIA, 6-8 SEPTEMBER 1971/LOW SCIENTIFIC LEVEL OF OTHER SOVIET PAPERS",
+        "[CIA]",
+        "[6/12/26 - RELEASE 03]",
+        "[1972]",
+        "[N/A]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        2
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-008_SPECULATIVE_PAPER_BY_N_KARDASHEV_AND_A_SAKHAROV.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "CIA-UAP-009,_UNKNOWN_FLYING_OBJECTS_OBSERVED_OVER_BUDAPEST": {
+      "agency": "CIA",
+      "asset_name": "CIA-UAP-009,_UNKNOWN_FLYING_OBJECTS_OBSERVED_OVER_BUDAPEST",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/cia-uap-009,_unknown_flying_objects_observed_over_budapest.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:30:02.432020+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 2,
+          "status": "ok",
+          "ts": "2026-06-12T14:33:27.961228+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-009-UNKNOWN-FLYING_OBJECTS_OBERVED_OVER_BUDAPEST.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:33:27.961176+00:00",
+      "incident_date": "1957",
+      "incident_location": "BUDAPEST, HUNGARY",
+      "last_harvest_attempt_at": "2026-06-12T14:33:27.961176+00:00",
+      "last_seen": "2026-06-12T14:30:02.432032+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/cia-uap-009,_unknown_flying_objects_observed_over_budapest.pdf"
+      ],
+      "raw_cells": [
+        "CIA-UAP-009, UNKNOWN FLYING OBJECTS OBSERVED OVER BUDAPEST",
+        "[CIA]",
+        "[6/12/26 - RELEASE 03]",
+        "[1957]",
+        "[BUDAPEST, HUNGARY]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        2
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-009-UNKNOWN-FLYING_OBJECTS_OBERVED_OVER_BUDAPEST.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "CIA-UAP-010,_REPORT_ON_CONVERSATIONS_WITH_SOVIET_SCIENTISTS_ON_SUBJECT_OF_UNIDENTIFIED_FLYING_OBJECTS_IN_THE_USSR": {
+      "agency": "CIA",
+      "asset_name": "CIA-UAP-010,_REPORT_ON_CONVERSATIONS_WITH_SOVIET_SCIENTISTS_ON_SUBJECT_OF_UNIDENTIFIED_FLYING_OBJECTS_IN_THE_USSR",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/cia-uap-010,_report_on_conversations_with_soviet_scientists_on_subject_of_unidentified_flying_objects_in_the_ussr.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:30:02.432063+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 2,
+          "status": "ok",
+          "ts": "2026-06-12T14:33:31.811482+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-010_REPORT_ON_CONVERSATIONS_WITH_SOVIET_SCIENTISTS_ON_SUBJECT_OF_UNIDENTIFIED_FLYING_OBJECTS_IS_THE_USSR.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:33:31.811393+00:00",
+      "incident_date": "AUGUST, 1967",
+      "incident_location": "USSR",
+      "last_harvest_attempt_at": "2026-06-12T14:33:31.811393+00:00",
+      "last_seen": "2026-06-12T14:30:02.432076+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/cia-uap-010,_report_on_conversations_with_soviet_scientists_on_subject_of_unidentified_flying_objects_in_the_ussr.pdf"
+      ],
+      "raw_cells": [
+        "CIA-UAP-010, REPORT ON CONVERSATIONS WITH SOVIET SCIENTISTS ON SUBJECT OF UNIDENTIFIED FLYING OBJECTS IN THE USSR",
+        "[CIA]",
+        "[6/12/26 - RELEASE 03]",
+        "[AUGUST, 1967]",
+        "[USSR]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        2
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-010_REPORT_ON_CONVERSATIONS_WITH_SOVIET_SCIENTISTS_ON_SUBJECT_OF_UNIDENTIFIED_FLYING_OBJECTS_IS_THE_USSR.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "CIA-UAP-011,_THE_SARY_SHAGAN_WEAPONS_TESTING_RANGE": {
+      "agency": "CIA",
+      "asset_name": "CIA-UAP-011,_THE_SARY_SHAGAN_WEAPONS_TESTING_RANGE",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/cia-uap-011,_the_sary_shagan_weapons_testing_range.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:30:02.432091+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 2,
+          "status": "ok",
+          "ts": "2026-06-12T14:33:35.879906+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-011-The_Sary_Shagan_Weapons_Testing_Range.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:33:35.879843+00:00",
+      "incident_date": "DECEMBER, 1973",
+      "incident_location": "USSR",
+      "last_harvest_attempt_at": "2026-06-12T14:33:35.879843+00:00",
+      "last_seen": "2026-06-12T14:30:02.432102+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/cia-uap-011,_the_sary_shagan_weapons_testing_range.pdf"
+      ],
+      "raw_cells": [
+        "CIA-UAP-011, THE SARY SHAGAN WEAPONS TESTING RANGE",
+        "[CIA]",
+        "[6/12/26 - RELEASE 03]",
+        "[DECEMBER, 1973]",
+        "[USSR]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        2
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-011-The_Sary_Shagan_Weapons_Testing_Range.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "CIA-UAP-012,_COMBATING_FATIGUE_IN_CREWMEMBERS": {
+      "agency": "CIA",
+      "asset_name": "CIA-UAP-012,_COMBATING_FATIGUE_IN_CREWMEMBERS",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/cia-uap-012,_combating_fatigue_in_crewmembers.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:30:02.432116+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 2,
+          "status": "ok",
+          "ts": "2026-06-12T14:33:39.843647+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-012-Combatting_Fatigue_in_Crewmembers.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:33:39.843592+00:00",
+      "incident_date": "NOVEMBER, 1976",
+      "incident_location": "N/A",
+      "last_harvest_attempt_at": "2026-06-12T14:33:39.843592+00:00",
+      "last_seen": "2026-06-12T14:30:02.432128+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/cia-uap-012,_combating_fatigue_in_crewmembers.pdf"
+      ],
+      "raw_cells": [
+        "CIA-UAP-012, COMBATING FATIGUE IN CREWMEMBERS",
+        "[CIA]",
+        "[6/12/26 - RELEASE 03]",
+        "[NOVEMBER, 1976]",
+        "[N/A]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        2
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-012-Combatting_Fatigue_in_Crewmembers.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "CIA-UAP-013,_REPORT_OF_UNUSUAL_FLYING_OBJECT_SIGHTINGS_AND_ATTENDANT_SCIENTIFIC_ACTIVITY": {
+      "agency": "CIA",
+      "asset_name": "CIA-UAP-013,_REPORT_OF_UNUSUAL_FLYING_OBJECT_SIGHTINGS_AND_ATTENDANT_SCIENTIFIC_ACTIVITY",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/cia-uap-013,_report_of_unusual_flying_object_sightings_and_attendant_scientific_activity.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:30:02.432142+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 2,
+          "status": "ok",
+          "ts": "2026-06-12T14:33:43.604486+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-013-Report_of_Unusual_Flying_Object_Sightings_and_Attendant_Scientific_Activity.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:33:43.604421+00:00",
+      "incident_date": "1956",
+      "incident_location": "BUDAPEST, HUNGARY",
+      "last_harvest_attempt_at": "2026-06-12T14:33:43.604421+00:00",
+      "last_seen": "2026-06-12T14:30:02.432153+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/cia-uap-013,_report_of_unusual_flying_object_sightings_and_attendant_scientific_activity.pdf"
+      ],
+      "raw_cells": [
+        "CIA-UAP-013, REPORT OF UNUSUAL FLYING OBJECT SIGHTINGS AND ATTENDANT SCIENTIFIC ACTIVITY",
+        "[CIA]",
+        "[6/12/26 - RELEASE 03]",
+        "[1956]",
+        "[BUDAPEST, HUNGARY]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        2
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-013-Report_of_Unusual_Flying_Object_Sightings_and_Attendant_Scientific_Activity.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "CIA-UAP-014,_BRITISH_ACTIVITY_IN_THE_FIELD_OF_\"UNIDENTIFIED_FLYING_OBJECTS\"": {
+      "agency": "CIA",
+      "asset_name": "CIA-UAP-014,_BRITISH_ACTIVITY_IN_THE_FIELD_OF_\"UNIDENTIFIED_FLYING_OBJECTS\"",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/cia-uap-014,_british_activity_in_the_field_of_\"unidentified_flying_objects\".pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:30:02.432178+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 2,
+          "status": "ok",
+          "ts": "2026-06-12T14:33:47.029482+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-014_British_Activity_in_the_Field_of_Unidentified_Flying_Objects.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:33:47.029421+00:00",
+      "incident_date": "DECEMBER, 1952",
+      "incident_location": "N/A",
+      "last_harvest_attempt_at": "2026-06-12T14:33:47.029421+00:00",
+      "last_seen": "2026-06-12T14:30:02.432191+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/cia-uap-014,_british_activity_in_the_field_of_\"unidentified_flying_objects\".pdf"
+      ],
+      "raw_cells": [
+        "CIA-UAP-014, BRITISH ACTIVITY IN THE FIELD OF \"UNIDENTIFIED FLYING OBJECTS\"",
+        "[CIA]",
+        "[6/12/26 - RELEASE 03]",
+        "[DECEMBER, 1952]",
+        "[N/A]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        2
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-014_British_Activity_in_the_Field_of_Unidentified_Flying_Objects.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "CIA-UAP-015,_PROJECT_BLUE_BOOK_SPECIAL_REPORT_NO._14_(ANALYSIS_OF_REPORTS_OF_UNIDENTIFIED_AERIAL_OBJECTS)": {
+      "agency": "CIA",
+      "asset_name": "CIA-UAP-015,_PROJECT_BLUE_BOOK_SPECIAL_REPORT_NO._14_(ANALYSIS_OF_REPORTS_OF_UNIDENTIFIED_AERIAL_OBJECTS)",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/cia-uap-015,_project_blue_book_special_report_no._14_(analysis_of_reports_of_unidentified_aerial_objects).pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:30:02.432205+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 2,
+          "status": "ok",
+          "ts": "2026-06-12T14:33:51.043935+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-015-Project_Blue_Book_Special_Report_No_14.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:33:51.043812+00:00",
+      "incident_date": "",
+      "incident_location": "N/A",
+      "last_harvest_attempt_at": "2026-06-12T14:33:51.043812+00:00",
+      "last_seen": "2026-06-12T14:30:02.432226+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/cia-uap-015,_project_blue_book_special_report_no._14_(analysis_of_reports_of_unidentified_aerial_objects).pdf"
+      ],
+      "raw_cells": [
+        "CIA-UAP-015, PROJECT BLUE BOOK SPECIAL REPORT NO. 14 (ANALYSIS OF REPORTS OF UNIDENTIFIED AERIAL OBJECTS)",
+        "[CIA]",
+        "[6/12/26 - RELEASE 03]",
+        "[]",
+        "[N/A]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        2
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-015-Project_Blue_Book_Special_Report_No_14.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "CIA-UAP-016,_SIGHTINGS_OF_UNIDENTIFIED_FLYING_OBJECTS_IN_LADAKH,_NEPAL,_SIKKIM_AND_BHUTAN": {
+      "agency": "CIA",
+      "asset_name": "CIA-UAP-016,_SIGHTINGS_OF_UNIDENTIFIED_FLYING_OBJECTS_IN_LADAKH,_NEPAL,_SIKKIM_AND_BHUTAN",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/cia-uap-016,_sightings_of_unidentified_flying_objects_in_ladakh,_nepal,_sikkim_and_bhutan.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:30:31.637177+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 3,
+          "status": "ok",
+          "ts": "2026-06-12T14:33:58.551986+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-016-Sightings_of_Unidentified_Flying_Ojbects_in_Ladakh_Nepal_Sikkim_and_Bhutan.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:33:58.551907+00:00",
+      "incident_date": "1968",
+      "incident_location": "LADAKH, NEPAL | SKKIM, INDIA | BHUTAM",
+      "last_harvest_attempt_at": "2026-06-12T14:33:58.551907+00:00",
+      "last_seen": "2026-06-12T14:30:31.637229+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/cia-uap-016,_sightings_of_unidentified_flying_objects_in_ladakh,_nepal,_sikkim_and_bhutan.pdf"
+      ],
+      "raw_cells": [
+        "CIA-UAP-016, SIGHTINGS OF UNIDENTIFIED FLYING OBJECTS IN LADAKH, NEPAL, SIKKIM AND BHUTAN",
+        "[CIA]",
+        "[6/12/26 - RELEASE 03]",
+        "[1968]",
+        "[LADAKH, NEPAL | SKKIM, INDIA | BHUTAM]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        3
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-016-Sightings_of_Unidentified_Flying_Ojbects_in_Ladakh_Nepal_Sikkim_and_Bhutan.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "CIA-UAP-017,_PLACEMENT_ON_HIGH_ALERT_DUE_TO_PERCEIVED_AGGRESSIVE_FOREIGN_POSTURING": {
+      "agency": "CIA",
+      "asset_name": "CIA-UAP-017,_PLACEMENT_ON_HIGH_ALERT_DUE_TO_PERCEIVED_AGGRESSIVE_FOREIGN_POSTURING",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/cia-uap-017,_placement_on_high_alert_due_to_perceived_aggressive_foreign_posturing.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:29:33.266660+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 1,
+          "status": "ok",
+          "ts": "2026-06-12T14:32:23.598080+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-017_Placement_on_High_Alert_Due_to_Perceived_Aggressive_Foreign_Posturing.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:32:23.598013+00:00",
+      "incident_date": "JULY, 2008",
+      "incident_location": "HARARE, ZIMBABWE",
+      "last_harvest_attempt_at": "2026-06-12T14:32:23.598013+00:00",
+      "last_seen": "2026-06-12T14:29:33.266719+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/cia-uap-017,_placement_on_high_alert_due_to_perceived_aggressive_foreign_posturing.pdf"
+      ],
+      "raw_cells": [
+        "CIA-UAP-017, PLACEMENT ON HIGH ALERT DUE TO PERCEIVED AGGRESSIVE FOREIGN POSTURING",
+        "[CIA]",
+        "[6/12/26 - RELEASE 03]",
+        "[JULY, 2008]",
+        "[HARARE, ZIMBABWE]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        1
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-017_Placement_on_High_Alert_Due_to_Perceived_Aggressive_Foreign_Posturing.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "CIA-UAP-018,_REPORT_OF_UNUSUAL_FLYING_OBJECT_SIGHTINGS_AND_ATTENDANT_SCIENTIFIC_ACTIVITY": {
+      "agency": "CIA",
+      "asset_name": "CIA-UAP-018,_REPORT_OF_UNUSUAL_FLYING_OBJECT_SIGHTINGS_AND_ATTENDANT_SCIENTIFIC_ACTIVITY",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/cia-uap-018,_report_of_unusual_flying_object_sightings_and_attendant_scientific_activity.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:30:31.637250+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 3,
+          "status": "ok",
+          "ts": "2026-06-12T14:34:02.274644+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-018_Report_of_Unusual_Flying_Object_Sightings_and_Attendant_Scientific_Activity.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:34:02.274605+00:00",
+      "incident_date": "1955",
+      "incident_location": "HUNGARY",
+      "last_harvest_attempt_at": "2026-06-12T14:34:02.274605+00:00",
+      "last_seen": "2026-06-12T14:30:31.637263+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/cia-uap-018,_report_of_unusual_flying_object_sightings_and_attendant_scientific_activity.pdf"
+      ],
+      "raw_cells": [
+        "CIA-UAP-018, REPORT OF UNUSUAL FLYING OBJECT SIGHTINGS AND ATTENDANT SCIENTIFIC ACTIVITY",
+        "[CIA]",
+        "[6/12/26 - RELEASE 03]",
+        "[1955]",
+        "[HUNGARY]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        3
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-018_Report_of_Unusual_Flying_Object_Sightings_and_Attendant_Scientific_Activity.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "CIA-UAP-019,_AUSTRALIAN_DEPT_OF_DEFENSE_SCIENTIFIC_AND_INTEL_ASPECTS_OF_THE_UFO_PROBLEM": {
+      "agency": "CIA",
+      "asset_name": "CIA-UAP-019,_AUSTRALIAN_DEPT_OF_DEFENSE_SCIENTIFIC_AND_INTEL_ASPECTS_OF_THE_UFO_PROBLEM",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/cia-uap-019,_australian_dept_of_defense_scientific_and_intel_aspects_of_the_ufo_problem.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:30:31.637279+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 3,
+          "status": "ok",
+          "ts": "2026-06-12T14:34:06.105865+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-019-Australian_Dept_of_Defense_Scientific_and_Intel_Aspects_of_the_UFO_Problem.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:34:06.105805+00:00",
+      "incident_date": "1971",
+      "incident_location": "AUSTRALIA",
+      "last_harvest_attempt_at": "2026-06-12T14:34:06.105805+00:00",
+      "last_seen": "2026-06-12T14:30:31.637292+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/cia-uap-019,_australian_dept_of_defense_scientific_and_intel_aspects_of_the_ufo_problem.pdf"
+      ],
+      "raw_cells": [
+        "CIA-UAP-019, AUSTRALIAN DEPT OF DEFENSE SCIENTIFIC AND INTEL ASPECTS OF THE UFO PROBLEM",
+        "[CIA]",
+        "[6/12/26 - RELEASE 03]",
+        "[1971]",
+        "[AUSTRALIA]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        3
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-019-Australian_Dept_of_Defense_Scientific_and_Intel_Aspects_of_the_UFO_Problem.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "DOW-UAP-D077,_AARO_UNRESOLVED_CASE_ANALYSIS_UPDATE:_WESTERN_UNITED_STATES_EVENT": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-D077,_AARO_UNRESOLVED_CASE_ANALYSIS_UPDATE:_WESTERN_UNITED_STATES_EVENT",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/dow-uap-d077,_aaro_unresolved_case_analysis_update:_western_united_states_event.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:30:31.637307+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 3,
+          "status": "ok",
+          "ts": "2026-06-12T14:34:10.330924+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/DOW-UAP-D077_Unresolved-Case-Analysis-Update_Western-United-States-Event.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:34:10.330865+00:00",
+      "incident_date": "2023",
+      "incident_location": "WESTERN UNITED STATES",
+      "last_harvest_attempt_at": "2026-06-12T14:34:10.330865+00:00",
+      "last_seen": "2026-06-12T14:30:31.637319+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/dow-uap-d077,_aaro_unresolved_case_analysis_update:_western_united_states_event.pdf"
+      ],
+      "raw_cells": [
+        "DOW-UAP-D077, AARO UNRESOLVED CASE ANALYSIS UPDATE: WESTERN UNITED STATES EVENT",
+        "[DEPARTMENT OF WAR]",
+        "[6/12/26 - RELEASE 03]",
+        "[2023]",
+        "[WESTERN UNITED STATES]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        3
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/DOW-UAP-D077_Unresolved-Case-Analysis-Update_Western-United-States-Event.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "DOW-UAP-D078,_NOTIONAL_MAP:_WESTERN_UNITED_STATES_EVENT": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-D078,_NOTIONAL_MAP:_WESTERN_UNITED_STATES_EVENT",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/dow-uap-d078,_notional_map:_western_united_states_event.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:30:31.637334+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 3,
+          "status": "ok",
+          "ts": "2026-06-12T14:34:14.227726+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/DOW-UAP-D078_Notional-Map_Western-United-States-Event.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:34:14.227666+00:00",
+      "incident_date": "OCTOBER, 2023",
+      "incident_location": "WESTEN UNITED STATES",
+      "last_harvest_attempt_at": "2026-06-12T14:34:14.227666+00:00",
+      "last_seen": "2026-06-12T14:30:31.637346+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/dow-uap-d078,_notional_map:_western_united_states_event.pdf"
+      ],
+      "raw_cells": [
+        "DOW-UAP-D078, NOTIONAL MAP: WESTERN UNITED STATES EVENT",
+        "[DEPARTMENT OF WAR]",
+        "[6/12/26 - RELEASE 03]",
+        "[OCTOBER, 2023]",
+        "[WESTEN UNITED STATES]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        3
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/DOW-UAP-D078_Notional-Map_Western-United-States-Event.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "DOW-UAP-D079,_NARRATIVE_STATEMENT_1,_WESTERN_UNITED_STATES_EVENT,_2023": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-D079,_NARRATIVE_STATEMENT_1,_WESTERN_UNITED_STATES_EVENT,_2023",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/dow-uap-d079,_narrative_statement_1,_western_united_states_event,_2023.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:30:31.637361+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 3,
+          "status": "ok",
+          "ts": "2026-06-12T14:34:17.970613+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/DoW-UAP-D079_Narrative-1_Western-US-Event.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:34:17.970558+00:00",
+      "incident_date": "OCTOBER, 2023",
+      "incident_location": "WESTEN UNITED STATES",
+      "last_harvest_attempt_at": "2026-06-12T14:34:17.970558+00:00",
+      "last_seen": "2026-06-12T14:30:31.637373+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/dow-uap-d079,_narrative_statement_1,_western_united_states_event,_2023.pdf"
+      ],
+      "raw_cells": [
+        "DOW-UAP-D079, NARRATIVE STATEMENT 1, WESTERN UNITED STATES EVENT, 2023",
+        "[DEPARTMENT OF WAR]",
+        "[6/12/26 - RELEASE 03]",
+        "[OCTOBER, 2023]",
+        "[WESTEN UNITED STATES]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        3
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/DoW-UAP-D079_Narrative-1_Western-US-Event.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "DOW-UAP-D080,_NARRATIVE_STATEMENT_2,_WESTERN_UNITED_STATES_EVENT,_2023": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-D080,_NARRATIVE_STATEMENT_2,_WESTERN_UNITED_STATES_EVENT,_2023",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/dow-uap-d080,_narrative_statement_2,_western_united_states_event,_2023.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:30:31.637387+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 3,
+          "status": "ok",
+          "ts": "2026-06-12T14:34:21.727897+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/DoW-UAP-D080_Narrative-2_Western-US-Event.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:34:21.727837+00:00",
+      "incident_date": "OCTOBER, 2023",
+      "incident_location": "WESTEN UNITED STATES",
+      "last_harvest_attempt_at": "2026-06-12T14:34:21.727837+00:00",
+      "last_seen": "2026-06-12T14:30:31.637400+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/dow-uap-d080,_narrative_statement_2,_western_united_states_event,_2023.pdf"
+      ],
+      "raw_cells": [
+        "DOW-UAP-D080, NARRATIVE STATEMENT 2, WESTERN UNITED STATES EVENT, 2023",
+        "[DEPARTMENT OF WAR]",
+        "[6/12/26 - RELEASE 03]",
+        "[OCTOBER, 2023]",
+        "[WESTEN UNITED STATES]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        3
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/DoW-UAP-D080_Narrative-2_Western-US-Event.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "DOW-UAP-D081,_NARRATIVE_STATEMENT_3,_WESTERN_UNITED_STATES_EVENT,_2023": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-D081,_NARRATIVE_STATEMENT_3,_WESTERN_UNITED_STATES_EVENT,_2023",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/dow-uap-d081,_narrative_statement_3,_western_united_states_event,_2023.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:30:31.637414+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 3,
+          "status": "ok",
+          "ts": "2026-06-12T14:34:25.568309+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/DoW-UAP-D081_Narrative-3_Western-US-Event.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:34:25.568236+00:00",
+      "incident_date": "OCTOBER, 2023",
+      "incident_location": "WESTEN UNITED STATES",
+      "last_harvest_attempt_at": "2026-06-12T14:34:25.568236+00:00",
+      "last_seen": "2026-06-12T14:30:31.637427+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/dow-uap-d081,_narrative_statement_3,_western_united_states_event,_2023.pdf"
+      ],
+      "raw_cells": [
+        "DOW-UAP-D081, NARRATIVE STATEMENT 3, WESTERN UNITED STATES EVENT, 2023",
+        "[DEPARTMENT OF WAR]",
+        "[6/12/26 - RELEASE 03]",
+        "[OCTOBER, 2023]",
+        "[WESTEN UNITED STATES]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        3
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/DoW-UAP-D081_Narrative-3_Western-US-Event.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "DOW-UAP-D082,_NARRATIVE_STATEMENT_4,_WESTERN_UNITED_STATES_EVENT,_2023": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-D082,_NARRATIVE_STATEMENT_4,_WESTERN_UNITED_STATES_EVENT,_2023",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/dow-uap-d082,_narrative_statement_4,_western_united_states_event,_2023.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:30:31.637441+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 3,
+          "status": "ok",
+          "ts": "2026-06-12T14:34:29.688831+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/DoW-UAP-D082_Narrative-4_Western-US-Event.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:34:29.688767+00:00",
+      "incident_date": "OCTOBER, 2023",
+      "incident_location": "WESTEN UNITED STATES",
+      "last_harvest_attempt_at": "2026-06-12T14:34:29.688767+00:00",
+      "last_seen": "2026-06-12T14:30:31.637453+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/dow-uap-d082,_narrative_statement_4,_western_united_states_event,_2023.pdf"
+      ],
+      "raw_cells": [
+        "DOW-UAP-D082, NARRATIVE STATEMENT 4, WESTERN UNITED STATES EVENT, 2023",
+        "[DEPARTMENT OF WAR]",
+        "[6/12/26 - RELEASE 03]",
+        "[OCTOBER, 2023]",
+        "[WESTEN UNITED STATES]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        3
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/DoW-UAP-D082_Narrative-4_Western-US-Event.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "DOW-UAP-D083,_NARRATIVE_STATEMENT_5,_WESTERN_UNITED_STATES_EVENT,_2023": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-D083,_NARRATIVE_STATEMENT_5,_WESTERN_UNITED_STATES_EVENT,_2023",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/dow-uap-d083,_narrative_statement_5,_western_united_states_event,_2023.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:30:31.637467+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 3,
+          "status": "ok",
+          "ts": "2026-06-12T14:34:33.676832+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/DoW-UAP-D083_Narrative-5_Western-US-Event.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:34:33.676777+00:00",
+      "incident_date": "OCTOBER, 2023",
+      "incident_location": "WESTEN UNITED STATES",
+      "last_harvest_attempt_at": "2026-06-12T14:34:33.676777+00:00",
+      "last_seen": "2026-06-12T14:30:31.637480+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/dow-uap-d083,_narrative_statement_5,_western_united_states_event,_2023.pdf"
+      ],
+      "raw_cells": [
+        "DOW-UAP-D083, NARRATIVE STATEMENT 5, WESTERN UNITED STATES EVENT, 2023",
+        "[DEPARTMENT OF WAR]",
+        "[6/12/26 - RELEASE 03]",
+        "[OCTOBER, 2023]",
+        "[WESTEN UNITED STATES]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        3
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/DoW-UAP-D083_Narrative-5_Western-US-Event.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "DOW-UAP-D084,_US_ARMY-FLYING-SAUCER-STUDY_1949": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-D084,_US_ARMY-FLYING-SAUCER-STUDY_1949",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/dow-uap-d084,_us_army-flying-saucer-study_1949.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:29:33.266746+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 1,
+          "status": "ok",
+          "ts": "2026-06-12T14:32:27.666453+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/DOW-UAP-D084_USArmy-Flying-Saucer-Study_1949.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:32:27.666388+00:00",
+      "incident_date": "",
+      "incident_location": "N/A",
+      "last_harvest_attempt_at": "2026-06-12T14:32:27.666388+00:00",
+      "last_seen": "2026-06-12T14:29:33.266761+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/dow-uap-d084,_us_army-flying-saucer-study_1949.pdf"
+      ],
+      "raw_cells": [
+        "DOW-UAP-D084, US ARMY-FLYING-SAUCER-STUDY_1949",
+        "[DEPARTMENT OF WAR]",
+        "[6/12/26 - RELEASE 03]",
+        "[]",
+        "[N/A]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        1
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/DOW-UAP-D084_USArmy-Flying-Saucer-Study_1949.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "DOW-UAP-D085_TRANSMISSION-OF-CIA-SCIENTIFIC-ADVISORY-PANEL-REPT_1953": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-D085_TRANSMISSION-OF-CIA-SCIENTIFIC-ADVISORY-PANEL-REPT_1953",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/dow-uap-d085_transmission-of-cia-scientific-advisory-panel-rept_1953.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:30:31.637494+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 3,
+          "status": "ok",
+          "ts": "2026-06-12T14:34:37.442904+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/DOW-UAP-D085_Transmission-of-CIA-Scientific-Advisory-Panel-Rept_1953.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:34:37.442849+00:00",
+      "incident_date": "1953",
+      "incident_location": "N/A",
+      "last_harvest_attempt_at": "2026-06-12T14:34:37.442849+00:00",
+      "last_seen": "2026-06-12T14:30:31.637506+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/dow-uap-d085_transmission-of-cia-scientific-advisory-panel-rept_1953.pdf"
+      ],
+      "raw_cells": [
+        "DOW-UAP-D085_TRANSMISSION-OF-CIA-SCIENTIFIC-ADVISORY-PANEL-REPT_1953",
+        "[DEPARTMENT OF WAR]",
+        "[6/12/26 - RELEASE 03]",
+        "[1953]",
+        "[N/A]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        3
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/DOW-UAP-D085_Transmission-of-CIA-Scientific-Advisory-Panel-Rept_1953.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "DOW-UAP-D086,_USNAVY-REPORT-OF-FLYING-DISCS_1948": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-D086,_USNAVY-REPORT-OF-FLYING-DISCS_1948",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/dow-uap-d086,_usnavy-report-of-flying-discs_1948.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:30:31.637520+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 3,
+          "status": "ok",
+          "ts": "2026-06-12T14:34:41.535967+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/DOW-UAP-D086_USNavy-Report-of-Flying-Discs_1948.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:34:41.535881+00:00",
+      "incident_date": "",
+      "incident_location": "N/A",
+      "last_harvest_attempt_at": "2026-06-12T14:34:41.535881+00:00",
+      "last_seen": "2026-06-12T14:30:31.637532+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/dow-uap-d086,_usnavy-report-of-flying-discs_1948.pdf"
+      ],
+      "raw_cells": [
+        "DOW-UAP-D086, USNAVY-REPORT-OF-FLYING-DISCS_1948",
+        "[DEPARTMENT OF WAR]",
+        "[6/12/26 - RELEASE 03]",
+        "[]",
+        "[N/A]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        3
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/DOW-UAP-D086_USNavy-Report-of-Flying-Discs_1948.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "DOW-UAP-D087,_U.S._AIR_FORCE_ANALYSIS_OF_FLYING_OBJECTS_IN_THE_UNITED_STATES,_1-100": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-D087,_U.S._AIR_FORCE_ANALYSIS_OF_FLYING_OBJECTS_IN_THE_UNITED_STATES,_1-100",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/dow-uap-d087,_u.s._air_force_analysis_of_flying_objects_in_the_united_states,_1-100.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:31:00.690305+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 4,
+          "status": "ok",
+          "ts": "2026-06-12T14:34:48.286770+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/DOW-UAP-D087_US-AirForce_Analysis-of-Flying-Objects-in-the-US_1-100.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:34:48.286707+00:00",
+      "incident_date": "",
+      "incident_location": "UNITED STATES",
+      "last_harvest_attempt_at": "2026-06-12T14:34:48.286707+00:00",
+      "last_seen": "2026-06-12T14:31:00.690352+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/dow-uap-d087,_u.s._air_force_analysis_of_flying_objects_in_the_united_states,_1-100.pdf"
+      ],
+      "raw_cells": [
+        "DOW-UAP-D087, U.S. AIR FORCE ANALYSIS OF FLYING OBJECTS IN THE UNITED STATES, 1-100",
+        "[DEPARTMENT OF WAR]",
+        "[6/12/26 - RELEASE 03]",
+        "[]",
+        "[UNITED STATES]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        4
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/DOW-UAP-D087_US-AirForce_Analysis-of-Flying-Objects-in-the-US_1-100.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "DOW-UAP-D088,_U.S._AIR_FORCE_ANALYSIS_OF_FLYING_OBJECTS_IN_THE_UNITED_STATES,_101-172": {
+      "agency": "DEPARTMENT OF WAR",
+      "asset_name": "DOW-UAP-D088,_U.S._AIR_FORCE_ANALYSIS_OF_FLYING_OBJECTS_IN_THE_UNITED_STATES,_101-172",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/dow-uap-d088,_u.s._air_force_analysis_of_flying_objects_in_the_united_states,_101-172.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:31:00.690371+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 4,
+          "status": "ok",
+          "ts": "2026-06-12T14:34:51.921571+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/DOW-UAP-D088_US-AirForce_Analysis-of-Flying-Objects-in-the-US_101-172.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:34:51.921498+00:00",
+      "incident_date": "",
+      "incident_location": "N/A",
+      "last_harvest_attempt_at": "2026-06-12T14:34:51.921498+00:00",
+      "last_seen": "2026-06-12T14:31:00.690385+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/dow-uap-d088,_u.s._air_force_analysis_of_flying_objects_in_the_united_states,_101-172.pdf"
+      ],
+      "raw_cells": [
+        "DOW-UAP-D088, U.S. AIR FORCE ANALYSIS OF FLYING OBJECTS IN THE UNITED STATES, 101-172",
+        "[DEPARTMENT OF WAR]",
+        "[6/12/26 - RELEASE 03]",
+        "[]",
+        "[N/A]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        4
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/DOW-UAP-D088_US-AirForce_Analysis-of-Flying-Objects-in-the-US_101-172.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "FBI-UAP-D001,_FD-302,_UNRESOLVED_UAP_REPORT,_COLORADO_SPRINGS,_2022": {
+      "agency": "FBI",
+      "asset_name": "FBI-UAP-D001,_FD-302,_UNRESOLVED_UAP_REPORT,_COLORADO_SPRINGS,_2022",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/fbi-uap-d001,_fd-302,_unresolved_uap_report,_colorado_springs,_2022.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:31:00.690401+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 4,
+          "status": "ok",
+          "ts": "2026-06-12T14:34:55.386740+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D001_FD-302_Unresolved-UAP-Report_ColoradoSprings_2022.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:34:55.386670+00:00",
+      "incident_date": "FEBRUARY, 2022",
+      "incident_location": "COLORADO SPRINGS, COLORADO, U.S.",
+      "last_harvest_attempt_at": "2026-06-12T14:34:55.386670+00:00",
+      "last_seen": "2026-06-12T14:31:00.690414+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/fbi-uap-d001,_fd-302,_unresolved_uap_report,_colorado_springs,_2022.pdf"
+      ],
+      "raw_cells": [
+        "FBI-UAP-D001, FD-302, UNRESOLVED UAP REPORT, COLORADO SPRINGS, 2022",
+        "[FBI]",
+        "[6/12/26 - RELEASE 03]",
+        "[FEBRUARY, 2022]",
+        "[COLORADO SPRINGS, COLORADO, U.S.]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        4
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D001_FD-302_Unresolved-UAP-Report_ColoradoSprings_2022.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "FBI-UAP-D002,_FD-1057,_UNRESOLVED_UAP_REPORT,_COLORADO_SPRINGS,_2022": {
+      "agency": "FBI",
+      "asset_name": "FBI-UAP-D002,_FD-1057,_UNRESOLVED_UAP_REPORT,_COLORADO_SPRINGS,_2022",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/fbi-uap-d002,_fd-1057,_unresolved_uap_report,_colorado_springs,_2022.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:29:33.266778+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 1,
+          "status": "ok",
+          "ts": "2026-06-12T14:32:31.912731+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D002_FD-1057_Unresolved-UAP-Report_ColoradoSprings_2022.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:32:31.912671+00:00",
+      "incident_date": "2022",
+      "incident_location": "COLORADO SPRINGS, COLORADO, U.S.",
+      "last_harvest_attempt_at": "2026-06-12T14:32:31.912671+00:00",
+      "last_seen": "2026-06-12T14:29:33.266792+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/fbi-uap-d002,_fd-1057,_unresolved_uap_report,_colorado_springs,_2022.pdf"
+      ],
+      "raw_cells": [
+        "FBI-UAP-D002, FD-1057, UNRESOLVED UAP REPORT, COLORADO SPRINGS, 2022",
+        "[FBI]",
+        "[6/12/26 - RELEASE 03]",
+        "[2022]",
+        "[COLORADO SPRINGS, COLORADO, U.S.]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        1
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D002_FD-1057_Unresolved-UAP-Report_ColoradoSprings_2022.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "FBI-UAP-D003,_DIGITAL_RENDERING,_UNRESOLVED_UAP_REPORT,_COLORADO_SPRINGS,_2022": {
+      "agency": "FBI",
+      "asset_name": "FBI-UAP-D003,_DIGITAL_RENDERING,_UNRESOLVED_UAP_REPORT,_COLORADO_SPRINGS,_2022",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/fbi-uap-d003,_digital_rendering,_unresolved_uap_report,_colorado_springs,_2022.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:29:33.266807+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 1,
+          "status": "ok",
+          "ts": "2026-06-12T14:32:36.036360+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D003_Digital-Rendering_Unresolved-UAP-Report_ColoradoSprings_2022.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:32:36.036326+00:00",
+      "incident_date": "2022",
+      "incident_location": "COLORADO SPRINGS, COLORADO, U.S.",
+      "last_harvest_attempt_at": "2026-06-12T14:32:36.036326+00:00",
+      "last_seen": "2026-06-12T14:29:33.266820+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/fbi-uap-d003,_digital_rendering,_unresolved_uap_report,_colorado_springs,_2022.pdf"
+      ],
+      "raw_cells": [
+        "FBI-UAP-D003, DIGITAL RENDERING, UNRESOLVED UAP REPORT, COLORADO SPRINGS, 2022",
+        "[FBI]",
+        "[6/12/26 - RELEASE 03]",
+        "[2022]",
+        "[COLORADO SPRINGS, COLORADO, U.S.]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        1
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D003_Digital-Rendering_Unresolved-UAP-Report_ColoradoSprings_2022.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "FBI-UAP-D004,_FD-1057-02,_NORTHEASTERN_UNITED_STATES,_2024": {
+      "agency": "FBI",
+      "asset_name": "FBI-UAP-D004,_FD-1057-02,_NORTHEASTERN_UNITED_STATES,_2024",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/fbi-uap-d004,_fd-1057-02,_northeastern_united_states,_2024.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:31:00.690429+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 4,
+          "status": "ok",
+          "ts": "2026-06-12T14:34:59.268670+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D004_FD-1057-02_Northeastern-US_2024.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:34:59.268608+00:00",
+      "incident_date": "OCTOBER, 2024",
+      "incident_location": "NORTHEASTERN UNITED STATES",
+      "last_harvest_attempt_at": "2026-06-12T14:34:59.268608+00:00",
+      "last_seen": "2026-06-12T14:31:00.690441+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/fbi-uap-d004,_fd-1057-02,_northeastern_united_states,_2024.pdf"
+      ],
+      "raw_cells": [
+        "FBI-UAP-D004, FD-1057-02, NORTHEASTERN UNITED STATES, 2024",
+        "[FBI]",
+        "[6/12/26 - RELEASE 03]",
+        "[OCTOBER, 2024]",
+        "[NORTHEASTERN UNITED STATES]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        4
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D004_FD-1057-02_Northeastern-US_2024.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "FBI-UAP-D005,_FD-1057-04,_NORTHEASTERN_UNITED_STATES,_2024": {
+      "agency": "FBI",
+      "asset_name": "FBI-UAP-D005,_FD-1057-04,_NORTHEASTERN_UNITED_STATES,_2024",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/fbi-uap-d005,_fd-1057-04,_northeastern_united_states,_2024.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:31:00.690455+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 4,
+          "status": "ok",
+          "ts": "2026-06-12T14:35:03.008813+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D005_FD-1057-04_Northeastern-US_2024.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:35:03.008760+00:00",
+      "incident_date": "OCTOBER, 2024",
+      "incident_location": "NORTHEASTERN UNITED STATES",
+      "last_harvest_attempt_at": "2026-06-12T14:35:03.008760+00:00",
+      "last_seen": "2026-06-12T14:31:00.690467+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/fbi-uap-d005,_fd-1057-04,_northeastern_united_states,_2024.pdf"
+      ],
+      "raw_cells": [
+        "FBI-UAP-D005, FD-1057-04, NORTHEASTERN UNITED STATES, 2024",
+        "[FBI]",
+        "[6/12/26 - RELEASE 03]",
+        "[OCTOBER, 2024]",
+        "[NORTHEASTERN UNITED STATES]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        4
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D005_FD-1057-04_Northeastern-US_2024.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "FBI-UAP-D006,_FD-1057-05,_NORTHEASTERN_UNITED_STATES,_2024": {
+      "agency": "FBI",
+      "asset_name": "FBI-UAP-D006,_FD-1057-05,_NORTHEASTERN_UNITED_STATES,_2024",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/fbi-uap-d006,_fd-1057-05,_northeastern_united_states,_2024.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:31:00.690481+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 4,
+          "status": "ok",
+          "ts": "2026-06-12T14:35:06.568873+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D006_FD-1057-05_Northeastern-US_2024.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:35:06.568822+00:00",
+      "incident_date": "NOVEMBER, 2024",
+      "incident_location": "NORTHEASTERN UNITED STATES",
+      "last_harvest_attempt_at": "2026-06-12T14:35:06.568822+00:00",
+      "last_seen": "2026-06-12T14:31:00.690493+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/fbi-uap-d006,_fd-1057-05,_northeastern_united_states,_2024.pdf"
+      ],
+      "raw_cells": [
+        "FBI-UAP-D006, FD-1057-05, NORTHEASTERN UNITED STATES, 2024",
+        "[FBI]",
+        "[6/12/26 - RELEASE 03]",
+        "[NOVEMBER, 2024]",
+        "[NORTHEASTERN UNITED STATES]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        4
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D006_FD-1057-05_Northeastern-US_2024.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "FBI-UAP-D007,_FD-1057-06,_NORTHEASTERN_UNITED_STATES,_2024": {
+      "agency": "FBI",
+      "asset_name": "FBI-UAP-D007,_FD-1057-06,_NORTHEASTERN_UNITED_STATES,_2024",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/fbi-uap-d007,_fd-1057-06,_northeastern_united_states,_2024.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:31:00.690508+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 4,
+          "status": "ok",
+          "ts": "2026-06-12T14:35:10.777778+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D007_FD-1057-06_Northeastern-US_2024.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:35:10.777714+00:00",
+      "incident_date": "NOVEMBER, 2024",
+      "incident_location": "NORTHEASTERN UNITED STATES",
+      "last_harvest_attempt_at": "2026-06-12T14:35:10.777714+00:00",
+      "last_seen": "2026-06-12T14:31:00.690522+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/fbi-uap-d007,_fd-1057-06,_northeastern_united_states,_2024.pdf"
+      ],
+      "raw_cells": [
+        "FBI-UAP-D007, FD-1057-06, NORTHEASTERN UNITED STATES, 2024",
+        "[FBI]",
+        "[6/12/26 - RELEASE 03]",
+        "[NOVEMBER, 2024]",
+        "[NORTHEASTERN UNITED STATES]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        4
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D007_FD-1057-06_Northeastern-US_2024.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "FBI-UAP-D008,_FD-1057-07,_NORTHEASTERN_UNITED_STATES,_2024": {
+      "agency": "FBI",
+      "asset_name": "FBI-UAP-D008,_FD-1057-07,_NORTHEASTERN_UNITED_STATES,_2024",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/fbi-uap-d008,_fd-1057-07,_northeastern_united_states,_2024.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:31:00.690543+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 4,
+          "status": "ok",
+          "ts": "2026-06-12T14:35:14.508835+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D008_FD-1057-07_Northeastern-US_2024.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:35:14.508778+00:00",
+      "incident_date": "DECEMBER, 2024",
+      "incident_location": "NORTHEASTERN UNITED STATES",
+      "last_harvest_attempt_at": "2026-06-12T14:35:14.508778+00:00",
+      "last_seen": "2026-06-12T14:31:00.690556+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/fbi-uap-d008,_fd-1057-07,_northeastern_united_states,_2024.pdf"
+      ],
+      "raw_cells": [
+        "FBI-UAP-D008, FD-1057-07, NORTHEASTERN UNITED STATES, 2024",
+        "[FBI]",
+        "[6/12/26 - RELEASE 03]",
+        "[DECEMBER, 2024]",
+        "[NORTHEASTERN UNITED STATES]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        4
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D008_FD-1057-07_Northeastern-US_2024.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "FBI-UAP-D009,_FD-302-67,_\u201cNORTHEASTERN_ORB_SIGHTING,\u201d_2026": {
+      "agency": "FBI",
+      "asset_name": "FBI-UAP-D009,_FD-302-67,_\u201cNORTHEASTERN_ORB_SIGHTING,\u201d_2026",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/fbi-uap-d009,_fd-302-67,_\u201cnortheastern_orb_sighting,\u201d_2026.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:29:33.266835+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 1,
+          "status": "ok",
+          "ts": "2026-06-12T14:32:40.834192+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D009_FD-302-67_Northeastern-Orb-Sighting_2026.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:32:40.834130+00:00",
+      "incident_date": "2026",
+      "incident_location": "NORTHEASTERN UNITED STATES",
+      "last_harvest_attempt_at": "2026-06-12T14:32:40.834130+00:00",
+      "last_seen": "2026-06-12T14:29:33.266847+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/fbi-uap-d009,_fd-302-67,_\u201cnortheastern_orb_sighting,\u201d_2026.pdf"
+      ],
+      "raw_cells": [
+        "FBI-UAP-D009, FD-302-67, \u201cNORTHEASTERN ORB SIGHTING,\u201d 2026",
+        "[FBI]",
+        "[6/12/26 - RELEASE 03]",
+        "[2026]",
+        "[NORTHEASTERN UNITED STATES]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        1
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D009_FD-302-67_Northeastern-Orb-Sighting_2026.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "FBI-UAP-D010,_FD-302-71,_\u201cNORTHEASTERN_ORB_SIGHTING,\u201d_2026": {
+      "agency": "FBI",
+      "asset_name": "FBI-UAP-D010,_FD-302-71,_\u201cNORTHEASTERN_ORB_SIGHTING,\u201d_2026",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/fbi-uap-d010,_fd-302-71,_\u201cnortheastern_orb_sighting,\u201d_2026.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:29:33.266862+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 1,
+          "status": "ok",
+          "ts": "2026-06-12T14:32:44.924721+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D010_FD-302-71_Northeastern-Orb-Sighting_2026.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:32:44.924673+00:00",
+      "incident_date": "2025",
+      "incident_location": "NORTHEASTERN UNITED STATES",
+      "last_harvest_attempt_at": "2026-06-12T14:32:44.924673+00:00",
+      "last_seen": "2026-06-12T14:29:33.266874+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/fbi-uap-d010,_fd-302-71,_\u201cnortheastern_orb_sighting,\u201d_2026.pdf"
+      ],
+      "raw_cells": [
+        "FBI-UAP-D010, FD-302-71, \u201cNORTHEASTERN ORB SIGHTING,\u201d 2026",
+        "[FBI]",
+        "[6/12/26 - RELEASE 03]",
+        "[2025]",
+        "[NORTHEASTERN UNITED STATES]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        1
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D010_FD-302-71_Northeastern-Orb-Sighting_2026.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "FBI-UAP-D011,_D/FBI_CORRESPONDENCE_REFERRAL,_1949": {
+      "agency": "FBI",
+      "asset_name": "FBI-UAP-D011,_D/FBI_CORRESPONDENCE_REFERRAL,_1949",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/fbi-uap-d011,_d/fbi_correspondence_referral,_1949.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:29:33.266891+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 1,
+          "status": "ok",
+          "ts": "2026-06-12T14:32:48.916133+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D011_DFBI-Correspondence-Referral_1949.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:32:48.916081+00:00",
+      "incident_date": "1949",
+      "incident_location": "N/A",
+      "last_harvest_attempt_at": "2026-06-12T14:32:48.916081+00:00",
+      "last_seen": "2026-06-12T14:29:33.266904+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/fbi-uap-d011,_d/fbi_correspondence_referral,_1949.pdf"
+      ],
+      "raw_cells": [
+        "FBI-UAP-D011, D/FBI CORRESPONDENCE REFERRAL, 1949",
+        "[FBI]",
+        "[6/12/26 - RELEASE 03]",
+        "[1949]",
+        "[N/A]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        1
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D011_DFBI-Correspondence-Referral_1949.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "FBI-UAP-D012,_NEWARK_FIELD_OFFICE,_1952-1967": {
+      "agency": "FBI",
+      "asset_name": "FBI-UAP-D012,_NEWARK_FIELD_OFFICE,_1952-1967",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/fbi-uap-d012,_newark_field_office,_1952-1967.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:31:00.690571+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 4,
+          "status": "ok",
+          "ts": "2026-06-12T14:35:18.303507+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D012_Newark-Field-Office_1952-1967.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:35:18.303441+00:00",
+      "incident_date": "AUGUST 1952-1967",
+      "incident_location": "NEW JERSEY, UNITED STATES",
+      "last_harvest_attempt_at": "2026-06-12T14:35:18.303441+00:00",
+      "last_seen": "2026-06-12T14:31:00.690582+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/fbi-uap-d012,_newark_field_office,_1952-1967.pdf"
+      ],
+      "raw_cells": [
+        "FBI-UAP-D012, NEWARK FIELD OFFICE, 1952-1967",
+        "[FBI]",
+        "[6/12/26 - RELEASE 03]",
+        "[AUGUST 1952-1967]",
+        "[NEW JERSEY, UNITED STATES]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        4
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D012_Newark-Field-Office_1952-1967.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "FBI-UAP-D013,_WASHINGTON_STATE_\u2018UFO\u2019_INVESTIGATION,_1952-1960": {
+      "agency": "FBI",
+      "asset_name": "FBI-UAP-D013,_WASHINGTON_STATE_\u2018UFO\u2019_INVESTIGATION,_1952-1960",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/fbi-uap-d013,_washington_state_\u2018ufo\u2019_investigation,_1952-1960.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:31:00.690596+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 4,
+          "status": "ok",
+          "ts": "2026-06-12T14:35:22.515961+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D013_WA-UFO-Investigation_1952-1960.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:35:22.515910+00:00",
+      "incident_date": "JULY 1952-1960",
+      "incident_location": "WASHINGTON STATE, UNITED STATES",
+      "last_harvest_attempt_at": "2026-06-12T14:35:22.515910+00:00",
+      "last_seen": "2026-06-12T14:31:00.690608+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/fbi-uap-d013,_washington_state_\u2018ufo\u2019_investigation,_1952-1960.pdf"
+      ],
+      "raw_cells": [
+        "FBI-UAP-D013, WASHINGTON STATE \u2018UFO\u2019 INVESTIGATION, 1952-1960",
+        "[FBI]",
+        "[6/12/26 - RELEASE 03]",
+        "[JULY 1952-1960]",
+        "[WASHINGTON STATE, UNITED STATES]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        4
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D013_WA-UFO-Investigation_1952-1960.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "FBI-UAP-D014,_DIGITAL_RENDERING,_NARRATIVE_STATEMENT_1-1,_WESTERN_UNITED_STATES_EVENT,_2023": {
+      "agency": "FBI",
+      "asset_name": "FBI-UAP-D014,_DIGITAL_RENDERING,_NARRATIVE_STATEMENT_1-1,_WESTERN_UNITED_STATES_EVENT,_2023",
+      "confidence": "medium",
+      "document_type": ".IMG",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:31:00.690622+00:00",
+      "image": {
+        "captured_at": "2026-06-12T14:38:55.076071+00:00",
+        "content_type": "",
+        "download": {
+          "attempted_url": null,
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "error": null,
+          "failed_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": null,
+        "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D014_Digital-Rendering_Incident-1-1_Western-US-Event_2023.jpg",
+        "url_source": "download_image_button_new_page"
+      },
+      "image_harvest_events": [
+        {
+          "content_type": "",
+          "http_status": null,
+          "source": "download_image_button_new_page",
+          "status": "ok",
+          "ts": "2026-06-12T14:38:55.076110+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D014_Digital-Rendering_Incident-1-1_Western-US-Event_2023.jpg"
+        }
+      ],
+      "incident_date": "OCTOBER, 2023",
+      "incident_location": "WESTEN UNITED STATES",
+      "last_seen": "2026-06-12T14:31:00.690642+00:00",
+      "media_type": "image",
+      "raw_cells": [
+        "FBI-UAP-D014, DIGITAL RENDERING, NARRATIVE STATEMENT 1-1, WESTERN UNITED STATES EVENT, 2023",
+        "[FBI]",
+        "[6/12/26 - RELEASE 03]",
+        "[OCTOBER, 2023]",
+        "[WESTEN UNITED STATES]",
+        "[.IMG]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        4
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_3/fbi-uap-d014,_digital_rendering,_narrative_statement_1-1,_western_united_states_event,_2023.pdf",
+      "url_source": "generated_from_asset_name"
+    },
+    "FBI-UAP-D015,_DIGITAL_RENDERING,_NARRATIVE_STATEMENT_1-2,_WESTERN_UNITED_STATES_EVENT,_2023": {
+      "agency": "FBI",
+      "asset_name": "FBI-UAP-D015,_DIGITAL_RENDERING,_NARRATIVE_STATEMENT_1-2,_WESTERN_UNITED_STATES_EVENT,_2023",
+      "confidence": "medium",
+      "document_type": ".IMG",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:31:00.690658+00:00",
+      "image": {
+        "captured_at": "2026-06-12T14:38:59.002350+00:00",
+        "content_type": "",
+        "download": {
+          "attempted_url": null,
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "error": null,
+          "failed_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": null,
+        "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D015_Digital-Rendering_Incident-1-2_Western-US-Event_2023.jpg",
+        "url_source": "download_image_button_new_page"
+      },
+      "image_harvest_events": [
+        {
+          "content_type": "",
+          "http_status": null,
+          "source": "download_image_button_new_page",
+          "status": "ok",
+          "ts": "2026-06-12T14:38:59.002394+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D015_Digital-Rendering_Incident-1-2_Western-US-Event_2023.jpg"
+        }
+      ],
+      "incident_date": "OCTOBER, 2023",
+      "incident_location": "WESTERN UNITED STATES",
+      "last_seen": "2026-06-12T14:31:00.690670+00:00",
+      "media_type": "image",
+      "raw_cells": [
+        "FBI-UAP-D015, DIGITAL RENDERING, NARRATIVE STATEMENT 1-2, WESTERN UNITED STATES EVENT, 2023",
+        "[FBI]",
+        "[6/12/26 - RELEASE 03]",
+        "[OCTOBER, 2023]",
+        "[WESTERN UNITED STATES]",
+        "[.IMG]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        4
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_3/fbi-uap-d015,_digital_rendering,_narrative_statement_1-2,_western_united_states_event,_2023.pdf",
+      "url_source": "generated_from_asset_name"
+    },
+    "FBI-UAP-D016,_DIGITAL_RENDERING,_NARRATIVE_STATEMENT_2-1,_WESTERN_UNITED_STATES_EVENT,_2023": {
+      "agency": "FBI",
+      "asset_name": "FBI-UAP-D016,_DIGITAL_RENDERING,_NARRATIVE_STATEMENT_2-1,_WESTERN_UNITED_STATES_EVENT,_2023",
+      "confidence": "medium",
+      "document_type": ".IMG",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:31:29.730141+00:00",
+      "image": {
+        "captured_at": "2026-06-12T14:39:06.737933+00:00",
+        "content_type": "",
+        "download": {
+          "attempted_url": null,
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "error": null,
+          "failed_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": null,
+        "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D016_Digital-Rendering_Incident-2-1_Western-US-Event_2023.jpg",
+        "url_source": "download_image_button_new_page"
+      },
+      "image_harvest_events": [
+        {
+          "content_type": "",
+          "http_status": null,
+          "source": "download_image_button_new_page",
+          "status": "ok",
+          "ts": "2026-06-12T14:39:06.737973+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D016_Digital-Rendering_Incident-2-1_Western-US-Event_2023.jpg"
+        }
+      ],
+      "incident_date": "OCTOBER, 2023",
+      "incident_location": "WESTERN UNITED STATES",
+      "last_seen": "2026-06-12T14:31:29.730186+00:00",
+      "media_type": "image",
+      "raw_cells": [
+        "FBI-UAP-D016, DIGITAL RENDERING, NARRATIVE STATEMENT 2-1, WESTERN UNITED STATES EVENT, 2023",
+        "[FBI]",
+        "[6/12/26 - RELEASE 03]",
+        "[OCTOBER, 2023]",
+        "[WESTERN UNITED STATES]",
+        "[.IMG]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        5
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_3/fbi-uap-d016,_digital_rendering,_narrative_statement_2-1,_western_united_states_event,_2023.pdf",
+      "url_source": "generated_from_asset_name"
+    },
+    "FBI-UAP-D017,_DIGITAL_RENDERING,_NARRATIVE_STATEMENT_2-2,_WESTERN_UNITED_STATES_EVENT,_2023": {
+      "agency": "FBI",
+      "asset_name": "FBI-UAP-D017,_DIGITAL_RENDERING,_NARRATIVE_STATEMENT_2-2,_WESTERN_UNITED_STATES_EVENT,_2023",
+      "confidence": "medium",
+      "document_type": ".IMG",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:31:29.730205+00:00",
+      "image": {
+        "captured_at": "2026-06-12T14:39:11.000910+00:00",
+        "content_type": "",
+        "download": {
+          "attempted_url": null,
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "error": null,
+          "failed_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": null,
+        "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D017_Digital-Rendering_Incident-2-2_Western-US-Event_2023.jpg",
+        "url_source": "download_image_button_new_page"
+      },
+      "image_harvest_events": [
+        {
+          "content_type": "",
+          "http_status": null,
+          "source": "download_image_button_new_page",
+          "status": "ok",
+          "ts": "2026-06-12T14:39:11.000952+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D017_Digital-Rendering_Incident-2-2_Western-US-Event_2023.jpg"
+        }
+      ],
+      "incident_date": "OCTOBER, 2023",
+      "incident_location": "WESTERN UNITED STATES",
+      "last_seen": "2026-06-12T14:31:29.730218+00:00",
+      "media_type": "image",
+      "raw_cells": [
+        "FBI-UAP-D017, DIGITAL RENDERING, NARRATIVE STATEMENT 2-2, WESTERN UNITED STATES EVENT, 2023",
+        "[FBI]",
+        "[6/12/26 - RELEASE 03]",
+        "[OCTOBER, 2023]",
+        "[WESTERN UNITED STATES]",
+        "[.IMG]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        5
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_3/fbi-uap-d017,_digital_rendering,_narrative_statement_2-2,_western_united_states_event,_2023.pdf",
+      "url_source": "generated_from_asset_name"
+    },
+    "FBI-UAP-D018,_DIGITAL_RENDERING,_NARRATIVE_STATEMENT_2-3,_WESTERN_UNITED_STATES_EVENT,_2023": {
+      "agency": "FBI",
+      "asset_name": "FBI-UAP-D018,_DIGITAL_RENDERING,_NARRATIVE_STATEMENT_2-3,_WESTERN_UNITED_STATES_EVENT,_2023",
+      "confidence": "medium",
+      "document_type": ".IMG",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:31:29.730234+00:00",
+      "image": {
+        "captured_at": "2026-06-12T14:39:15.037336+00:00",
+        "content_type": "",
+        "download": {
+          "attempted_url": null,
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "error": null,
+          "failed_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": null,
+        "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D018_Digital-Rendering_Incident-2-3_Western-US-Event_2023.jpg",
+        "url_source": "download_image_button_new_page"
+      },
+      "image_harvest_events": [
+        {
+          "content_type": "",
+          "http_status": null,
+          "source": "download_image_button_new_page",
+          "status": "ok",
+          "ts": "2026-06-12T14:39:15.037364+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D018_Digital-Rendering_Incident-2-3_Western-US-Event_2023.jpg"
+        }
+      ],
+      "incident_date": "OCTOBER, 2023",
+      "incident_location": "WESTERN UNITED STATES",
+      "last_seen": "2026-06-12T14:31:29.730246+00:00",
+      "media_type": "image",
+      "raw_cells": [
+        "FBI-UAP-D018, DIGITAL RENDERING, NARRATIVE STATEMENT 2-3, WESTERN UNITED STATES EVENT, 2023",
+        "[FBI]",
+        "[6/12/26 - RELEASE 03]",
+        "[OCTOBER, 2023]",
+        "[WESTERN UNITED STATES]",
+        "[.IMG]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        5
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_3/fbi-uap-d018,_digital_rendering,_narrative_statement_2-3,_western_united_states_event,_2023.pdf",
+      "url_source": "generated_from_asset_name"
+    },
+    "FBI-UAP-D019,_DIGITAL_RENDERING,_NARRATIVE_STATEMENT_2-4,_WESTERN_UNITED_STATES_EVENT,_2023": {
+      "agency": "FBI",
+      "asset_name": "FBI-UAP-D019,_DIGITAL_RENDERING,_NARRATIVE_STATEMENT_2-4,_WESTERN_UNITED_STATES_EVENT,_2023",
+      "confidence": "medium",
+      "document_type": ".IMG",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:31:29.730260+00:00",
+      "image": {
+        "captured_at": "2026-06-12T14:39:19.232423+00:00",
+        "content_type": "",
+        "download": {
+          "attempted_url": null,
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "error": null,
+          "failed_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": null,
+        "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D019_Digital-Rendering_Incident-2-4_Western-US-Event_2023.jpg",
+        "url_source": "download_image_button_new_page"
+      },
+      "image_harvest_events": [
+        {
+          "content_type": "",
+          "http_status": null,
+          "source": "download_image_button_new_page",
+          "status": "ok",
+          "ts": "2026-06-12T14:39:19.232453+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D019_Digital-Rendering_Incident-2-4_Western-US-Event_2023.jpg"
+        }
+      ],
+      "incident_date": "OCTOBER, 2023",
+      "incident_location": "WESTERN UNITED STATES",
+      "last_seen": "2026-06-12T14:31:29.730273+00:00",
+      "media_type": "image",
+      "raw_cells": [
+        "FBI-UAP-D019, DIGITAL RENDERING, NARRATIVE STATEMENT 2-4, WESTERN UNITED STATES EVENT, 2023",
+        "[FBI]",
+        "[6/12/26 - RELEASE 03]",
+        "[OCTOBER, 2023]",
+        "[WESTERN UNITED STATES]",
+        "[.IMG]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        5
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_3/fbi-uap-d019,_digital_rendering,_narrative_statement_2-4,_western_united_states_event,_2023.pdf",
+      "url_source": "generated_from_asset_name"
+    },
+    "FBI-UAP-D020,_DIGITAL_RENDERING,_NARRATIVE_STATEMENT_2-5,_WESTERN_UNITED_STATES_EVENT,_2023": {
+      "agency": "FBI",
+      "asset_name": "FBI-UAP-D020,_DIGITAL_RENDERING,_NARRATIVE_STATEMENT_2-5,_WESTERN_UNITED_STATES_EVENT,_2023",
+      "confidence": "medium",
+      "document_type": ".IMG",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:31:29.730286+00:00",
+      "image": {
+        "captured_at": "2026-06-12T14:39:23.293984+00:00",
+        "content_type": "",
+        "download": {
+          "attempted_url": null,
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "error": null,
+          "failed_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": null,
+        "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D020_Digital-Rendering_Incident-2-5_Western-US-Event_2023.jpg",
+        "url_source": "download_image_button_new_page"
+      },
+      "image_harvest_events": [
+        {
+          "content_type": "",
+          "http_status": null,
+          "source": "download_image_button_new_page",
+          "status": "ok",
+          "ts": "2026-06-12T14:39:23.294035+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D020_Digital-Rendering_Incident-2-5_Western-US-Event_2023.jpg"
+        }
+      ],
+      "incident_date": "OCTOBER, 2023",
+      "incident_location": "WESTERN UNITED STATES",
+      "last_seen": "2026-06-12T14:31:29.730298+00:00",
+      "media_type": "image",
+      "raw_cells": [
+        "FBI-UAP-D020, DIGITAL RENDERING, NARRATIVE STATEMENT 2-5, WESTERN UNITED STATES EVENT, 2023",
+        "[FBI]",
+        "[6/12/26 - RELEASE 03]",
+        "[OCTOBER, 2023]",
+        "[WESTERN UNITED STATES]",
+        "[.IMG]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        5
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_3/fbi-uap-d020,_digital_rendering,_narrative_statement_2-5,_western_united_states_event,_2023.pdf",
+      "url_source": "generated_from_asset_name"
+    },
+    "FBI-UAP-D021,_DIGITAL_RENDERING,_NARRATIVE_STATEMENT_1-3,_WESTERN_UNITED_STATES_EVENT,_2023": {
+      "agency": "FBI",
+      "asset_name": "FBI-UAP-D021,_DIGITAL_RENDERING,_NARRATIVE_STATEMENT_1-3,_WESTERN_UNITED_STATES_EVENT,_2023",
+      "confidence": "medium",
+      "document_type": ".IMG",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:31:29.730312+00:00",
+      "image": {
+        "captured_at": "2026-06-12T14:39:27.489301+00:00",
+        "content_type": "",
+        "download": {
+          "attempted_url": null,
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "error": null,
+          "failed_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": null,
+        "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D021_Digital-Rendering_Incident-1-3_Western-US-Event_2023.jpg",
+        "url_source": "download_image_button_new_page"
+      },
+      "image_harvest_events": [
+        {
+          "content_type": "",
+          "http_status": null,
+          "source": "download_image_button_new_page",
+          "status": "ok",
+          "ts": "2026-06-12T14:39:27.489345+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D021_Digital-Rendering_Incident-1-3_Western-US-Event_2023.jpg"
+        }
+      ],
+      "incident_date": "OCTOBER, 2023",
+      "incident_location": "WESTERN UNITED STATES",
+      "last_seen": "2026-06-12T14:31:29.730323+00:00",
+      "media_type": "image",
+      "raw_cells": [
+        "FBI-UAP-D021, DIGITAL RENDERING, NARRATIVE STATEMENT 1-3, WESTERN UNITED STATES EVENT, 2023",
+        "[FBI]",
+        "[6/12/26 - RELEASE 03]",
+        "[OCTOBER, 2023]",
+        "[WESTERN UNITED STATES]",
+        "[.IMG]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        5
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_3/fbi-uap-d021,_digital_rendering,_narrative_statement_1-3,_western_united_states_event,_2023.pdf",
+      "url_source": "generated_from_asset_name"
+    },
+    "FBI-UAP-D022,_DIGITAL_RENDERING,_NARRATIVE_STATEMENT_2-6,_WESTERN_UNITED_STATES_EVENT,_2026": {
+      "agency": "FBI",
+      "asset_name": "FBI-UAP-D022,_DIGITAL_RENDERING,_NARRATIVE_STATEMENT_2-6,_WESTERN_UNITED_STATES_EVENT,_2026",
+      "confidence": "medium",
+      "document_type": ".IMG",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:31:29.730337+00:00",
+      "image": {
+        "captured_at": "2026-06-12T14:39:31.588274+00:00",
+        "content_type": "",
+        "download": {
+          "attempted_url": null,
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "error": null,
+          "failed_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": null,
+        "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D022_Digital-Rendering_Incident-2-6_Western-US-Event_2023.jpg",
+        "url_source": "download_image_button_new_page"
+      },
+      "image_harvest_events": [
+        {
+          "content_type": "",
+          "http_status": null,
+          "source": "download_image_button_new_page",
+          "status": "ok",
+          "ts": "2026-06-12T14:39:31.588318+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D022_Digital-Rendering_Incident-2-6_Western-US-Event_2023.jpg"
+        }
+      ],
+      "incident_date": "OCTOBER, 2023",
+      "incident_location": "WESTERN UNITED STATES",
+      "last_seen": "2026-06-12T14:31:29.730349+00:00",
+      "media_type": "image",
+      "raw_cells": [
+        "FBI-UAP-D022, DIGITAL RENDERING, NARRATIVE STATEMENT 2-6, WESTERN UNITED STATES EVENT, 2026",
+        "[FBI]",
+        "[6/12/26 - RELEASE 03]",
+        "[OCTOBER, 2023]",
+        "[WESTERN UNITED STATES]",
+        "[.IMG]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        5
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_3/fbi-uap-d022,_digital_rendering,_narrative_statement_2-6,_western_united_states_event,_2026.pdf",
+      "url_source": "generated_from_asset_name"
+    },
+    "FBI-UAP-D023,_DIGITAL_RENDERING,_NARRATIVE_STATEMENT_2-7,_WESTERN_UNITED_STATES_EVENT,_2023": {
+      "agency": "FBI",
+      "asset_name": "FBI-UAP-D023,_DIGITAL_RENDERING,_NARRATIVE_STATEMENT_2-7,_WESTERN_UNITED_STATES_EVENT,_2023",
+      "confidence": "medium",
+      "document_type": ".IMG",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:31:29.730362+00:00",
+      "image": {
+        "captured_at": "2026-06-12T14:39:36.168392+00:00",
+        "content_type": "",
+        "download": {
+          "attempted_url": null,
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "error": null,
+          "failed_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": null,
+        "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D023_Digital-Rendering_Incident-2-7_Western-US-Event_2023.jpg",
+        "url_source": "download_image_button_new_page"
+      },
+      "image_harvest_events": [
+        {
+          "content_type": "",
+          "http_status": null,
+          "source": "download_image_button_new_page",
+          "status": "ok",
+          "ts": "2026-06-12T14:39:36.168429+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/FBI-UAP-D023_Digital-Rendering_Incident-2-7_Western-US-Event_2023.jpg"
+        }
+      ],
+      "incident_date": "OCTOBER, 2023",
+      "incident_location": "WESTERN UNITED STATES",
+      "last_seen": "2026-06-12T14:31:29.730374+00:00",
+      "media_type": "image",
+      "raw_cells": [
+        "FBI-UAP-D023, DIGITAL RENDERING, NARRATIVE STATEMENT 2-7, WESTERN UNITED STATES EVENT, 2023",
+        "[FBI]",
+        "[6/12/26 - RELEASE 03]",
+        "[OCTOBER, 2023]",
+        "[WESTERN UNITED STATES]",
+        "[.IMG]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        5
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_3/fbi-uap-d023,_digital_rendering,_narrative_statement_2-7,_western_united_states_event,_2023.pdf",
+      "url_source": "generated_from_asset_name"
+    },
+    "FBI-UAP-PR001,_\u201cTRIANGLE_ORBS,\u201d_NORTHEASTERN_UNITED_STATES,_2021": {
+      "agency": "FBI",
+      "asset_name": "FBI-UAP-PR001,_\u201cTRIANGLE_ORBS,\u201d_NORTHEASTERN_UNITED_STATES,_2021",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:31:29.730388+00:00",
+      "incident_date": "NOVEMBER, 2021",
+      "incident_location": "NORTHEASTERN UNITED STATES",
+      "last_seen": "2026-06-12T14:31:29.730399+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "FBI-UAP-PR001, \u201cTRIANGLE ORBS,\u201d NORTHEASTERN UNITED STATES, 2021",
+        "[FBI]",
+        "[6/12/26 - RELEASE 03]",
+        "[NOVEMBER, 2021]",
+        "[NORTHEASTERN UNITED STATES]",
+        "[.VID]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        5
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_3/fbi-uap-pr001,_\u201ctriangle_orbs,\u201d_northeastern_united_states,_2021.pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-06-12T14:40:40.318286+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "attempted_url": null,
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "error": null,
+          "failed_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764142/DOD_111764142.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "binary/octet-stream",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-06-12T14:40:40.318355+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764142/DOD_111764142.mp4"
+        }
+      ]
+    },
+    "FBI-UAP-PR002,_\u201cRED_ORB_ROTATION,\u201d_NORTHEASTERN_UNITED_STATES,_2022": {
+      "agency": "FBI",
+      "asset_name": "FBI-UAP-PR002,_\u201cRED_ORB_ROTATION,\u201d_NORTHEASTERN_UNITED_STATES,_2022",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:31:29.730413+00:00",
+      "incident_date": "MARCH, 2022",
+      "incident_location": "NORTHEASTERN UNITED STATES",
+      "last_seen": "2026-06-12T14:31:29.730425+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "FBI-UAP-PR002, \u201cRED ORB ROTATION,\u201d NORTHEASTERN UNITED STATES, 2022",
+        "[FBI]",
+        "[6/12/26 - RELEASE 03]",
+        "[MARCH, 2022]",
+        "[NORTHEASTERN UNITED STATES]",
+        "[.VID]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        5
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_3/fbi-uap-pr002,_\u201cred_orb_rotation,\u201d_northeastern_united_states,_2022.pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-06-12T14:40:44.526204+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "attempted_url": null,
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "error": null,
+          "failed_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764148/DOD_111764148.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "binary/octet-stream",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-06-12T14:40:44.526244+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764148/DOD_111764148.mp4"
+        }
+      ]
+    },
+    "FBI-UAP-PR003,_\u201cORBS_OVER_THE_POND,\u201d_2024": {
+      "agency": "FBI",
+      "asset_name": "FBI-UAP-PR003,_\u201cORBS_OVER_THE_POND,\u201d_2024",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:29:33.266919+00:00",
+      "incident_date": "OCTOBER, 2024",
+      "incident_location": "NORTHEASTERN UNITED STATES",
+      "last_seen": "2026-06-12T14:29:33.266932+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "FBI-UAP-PR003, \u201cORBS OVER THE POND,\u201d 2024",
+        "[FBI]",
+        "[6/12/26 - RELEASE 03]",
+        "[OCTOBER, 2024]",
+        "[NORTHEASTERN UNITED STATES]",
+        "[.VID]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        1
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_3/fbi-uap-pr003,_\u201corbs_over_the_pond,\u201d_2024.pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-06-12T14:40:18.586922+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "attempted_url": null,
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "error": null,
+          "failed_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764159/DOD_111764159.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "binary/octet-stream",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-06-12T14:40:18.586947+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764159/DOD_111764159.mp4"
+        }
+      ]
+    },
+    "FBI-UAP-PR004,_\u201cNORTHEASTERN_ORB_SIGHTING,\u201d_2025": {
+      "agency": "FBI",
+      "asset_name": "FBI-UAP-PR004,_\u201cNORTHEASTERN_ORB_SIGHTING,\u201d_2025",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:29:33.266947+00:00",
+      "incident_date": "JULY, 2025",
+      "incident_location": "NORTHEASTERN UNITED STATES",
+      "last_seen": "2026-06-12T14:29:33.266977+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "FBI-UAP-PR004, \u201cNORTHEASTERN ORB SIGHTING,\u201d 2025",
+        "[FBI]",
+        "[6/12/26 - RELEASE 03]",
+        "[JULY, 2025]",
+        "[NORTHEASTERN UNITED STATES]",
+        "[.VID]"
+      ],
+      "related_media": [
+        {
+          "label": "[RELEASE 03] FBI-UAP-D009, FD-302-67, \u201cNORTHEASTERN ORB SIGHTING,\u201d 2026 [.PDF]",
+          "source": "modal_related_media",
+          "type": "unknown",
+          "url": "https://www.war.gov/UFO/release/03/?releaseDate=Release+03&release=03#"
+        }
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        1
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_3/fbi-uap-pr004,_\u201cnortheastern_orb_sighting,\u201d_2025.pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-06-12T14:40:23.274633+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "attempted_url": null,
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "error": null,
+          "failed_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764177/DOD_111764177.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "binary/octet-stream",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-06-12T14:40:23.274688+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764177/DOD_111764177.mp4"
+        }
+      ]
+    },
+    "FBI-UAP-PR005,_DIGITAL_RECREATION,_NARRATIVE_STATEMENT_3-1,_WESTERN_UNITED_STATES_EVENT,_2023": {
+      "agency": "FBI",
+      "asset_name": "FBI-UAP-PR005,_DIGITAL_RECREATION,_NARRATIVE_STATEMENT_3-1,_WESTERN_UNITED_STATES_EVENT,_2023",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:31:29.730438+00:00",
+      "incident_date": "OCTOBER, 2023",
+      "incident_location": "WESTERN UNITED STATES",
+      "last_seen": "2026-06-12T14:31:29.730450+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "FBI-UAP-PR005, DIGITAL RECREATION, NARRATIVE STATEMENT 3-1, WESTERN UNITED STATES EVENT, 2023",
+        "[FBI]",
+        "[6/12/26 - RELEASE 03]",
+        "[OCTOBER, 2023]",
+        "[WESTERN UNITED STATES]",
+        "[.VID]"
+      ],
+      "related_media": [
+        {
+          "label": "[RELEASE 03] DOW-UAP-D081, NARRATIVE STATEMENT 3, WESTERN UNITED STATES EVENT, 2023 [.PDF]",
+          "source": "modal_related_media",
+          "type": "unknown",
+          "url": "https://www.war.gov/UFO/release/03/?releaseDate=Release+03&release=03#"
+        }
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        5
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_3/fbi-uap-pr005,_digital_recreation,_narrative_statement_3-1,_western_united_states_event,_2023.pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-06-12T14:40:48.166410+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "attempted_url": null,
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "error": null,
+          "failed_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764189/DOD_111764189.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "binary/octet-stream",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-06-12T14:40:48.166447+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764189/DOD_111764189.mp4"
+        }
+      ]
+    },
+    "FBI-UAP-PR006,_DIGITAL_RECREATION,_NARRATIVE_STATEMENT_3-2,_WESTERN_UNITED_STATES_EVENT,_2023": {
+      "agency": "FBI",
+      "asset_name": "FBI-UAP-PR006,_DIGITAL_RECREATION,_NARRATIVE_STATEMENT_3-2,_WESTERN_UNITED_STATES_EVENT,_2023",
+      "confidence": "medium",
+      "document_type": ".VID",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:31:29.730464+00:00",
+      "incident_date": "OCTOBER, 2023",
+      "incident_location": "WESTERN UNITED STATES",
+      "last_seen": "2026-06-12T14:31:29.730475+00:00",
+      "media_type": "video",
+      "raw_cells": [
+        "FBI-UAP-PR006, DIGITAL RECREATION, NARRATIVE STATEMENT 3-2, WESTERN UNITED STATES EVENT, 2023",
+        "[FBI]",
+        "[6/12/26 - RELEASE 03]",
+        "[OCTOBER, 2023]",
+        "[WESTERN UNITED STATES]",
+        "[.VID]"
+      ],
+      "related_media": [
+        {
+          "label": "[RELEASE 03] DOW-UAP-D081, NARRATIVE STATEMENT 3, WESTERN UNITED STATES EVENT, 2023 [.PDF]",
+          "source": "modal_related_media",
+          "type": "unknown",
+          "url": "https://www.war.gov/UFO/release/03/?releaseDate=Release+03&release=03#"
+        }
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        5
+      ],
+      "url": "https://www.war.gov/medialink/ufo/release_3/fbi-uap-pr006,_digital_recreation,_narrative_statement_3-2,_western_united_states_event,_2023.pdf",
+      "url_source": "generated_from_asset_name",
+      "video": {
+        "captured_at": "2026-06-12T14:40:53.420086+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "attempted_url": null,
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "error": null,
+          "failed_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764213/DOD_111764213.mp4",
+        "url_source": "download_video_button_network_response"
+      },
+      "video_harvest_events": [
+        {
+          "content_type": "binary/octet-stream",
+          "http_status": 200,
+          "source": "download_video_button_network_response",
+          "status": "ok",
+          "ts": "2026-06-12T14:40:53.420134+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764213/DOD_111764213.mp4"
+        }
+      ]
+    },
+    "ICA-UAP-D001,_ANALYSIS:_COLORADO_SPRINGS_UAP_INCIDENT,_2022": {
+      "agency": "INTELLIGENCE COMMUNITY AGENCY",
+      "asset_name": "ICA-UAP-D001,_ANALYSIS:_COLORADO_SPRINGS_UAP_INCIDENT,_2022",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/ica-uap-d001,_analysis:_colorado_springs_uap_incident,_2022.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:29:33.266995+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 1,
+          "status": "ok",
+          "ts": "2026-06-12T14:32:52.667370+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/ICA-UAP-D001_Analysis_Colorado-Springs-UAP-Incident.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:32:52.667324+00:00",
+      "incident_date": "2022",
+      "incident_location": "COLORADO SPRINGS, COLORADO, U.S.",
+      "last_harvest_attempt_at": "2026-06-12T14:32:52.667324+00:00",
+      "last_seen": "2026-06-12T14:29:33.267007+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/ica-uap-d001,_analysis:_colorado_springs_uap_incident,_2022.pdf"
+      ],
+      "raw_cells": [
+        "ICA-UAP-D001, ANALYSIS: COLORADO SPRINGS UAP INCIDENT, 2022",
+        "[INTELLIGENCE COMMUNITY AGENCY]",
+        "[6/12/26 - RELEASE 03]",
+        "[2022]",
+        "[COLORADO SPRINGS, COLORADO, U.S.]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        1
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/ICA-UAP-D001_Analysis_Colorado-Springs-UAP-Incident.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "NASA-UAP-D015,_ASTRONAUT_SCIENTIFIC_DEBRIEFINGS,_1962-1963": {
+      "agency": "NASA",
+      "asset_name": "NASA-UAP-D015,_ASTRONAUT_SCIENTIFIC_DEBRIEFINGS,_1962-1963",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/nasa-uap-d015,_astronaut_scientific_debriefings,_1962-1963.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:31:58.612075+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 6,
+          "status": "ok",
+          "ts": "2026-06-12T14:35:32.763003+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/NASA-UAP-D015_Astronaut-Scientific-Debriefings_1962-1963.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:35:32.762938+00:00",
+      "incident_date": "1962-1963",
+      "incident_location": "N/A",
+      "last_harvest_attempt_at": "2026-06-12T14:35:32.762938+00:00",
+      "last_seen": "2026-06-12T14:31:58.612124+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/nasa-uap-d015,_astronaut_scientific_debriefings,_1962-1963.pdf"
+      ],
+      "raw_cells": [
+        "NASA-UAP-D015, ASTRONAUT SCIENTIFIC DEBRIEFINGS, 1962-1963",
+        "[NASA]",
+        "[6/12/26 - RELEASE 03]",
+        "[1962-1963]",
+        "[N/A]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        6
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/NASA-UAP-D015_Astronaut-Scientific-Debriefings_1962-1963.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "NASA-UAP-D016,_PRELIMINARY_GEMINI_4_CREW_DEBRIEFING,_PART_I,_1965": {
+      "agency": "NASA",
+      "asset_name": "NASA-UAP-D016,_PRELIMINARY_GEMINI_4_CREW_DEBRIEFING,_PART_I,_1965",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/nasa-uap-d016,_preliminary_gemini_4_crew_debriefing,_part_i,_1965.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:31:58.612143+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 6,
+          "status": "ok",
+          "ts": "2026-06-12T14:35:36.561742+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/NASA-UAP-D016_Preliminary-Gemini-4-Crew-Debriefing_Part1_1965.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:35:36.561679+00:00",
+      "incident_date": "6/9/65",
+      "incident_location": "NORTH ATLANTIC OCEAN",
+      "last_harvest_attempt_at": "2026-06-12T14:35:36.561679+00:00",
+      "last_seen": "2026-06-12T14:31:58.612156+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/nasa-uap-d016,_preliminary_gemini_4_crew_debriefing,_part_i,_1965.pdf"
+      ],
+      "raw_cells": [
+        "NASA-UAP-D016, PRELIMINARY GEMINI 4 CREW DEBRIEFING, PART I, 1965",
+        "[NASA]",
+        "[6/12/26 - RELEASE 03]",
+        "[6/9/65]",
+        "[NORTH ATLANTIC OCEAN]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        6
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/NASA-UAP-D016_Preliminary-Gemini-4-Crew-Debriefing_Part1_1965.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "NASA-UAP-D017,_PRELIMINARY_GEMINI_4_CREW_DEBRIEFING,_PART_II,_1965": {
+      "agency": "NASA",
+      "asset_name": "NASA-UAP-D017,_PRELIMINARY_GEMINI_4_CREW_DEBRIEFING,_PART_II,_1965",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/nasa-uap-d017,_preliminary_gemini_4_crew_debriefing,_part_ii,_1965.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:31:58.612172+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 6,
+          "status": "ok",
+          "ts": "2026-06-12T14:35:40.227608+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/NASA-UAP-D017_Preliminary-Gemini-4-Crew-Debriefing_Part2_1965.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:35:40.227541+00:00",
+      "incident_date": "6/9/65",
+      "incident_location": "NORTH ATLANTIC OCEAN",
+      "last_harvest_attempt_at": "2026-06-12T14:35:40.227541+00:00",
+      "last_seen": "2026-06-12T14:31:58.612184+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/nasa-uap-d017,_preliminary_gemini_4_crew_debriefing,_part_ii,_1965.pdf"
+      ],
+      "raw_cells": [
+        "NASA-UAP-D017, PRELIMINARY GEMINI 4 CREW DEBRIEFING, PART II, 1965",
+        "[NASA]",
+        "[6/12/26 - RELEASE 03]",
+        "[6/9/65]",
+        "[NORTH ATLANTIC OCEAN]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        6
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/NASA-UAP-D017_Preliminary-Gemini-4-Crew-Debriefing_Part2_1965.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "NASA-UAP-D018,_GEMINI_4_EXPERIMENT_DEBRIEFING,_1967": {
+      "agency": "NASA",
+      "asset_name": "NASA-UAP-D018,_GEMINI_4_EXPERIMENT_DEBRIEFING,_1967",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/nasa-uap-d018,_gemini_4_experiment_debriefing,_1967.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:31:58.612198+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 6,
+          "status": "ok",
+          "ts": "2026-06-12T14:35:43.923616+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/NASA-UAP-D018_Gemini-4_Experiment-Debriefing_1967.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:35:43.923561+00:00",
+      "incident_date": "JUNE 3-7, 1965",
+      "incident_location": "LOW EARTH ORBIT",
+      "last_harvest_attempt_at": "2026-06-12T14:35:43.923561+00:00",
+      "last_seen": "2026-06-12T14:31:58.612210+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/nasa-uap-d018,_gemini_4_experiment_debriefing,_1967.pdf"
+      ],
+      "raw_cells": [
+        "NASA-UAP-D018, GEMINI 4 EXPERIMENT DEBRIEFING, 1967",
+        "[NASA]",
+        "[6/12/26 - RELEASE 03]",
+        "[JUNE 3-7, 1965]",
+        "[LOW EARTH ORBIT]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        6
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/NASA-UAP-D018_Gemini-4_Experiment-Debriefing_1967.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "NASA-UAP-D019,_GEMINI_5_TECHNICAL_DEBRIEFING,_PART_I,_1965": {
+      "agency": "NASA",
+      "asset_name": "NASA-UAP-D019,_GEMINI_5_TECHNICAL_DEBRIEFING,_PART_I,_1965",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/nasa-uap-d019,_gemini_5_technical_debriefing,_part_i,_1965.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:31:58.612225+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 6,
+          "status": "ok",
+          "ts": "2026-06-12T14:35:47.716125+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/NASA-UAP-D019_Gemini-5-Technical-Debriefing_Part1_1965.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:35:47.716064+00:00",
+      "incident_date": "AUGUST 2 - SEPTEMBER 2, 1965",
+      "incident_location": "CAPE KENNEDY, FLORIDA",
+      "last_harvest_attempt_at": "2026-06-12T14:35:47.716064+00:00",
+      "last_seen": "2026-06-12T14:31:58.612238+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/nasa-uap-d019,_gemini_5_technical_debriefing,_part_i,_1965.pdf"
+      ],
+      "raw_cells": [
+        "NASA-UAP-D019, GEMINI 5 TECHNICAL DEBRIEFING, PART I, 1965",
+        "[NASA]",
+        "[6/12/26 - RELEASE 03]",
+        "[AUGUST 2 - SEPTEMBER 2, 1965]",
+        "[CAPE KENNEDY, FLORIDA]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        6
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/NASA-UAP-D019_Gemini-5-Technical-Debriefing_Part1_1965.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "NASA-UAP-D020,_GEMINI_5_TECHNICAL_DEBRIEFING,_PART_II,_1965": {
+      "agency": "NASA",
+      "asset_name": "NASA-UAP-D020,_GEMINI_5_TECHNICAL_DEBRIEFING,_PART_II,_1965",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/nasa-uap-d020,_gemini_5_technical_debriefing,_part_ii,_1965.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:31:58.612251+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 6,
+          "status": "ok",
+          "ts": "2026-06-12T14:35:52.138557+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/NASA-UAP-D020_Gemini-5-Technical-Debriefing_Part2_1965.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:35:52.138501+00:00",
+      "incident_date": "AUGUST 30 - SEPTEMBER 2, 1965",
+      "incident_location": "CAPE KENNEDY, FLORIDA",
+      "last_harvest_attempt_at": "2026-06-12T14:35:52.138501+00:00",
+      "last_seen": "2026-06-12T14:31:58.612263+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/nasa-uap-d020,_gemini_5_technical_debriefing,_part_ii,_1965.pdf"
+      ],
+      "raw_cells": [
+        "NASA-UAP-D020, GEMINI 5 TECHNICAL DEBRIEFING, PART II, 1965",
+        "[NASA]",
+        "[6/12/26 - RELEASE 03]",
+        "[AUGUST 30 - SEPTEMBER 2, 1965]",
+        "[CAPE KENNEDY, FLORIDA]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        6
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/NASA-UAP-D020_Gemini-5-Technical-Debriefing_Part2_1965.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "NASA-UAP-D021,_GEMINI_7_TECHNICAL_DEBRIEFING,_1965": {
+      "agency": "NASA",
+      "asset_name": "NASA-UAP-D021,_GEMINI_7_TECHNICAL_DEBRIEFING,_1965",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/nasa-uap-d021,_gemini_7_technical_debriefing,_1965.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:31:58.612276+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 6,
+          "status": "ok",
+          "ts": "2026-06-12T14:35:55.892879+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/NASA-UAP-D021_Gemini-7-Technical-Debriefing_1965.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:35:55.892817+00:00",
+      "incident_date": "DECEMBER 19-21, 1965",
+      "incident_location": "CAPE KENNEDY, FLORIDA",
+      "last_harvest_attempt_at": "2026-06-12T14:35:55.892817+00:00",
+      "last_seen": "2026-06-12T14:31:58.612288+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/nasa-uap-d021,_gemini_7_technical_debriefing,_1965.pdf"
+      ],
+      "raw_cells": [
+        "NASA-UAP-D021, GEMINI 7 TECHNICAL DEBRIEFING, 1965",
+        "[NASA]",
+        "[6/12/26 - RELEASE 03]",
+        "[DECEMBER 19-21, 1965]",
+        "[CAPE KENNEDY, FLORIDA]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        6
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/NASA-UAP-D021_Gemini-7-Technical-Debriefing_1965.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "NASA-UAP-D022,_GEMINI_9_DEBRIEFING,_1966": {
+      "agency": "NASA",
+      "asset_name": "NASA-UAP-D022,_GEMINI_9_DEBRIEFING,_1966",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/nasa-uap-d022,_gemini_9_debriefing,_1966.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:31:58.612302+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 6,
+          "status": "ok",
+          "ts": "2026-06-12T14:35:59.616715+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/NASA-UAP-D022_Gemini-9-Debriefing_1966.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:35:59.616656+00:00",
+      "incident_date": "JUNE 3-6, 1966",
+      "incident_location": "LOW EARTH ORBIT",
+      "last_harvest_attempt_at": "2026-06-12T14:35:59.616656+00:00",
+      "last_seen": "2026-06-12T14:31:58.612314+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/nasa-uap-d022,_gemini_9_debriefing,_1966.pdf"
+      ],
+      "raw_cells": [
+        "NASA-UAP-D022, GEMINI 9 DEBRIEFING, 1966",
+        "[NASA]",
+        "[6/12/26 - RELEASE 03]",
+        "[JUNE 3-6, 1966]",
+        "[LOW EARTH ORBIT]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        6
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/NASA-UAP-D022_Gemini-9-Debriefing_1966.pdf",
+      "url_source": "clicked_download_button"
+    },
+    "NASA-UAP-D023,_INTERVIEW_EXCERPT_WITH_ASTRONAUT_GORDON_COOPER,_1962": {
+      "agency": "NASA",
+      "asset_name": "NASA-UAP-D023,_INTERVIEW_EXCERPT_WITH_ASTRONAUT_GORDON_COOPER,_1962",
+      "audio": {
+        "captured_at": "2026-06-12T14:41:45.323303+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "attempted_url": null,
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "error": null,
+          "failed_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "payload_media_type": "mp4",
+        "source_media_tag": ".AUD",
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764959/DOD_111764959.mp4",
+        "url_source": "download_audio_button_network_response"
+      },
+      "audio_harvest_events": [
+        {
+          "content_type": "binary/octet-stream",
+          "http_status": 200,
+          "source": "download_audio_button_network_response",
+          "status": "ok",
+          "ts": "2026-06-12T14:41:45.323336+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764959/DOD_111764959.mp4"
+        }
+      ],
+      "confidence": "medium",
+      "document_type": ".AUD",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:31:58.612330+00:00",
+      "incident_date": "NOVEMBER, 1962",
+      "incident_location": "N/A",
+      "last_seen": "2026-06-12T14:31:58.612342+00:00",
+      "media_type": "audio",
+      "raw_cells": [
+        "NASA-UAP-D023, INTERVIEW EXCERPT WITH ASTRONAUT GORDON COOPER, 1962",
+        "[NASA]",
+        "[6/12/26 - RELEASE 03]",
+        "[NOVEMBER, 1962]",
+        "[N/A]",
+        "[.AUD]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        6
+      ],
+      "source_media_tag": ".AUD",
+      "url": "https://www.war.gov/medialink/ufo/release_3/nasa-uap-d023,_interview_excerpt_with_astronaut_gordon_cooper,_1962.pdf",
+      "url_source": "generated_from_asset_name"
+    },
+    "NASA-UAP-D024,_\u201cAPOLLO_16_SCIENTIFIC_DEBRIEFING\u201d": {
+      "agency": "NASA",
+      "asset_name": "NASA-UAP-D024,_\u201cAPOLLO_16_SCIENTIFIC_DEBRIEFING\u201d",
+      "audio": {
+        "captured_at": "2026-06-12T14:41:49.114339+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "attempted_url": null,
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "error": null,
+          "failed_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "payload_media_type": "mp4",
+        "source_media_tag": ".AUD",
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764796/DOD_111764796.mp4",
+        "url_source": "download_audio_button_network_response"
+      },
+      "audio_harvest_events": [
+        {
+          "content_type": "binary/octet-stream",
+          "http_status": 200,
+          "source": "download_audio_button_network_response",
+          "status": "ok",
+          "ts": "2026-06-12T14:41:49.114380+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764796/DOD_111764796.mp4"
+        }
+      ],
+      "confidence": "medium",
+      "document_type": ".AUD",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:31:58.612387+00:00",
+      "incident_date": "",
+      "incident_location": "HOUSTON, TEXAS",
+      "last_seen": "2026-06-12T14:31:58.612400+00:00",
+      "media_type": "audio",
+      "raw_cells": [
+        "NASA-UAP-D024, \u201cAPOLLO 16 SCIENTIFIC DEBRIEFING\u201d",
+        "[NASA]",
+        "[6/12/26 - RELEASE 03]",
+        "[]",
+        "[HOUSTON, TEXAS]",
+        "[.AUD]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        6
+      ],
+      "source_media_tag": ".AUD",
+      "url": "https://www.war.gov/medialink/ufo/release_3/nasa-uap-d024,_\u201capollo_16_scientific_debriefing\u201d.pdf",
+      "url_source": "generated_from_asset_name"
+    },
+    "NASA-UAP-D025,_\u201cAPOLLO_16_SCIENTIFIC_DEBRIEFING\u201d": {
+      "agency": "NASA",
+      "asset_name": "NASA-UAP-D025,_\u201cAPOLLO_16_SCIENTIFIC_DEBRIEFING\u201d",
+      "audio": {
+        "captured_at": "2026-06-12T14:41:53.265172+00:00",
+        "content_type": "binary/octet-stream",
+        "download": {
+          "attempted_url": null,
+          "bytes": null,
+          "downloaded": false,
+          "downloaded_at": null,
+          "error": null,
+          "failed_at": null,
+          "path": null,
+          "sha256": null,
+          "status": null
+        },
+        "payload_media_type": "mp4",
+        "source_media_tag": ".AUD",
+        "status": 200,
+        "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764902/DOD_111764902.mp4",
+        "url_source": "download_audio_button_network_response"
+      },
+      "audio_harvest_events": [
+        {
+          "content_type": "binary/octet-stream",
+          "http_status": 200,
+          "source": "download_audio_button_network_response",
+          "status": "ok",
+          "ts": "2026-06-12T14:41:53.265226+00:00",
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764902/DOD_111764902.mp4"
+        }
+      ],
+      "confidence": "medium",
+      "document_type": ".AUD",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:31:58.612415+00:00",
+      "incident_date": "",
+      "incident_location": "HOUSTON, TEXAS",
+      "last_seen": "2026-06-12T14:31:58.612427+00:00",
+      "media_type": "audio",
+      "raw_cells": [
+        "NASA-UAP-D025, \u201cAPOLLO 16 SCIENTIFIC DEBRIEFING\u201d",
+        "[NASA]",
+        "[6/12/26 - RELEASE 03]",
+        "[]",
+        "[HOUSTON, TEXAS]",
+        "[.AUD]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        6
+      ],
+      "source_media_tag": ".AUD",
+      "url": "https://www.war.gov/medialink/ufo/release_3/nasa-uap-d025,_\u201capollo_16_scientific_debriefing\u201d.pdf",
+      "url_source": "generated_from_asset_name"
+    },
+    "USG-UAP-D001,_CONGRESSIONAL,_WHITE_HOUSE,_UFO-RELATED_CONSTITUENT_CORRESPONDENCE,_1998": {
+      "agency": "U.S. GOVERNMENT",
+      "asset_name": "USG-UAP-D001,_CONGRESSIONAL,_WHITE_HOUSE,_UFO-RELATED_CONSTITUENT_CORRESPONDENCE,_1998",
+      "candidate_url": "https://www.war.gov/medialink/ufo/release_3/usg-uap-d001,_congressional,_white_house,_ufo-related_constituent_correspondence,_1998.pdf",
+      "confidence": "high",
+      "document_type": ".PDF",
+      "download": {
+        "attempted_url": null,
+        "bytes": null,
+        "downloaded": false,
+        "downloaded_at": null,
+        "error": null,
+        "failed_at": null,
+        "path": null,
+        "sha256": null,
+        "status": null
+      },
+      "first_seen": "2026-06-12T14:31:58.612441+00:00",
+      "harvest_attempts": 1,
+      "harvest_events": [
+        {
+          "method": "new_page",
+          "page": 6,
+          "status": "ok",
+          "ts": "2026-06-12T14:36:03.331122+00:00",
+          "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/USG-UAP-D001_Congress-WhiteHouse-UFO-Correspondence_1998.pdf"
+        }
+      ],
+      "harvest_method": "new_page",
+      "harvest_retryable": false,
+      "harvest_status": "ok",
+      "harvested_at": "2026-06-12T14:36:03.331068+00:00",
+      "incident_date": "1998",
+      "incident_location": "N/A",
+      "last_harvest_attempt_at": "2026-06-12T14:36:03.331068+00:00",
+      "last_seen": "2026-06-12T14:31:58.612453+00:00",
+      "previous_urls": [
+        "https://www.war.gov/medialink/ufo/release_3/usg-uap-d001,_congressional,_white_house,_ufo-related_constituent_correspondence,_1998.pdf"
+      ],
+      "raw_cells": [
+        "USG-UAP-D001, CONGRESSIONAL, WHITE HOUSE, UFO-RELATED CONSTITUENT CORRESPONDENCE, 1998",
+        "[U.S. GOVERNMENT]",
+        "[6/12/26 - RELEASE 03]",
+        "[1998]",
+        "[N/A]",
+        "[.PDF]"
+      ],
+      "release": "release_3",
+      "release_date": "6/12/26 - RELEASE 03",
+      "seen_on_pages": [
+        6
+      ],
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/USG-UAP-D001_Congress-WhiteHouse-UFO-Correspondence_1998.pdf",
+      "url_source": "clicked_download_button"
+    }
+  },
+  "updated_at": "2026-06-12T15:07:26.234893+00:00"
+}
